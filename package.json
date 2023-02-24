@@ -1,0 +1,58 @@
+{
+  "name": "gatsby-eduman",
+  "private": false,
+  "description": "Education & Online Course Template",
+  "version": "1.0.0",
+  "author": "Richard Raduly <richard@raduly.fr>",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@reduxjs/toolkit": "^1.9.1",
+    "bootstrap": "^5.2.2",
+    "gatsby": "^5.1.0",
+    "gatsby-plugin-gatsby-cloud": "^5.1.0",
+    "gatsby-plugin-image": "^3.7.0",
+    "gatsby-plugin-manifest": "^5.1.0",
+    "gatsby-plugin-offline": "^6.1.0",
+    "gatsby-plugin-sass": "^6.1.0",
+    "gatsby-plugin-sharp": "^5.7.0",
+    "gatsby-source-filesystem": "^5.7.0",
+    "gatsby-transformer-sharp": "^5.7.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-burger-menu": "^3.0.9",
+    "react-calendar": "^4.0.0",
+    "react-dom": "^18.0.0",
+    "react-modal-video": "^2.0.0",
+    "react-redux": "^8.0.5",
+    "sass": "1.49.11",
+    "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "bootstrap",
+    "sass"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-ichard/gatsby-starter-bootstrap-5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "homepage": "https://github.com/r-ichard/gatsby-starter-bootstrap-5#readme",
+  "main": "gatsby-browser.js"
+}
