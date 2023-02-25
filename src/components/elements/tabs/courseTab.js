@@ -18,7 +18,7 @@ const CourseTab = () => {
                     <div className="col-xl-5 col-lg-5 f-left">
                         <div className="section-title mb-50">
                             <h2>Discover<br />
-                                World's Best <span className="down-mark-line">Courses</span></h2>
+                                World's Best <span className="down-mark-line">Curriculum</span></h2>
                         </div>
                     </div>
                     <div className="col-xl-7 col-lg-7">
@@ -44,12 +44,11 @@ const CourseTab = () => {
                                         <div className="course-cart">
                                             <div className="course-info-wrapper">
                                                 <div className="cart-info-body">
-                                                    <span className="category-color category-color-1"><Link to="/course">Development</Link></span>
-                                                    <Link to="/course-details"><h3>WordPress Development Course for Plugins and Themes</h3></Link>
+                                                    <span className="category-color category-color-1"><Link to="/course">Primary School</Link></span>
+                                                    <Link to="/course-details"><h3>Halaqah</h3></Link>
                                                     <div className="cart-lavel">
-                                                        <h5>Level : <span>Beginner</span></h5>
-                                                        <p>Knowledge is power. Information is liberating. Education is the premise of
-                                                            progress, in every society, in every family</p>
+                                                        <h5>Level : <span>3-11 Year olds</span></h5>
+                                                        <p>The Halaqah Curriculum is derived from our Principle of Halaqah.</p>
                                                     </div>
                                                     <div className="info-cart-text">
                                                         <ul>
@@ -72,11 +71,11 @@ const CourseTab = () => {
                                         </div>
                                         <div className="eduman-course-wraper">
                                             <div className="eduman-course-heading">
-                                                <Link to="/course" className="course-link-color-1">Development</Link>
+                                                <Link to="/course" className="course-link-color-1">Halaqah</Link>
                                                 <span className="couse-star"><i className="fas fa-star"></i>4.9 (25)</span>
                                             </div>
                                             <div className="eduman-course-text">
-                                                <h3><Link to="/course-details">WordPress Development Course for Plugins and Themes</Link></h3>
+                                                <h3><Link to="/course-details">The Halaqah Curriculum is derived from our Principle of Halaqah.</Link></h3>
                                             </div>
                                             <div className="eduman-course-meta">
                                                 <div className="eduman-course-price">
