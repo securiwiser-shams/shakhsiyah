@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Eduman – Education & Online Courses React, GatsBy Template `,
-    description: `A simple bootstrap 5 and Sass starter for Gatsby. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Shakhsiyah Schools  `,
+    description: `Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah.`,
     author: `@r-ichard`,
   },
   plugins: [
