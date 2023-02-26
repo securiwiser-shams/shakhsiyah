@@ -6,7 +6,7 @@ const HeaderMenu = () => {
         <ul>
             <li className="menu-item-has-children"><Link to="#">About Us</Link>
                 <ul className="sub-menu">
-                    <li><Link to="/">Principles</Link></li>
+                    <li><Link to="/principles">Principles</Link></li>
                     <li><Link to="/">Mission Statement</Link></li>
                     <li className="menu-item-has-children"><Link to="#">Team</Link>
                         <ul className="sub-menu">
@@ -15,8 +15,8 @@ const HeaderMenu = () => {
                             <li><Link to="/safeguarding-team">Safeguarding Team</Link></li>
                         </ul>
                     </li>
-                    <li><Link to="#">Policies</Link></li>
-                    <li><Link to="#">Vacancies</Link></li>
+                    <li><Link to="/policies">Policies</Link></li>
+                    <li><Link to="/vacancies">Vacancies</Link></li>
                     <li><Link to="#">Information for Parent</Link></li>
                 </ul>
             </li>

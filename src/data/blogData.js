@@ -3,10 +3,10 @@ const blogData = [
         id:'1',
         img:"/assets/img/blog/blog-01.jpg",
         category:'Development',
-        title:'Ask the Expert: Typography Talk with Brian Hoff',
+        title:'Policies',
         date:'23 Jan 2022',
         desc:'There are so many websites out there that have not considered the overall usability of their visually impaired users.When it comes to designing better links and sending better emails, Slava Shestopalov has a few tips on how to improve your websites experience while accessibility in mind. The participants ...',
-        name:'Brian Hoff',
+        name:'Dr Farah Ahmed',
         button:'Read more',
         sm_img:'/assets/img/course/course-10.jpg'
     },
