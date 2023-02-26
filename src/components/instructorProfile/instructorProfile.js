@@ -11,10 +11,10 @@ const InstructorProfile = () => {
                 <div className="row">
                     <div className="col-xl-3 col-lg-3">
                         <div className="course-instructors-img mb-30">
-                            <img className="mb-20" src="/assets/img/course/course-instructors.png" alt="instructors-img" />
+                            <img className="mb-20" src="/assets/img/course/farahahmed.png" alt="instructors-img" />
                             <div className="course-details-tittle mb-30">
-                                <h3>David Allberto</h3>
-                                <span className="d-block mb-15">Software Developer</span>
+                                <h3>Farah Ahmed</h3>
+                                <span className="d-block mb-15">Chair of Trustees and Director of Education and Research</span>
                                 <ul>
                                     <li><a href="mailto:info@example.com" target="_blank"><i className="fal fa-envelope"></i> info@example.com</a></li>
                                     <li><a href="tel:987547587587" target="_blank"><i className="far fa-phone-alt"></i> (987) 547587587</a></li>
@@ -59,11 +59,11 @@ const InstructorProfile = () => {
                             </div>
                             <div className="course-bio-text pt-45 pb-20">
                                 <h3>Biography</h3>
-                                <p>David Allberto is a Software Developer and Instructor having enjoyed his courses to date. He
-                                    is the creator of Codexpand, a place of learning and growth to help people move into and be
-                                    successful within the Helping Industry. One of Graham's key driving forces is to remove the
-                                    barriers to the Helping Industry by producing high quality, accredited courses at affordable
-                                    prices.</p>
+                                <p>Farah Ahmed is Leverhulme Early Career Research Fellow at the Faculty of Education, University of Cambridge. She co-convenes the Intercultural 
+                                    and Conflict-transformation Dialogue’ strand of the Cambridge Educational Dialogue Research group. Her current project is: Rethinking Islamic 
+                                    education for British Muslim children: a philosophical investigation of dialogue in Islamic educational theory and an empirical study trialling 
+                                    dialogic pedagogy in UK madrasahs (supplementary schools). Farah has published widely on Islamic education and has worked for nineteen years on 
+                                    research driven curriculum development and teacher education for Muslim teachers.</p>
                             </div>
                             <InstructorSkill />
                             <InstructorExperience />

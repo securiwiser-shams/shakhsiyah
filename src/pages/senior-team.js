@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
-import InstructorMain from "../components/instructor"
+import InstructorMain from "../components/seniorTeam"
 
 const InstructorPage = () => (
   <Layout>

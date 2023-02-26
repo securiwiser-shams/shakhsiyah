@@ -4,11 +4,20 @@ import React from 'react';
 const HeaderMenu = () => {
     return (
         <ul>
-            <li className="menu-item-has-children"><Link to="/">Home</Link>
+            <li className="menu-item-has-children"><Link to="#">About Us</Link>
                 <ul className="sub-menu">
-                    <li><Link to="/">Home 1</Link></li>
-                    <li><Link to="/homeTwo">Home 2</Link></li>
-                    <li><Link to="/homeThree">Home 3</Link></li>
+                    <li><Link to="/">Principles</Link></li>
+                    <li><Link to="/">Mission Statement</Link></li>
+                    <li className="menu-item-has-children"><Link to="#">Team</Link>
+                        <ul className="sub-menu">
+                            <li><Link to="/trustees">Trustees</Link></li>
+                            <li><Link to="/senior-team">Senior Leadership Team</Link></li>
+                            <li><Link to="/safeguarding-team">Safeguarding Team</Link></li>
+                        </ul>
+                    </li>
+                    <li><Link to="#">Policies</Link></li>
+                    <li><Link to="#">Vacancies</Link></li>
+                    <li><Link to="#">Information for Parent</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/course">Course</Link>
@@ -34,9 +43,11 @@ const HeaderMenu = () => {
             <li className="menu-item-has-children"><a href="#!">Pages</a>
                 <ul className="sub-menu">
                     <li><Link to="/about">About</Link></li>
-                    <li className="menu-item-has-children"><Link to="/instructor">instructor</Link>
+                    <li className="menu-item-has-children"><Link to="/instructor">Team</Link>
                         <ul className="sub-menu">
-                            <li><Link to="/instructor">instructor</Link></li>
+                            <li><Link to="/instructor">Trustees</Link></li>
+                            <li><Link to="/senior-team">Senior Leadership Team</Link></li>
+                            <li><Link to="/safeguarding-team">Safeguarding Team</Link></li>
                             <li><Link to="/instructor-profile">instructor profile</Link></li>
                             <li><Link to="/student-profile">Student profile</Link></li>
                             <li><Link to="/become-instructor">become instructor</Link></li>

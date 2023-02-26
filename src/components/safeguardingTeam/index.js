@@ -2,15 +2,15 @@ import React from 'react';
 import Breadcrumb from '../common/breadcrumb';
 import Footer from '../footer/footer';
 import HeaderFour from '../header/headerFour';
-import InstructorProfile from './instructorProfile';
+import InstructorSection from './instructorSection';
 
 const index = () => {
     return (
         <>
-            <HeaderFour />
+        <HeaderFour />
             <main>
-                <Breadcrumb breadcrumbTitle="Farah Ahmed" breadcrumbSubTitle="Farah Ahmed" />
-                <InstructorProfile />
+                <Breadcrumb breadcrumbTitle="Safeguarding Team" breadcrumbSubTitle="Safeguarding Team" />
+                <InstructorSection />
             </main>
             <Footer />
         </>
