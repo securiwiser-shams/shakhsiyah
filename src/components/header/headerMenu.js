@@ -17,7 +17,7 @@ const HeaderMenu = () => {
                     </li>
                     <li><Link to="/policies">Policies</Link></li>
                     <li><Link to="/vacancies">Vacancies</Link></li>
-                    <li><Link to="#">Information for Parent</Link></li>
+                    <li><Link to="/parents">Information for Parent</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/course">Course</Link>
