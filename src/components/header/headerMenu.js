@@ -7,7 +7,7 @@ const HeaderMenu = () => {
             <li className="menu-item-has-children"><Link to="#">About Us</Link>
                 <ul className="sub-menu">
                     <li><Link to="/principles">Principles</Link></li>
-                    <li><Link to="/">Mission Statement</Link></li>
+                    <li><Link to="/mission-statement">Mission Statement</Link></li>
                     <li className="menu-item-has-children"><Link to="#">Team</Link>
                         <ul className="sub-menu">
                             <li><Link to="/trustees">Trustees</Link></li>

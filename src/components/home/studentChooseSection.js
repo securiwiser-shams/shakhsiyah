@@ -9,18 +9,24 @@ const StudentChooseSection = ({choose_area_class}) => {
                     <div className="col-xl-5 col-lg-5">
                         <div className="student-wrapper">
                             <div className="section-title mb-30">
-                                <h2>Why Students <span className="down-mark-line">Choose</span> Us for Gain Their Knowledge</h2>
+                                <h2>Islamic Shakhsiyah <span className="down-mark-line">Foundation</span> Aims & Objectives</h2>
                             </div>
                             <div className="sitdent-choose-content">
-                                <p>Helping employees gain skills and providing career development often take a back seat to
-                                    business priorities but workplace better right now. Seventy percent of workers think that.
+                                <p>The Islamic Shakhsiyah Foundation is an educational establishment aimed at providing high 
+                                    quality academic education in combination with classical Islamic culturing as:
                                 </p>
                             </div>
                             <div className="student-choose-list">
                                 <ul>
-                                    <li><i className="fas fa-check-circle"></i>Free for physically handcraft </li>
-                                    <li><i className="fas fa-check-circle"></i>Easy to enroll courses</li>
-                                    <li><i className="fas fa-check-circle"></i>Course certificate for particular course</li>
+                                    <li><i className="fas fa-check-circle"></i>Shakhsiyah Schools endeavour to nurture the natural disposition (fitrah) of 
+                                    each individual child in order to develop his/her personal character (shakhsiyah) into a well rounded, confident Muslim 
+                                    who has sincerity in intention and steadfastness in action. </li>
+                                    <li><i className="fas fa-check-circle"></i>We work in partnership with parents to develop each child’s personal character 
+                                    enabling them to achieve their full potential in all aspects of life including academic success.</li>
+                                    <li><i className="fas fa-check-circle"></i>Shakhsiyah Schools aim to develop leaders who play an active part in their diverse 
+                                    local and global communities, serving both the Muslim community and humanity.</li>
+                                    <li><i className="fas fa-check-circle"></i>Thus, we prepare children for their future life in modern Britain and our global 
+                                    village by developing confidence in their Islamic culture and respect for other cultures, fostering harmony in our diverse communities.</li>
                                 </ul>
                             </div>
                             <div className="student-btn">
@@ -53,7 +59,7 @@ const StudentChooseSection = ({choose_area_class}) => {
                                 <img src="/assets/img/shape/student-shape-07.png" alt="img not found" />
                             </div>
                             <div className="student-choose-thumb">
-                                <img src="/assets/img/student-choose/student.png" alt="img not found" />
+                                <img src="/assets/img/student-choose/student1.png" alt="img not found" />
                             </div>
                         </div>
                     </div>
