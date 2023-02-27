@@ -19,7 +19,7 @@ const HeaderThree = () => {
                             <div className="row">
                                 <div className="col-xl-8 col-lg-8">
                                     <div className="header-left">
-                                        <a href="tel:(555)674890556"><i className="fas fa-phone"></i>(555) 674 890 556</a>
+                                        <a href="tel:(555)674890556"><i className="fas fa-phone"></i>(1555) 674 890 556</a>
                                         <a href="mailto:info@example.com"><i className="fal fa-envelope"></i>info@example.com</a>
                                         <span>3rd Avenue, San Francisco</span>
                                     </div>

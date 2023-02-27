@@ -5,12 +5,23 @@ const EventDetailsSidebar = () => {
     return (
             <div className="event-sponsor-wrapper mb-30">
                 <div className="sopnsor-tittle">
-                    <h4>Sponsor by</h4>
+                    <h4>Our schools are regulated by:</h4>
                 </div>
                 <div className="sponsor-thumb">
-                    <a href="#"><img src="/assets/img/logo/sopnsor-logo-1.png" alt="sponsor-logo" /></a>
-                    <a href="#"><img src="/assets/img/logo/sopnsor-logo-2.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/dfe.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/isi.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/slough.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/haringey.png" alt="sponsor-logo" /></a><br/>
+                    
+                    <h4>We are members of/work with:</h4>
                 </div>
+                <div className="sponsor-thumb">
+                    <a href="#"><img src="/assets/img/logo/isa.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/ams.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/nida.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/cpd.png" alt="sponsor-logo" /></a>
+                </div>
+                
             </div>
     );
 };

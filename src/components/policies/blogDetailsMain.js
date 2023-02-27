@@ -37,7 +37,7 @@ const BlogDetailsMain = () => {
                                     <div className="col-xl-12 col-lg-12 col-md-12">
                                         <div className="blog-wrapper position-relative blog-details-wrapper mb-30">
                                             <div className="blog-thumb ">
-                                            <h1 className="mb-20">Shakhsiyah Schools seek to ensure that parents have access to the right information about School policies at all times.</h1>
+                                            <h1 className="mb-20">Shakhsiyah Schools seek to ensure that parents have access to the right information about School <span className="down-mark-line">policies</span> at all times.</h1>
                                             </div>
                                             <div className="blog-content-wrapper">
                                                 <div className="blog-meta">

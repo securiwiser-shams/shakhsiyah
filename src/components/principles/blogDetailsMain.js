@@ -36,7 +36,7 @@ const BlogDetailsMain = () => {
                                     <div className="col-xl-12 col-lg-12 col-md-12">
                                         <div className="blog-wrapper position-relative blog-details-wrapper mb-30">
                                             <div className="blog-thumb ">
-                                            <h1 className="mb-20">The seven Principles of Shakhsiyah Education</h1>
+                                            <h1 className="mb-20">The Seven <span className="down-mark-line">Principles</span> of Shakhsiyah Education</h1>
                                             </div>
                                             <div className="blog-content-wrapper">
                                                 <div className="blog-meta">

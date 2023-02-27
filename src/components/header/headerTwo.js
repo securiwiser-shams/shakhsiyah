@@ -18,8 +18,8 @@ const HeaderTwo = () => {
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-8">
                                 <div className="header-top-icon">
-                                    <a href="tel:(555)674890556"><i className="fas fa-phone"></i>(555) 674 890 556</a>
-                                    <a href="mailto:info@example.com"><i className="fal fa-envelope"></i>info@example.com</a>
+                                    <a href="tel:1)674890556"><i className="fas fa-phone"></i>(555) 674 890 556</a>
+                                    <a href="mailto:iinfo@example.com"><i className="fal fa-envelope"></i>info@example.com</a>
                                     <i className="fal fa-map-marker-alt"></i><span>3rd Avenue, San Francisco</span>
                                 </div>
                             </div>
