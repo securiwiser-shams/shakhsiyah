@@ -28,30 +28,30 @@ const KnowUsBetter = () => {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="know-us-wrapper mb-30">
                                 <div className="know-us-better-thumb">
-                                    <a href="#"><img src="/assets/img/gallery/gallary-06.jpg" alt="know-us-img" /></a>
+                                    <a href="#"><img src="/assets/img/gallery/early.svg" alt="know-us-img" /></a>
                                 </div>
                                 <div className="know-us-text text-center">
-                                    <h3>Our mission vision</h3>
+                                    <h3>Early Years</h3>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="know-us-wrapper mb-30">
                                 <div className="know-us-better-thumb">
-                                    <a href="#"><img src="/assets/img/gallery/gallary-07.jpg" alt="know-us-img" /></a>
+                                    <a href="#"><img src="/assets/img/gallery/primary.svg" alt="know-us-img" /></a>
                                 </div>
                                 <div className="know-us-text text-center">
-                                    <h3>How we research</h3>
+                                    <h3>Primary School</h3>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="know-us-wrapper mb-30">
                                 <div className="know-us-better-thumb">
-                                    <a href="#"><img src="/assets/img/gallery/gallary-08.jpg" alt="know-us-img" /></a>
+                                    <a href="#"><img src="/assets/img/gallery/secondary.svg" alt="know-us-img" /></a>
                                 </div>
                                 <div className="know-us-text text-center">
-                                    <h3>Why we are trusted</h3>
+                                    <h3>Secondary School</h3>
                                 </div>
                             </div>
                         </div>

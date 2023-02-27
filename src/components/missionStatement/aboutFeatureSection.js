@@ -7,8 +7,8 @@ const AboutFeatureSection = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title text-center mb-60">
-                            <h2>Global Online <br />
-                                Education <span className="down-mark-line-2">Categories</span></h2>
+                            <h2>Our <span className="down-mark-line-2">Mission</span> are built upon <br />
+                                the following:</h2>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -46,9 +46,8 @@ const AboutFeatureSection = () => {
                                 </svg>
                             </div>
                             <div className="features-text">
-                                <h4>Expand Yourself</h4>
-                                <p>Expand your professional network, build your expertise, and earn money on each paid
-                                    enrollment and find the university</p>
+                                <h4>Iman</h4>
+                                <p>On the worldview of Iman (belief/faith) as recognising Allah in every action, every word and every thought.</p>
                             </div>
                         </div>
                     </div>
@@ -103,9 +102,8 @@ const AboutFeatureSection = () => {
                                 </svg>
                             </div>
                             <div className="features-text">
-                                <h4>Expand Yourself</h4>
-                                <p>Publish the course you want, in the way you want, and always have of control your own
-                                    content. If you are passionate</p>
+                                <h4>Islam</h4>
+                                <p>On the practice of Islam as submission to the shari'ah of Allah, which is a holistic way of life, not just a legal code.</p>
                             </div>
                         </div>
                     </div>
@@ -144,9 +142,10 @@ const AboutFeatureSection = () => {
                                 </svg>
                             </div>
                             <div className="features-text">
-                                <h4>Earn Money</h4>
-                                <p>Earn money from Law is a career-oriented course after your 12th or graduation. We have jotted
-                                    some of the instructors.</p>
+                                <h4>Ihsan</h4>
+                                <p>On the understanding of education as nurturing the fitrah to to its fullest
+                                    potential in order to attain ihsan (excellenece in iman and action) leading
+                                    to a strong relationship with Allah. </p>
                             </div>
                         </div>
                     </div>
