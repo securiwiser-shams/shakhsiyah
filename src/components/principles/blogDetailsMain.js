@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { useSelector } from 'react-redux';
+import EventDetailsSidebar from './eventDetailsSidebar';
 
 const BlogDetailsMain = () => {
     const blogItem = useSelector(state => state.blogs.specificItem);
@@ -222,7 +223,7 @@ const BlogDetailsMain = () => {
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-8 col-md-8">
-                            
+                        <EventDetailsSidebar />
                         </div>
                     </div>
                 </div>
