@@ -8,9 +8,9 @@ const BecomeInstructorSection = () => {
                 <div className="row justify-content-center text-center">
                     <div className="col-xl-6 col-md-8">
                         <div className="become-intructor-text">
-                            <h2>Become an Instructor Today</h2>
-                            <p>Join one of the world’s largest online learning marketplaces. Our Instructor Support Team is ready to help you while our Teaching Center</p>
-                            <Link to="/become-instructor" className="edu-btn">Get started now</Link>
+                            <h2>Join Our Team</h2>
+                            <p>We offer a number of opportunities to work at our organisation in an Islamic environment.</p>
+                            <Link to="/vacancies" className="edu-btn">Apply Now</Link>
                         </div>
                     </div>
                 </div>

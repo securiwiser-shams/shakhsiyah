@@ -19,10 +19,8 @@ const index = () => {
                 <StudentChooseSection choose_area_className="pt-110 pb-120" />
                 <AboutFeatureSection />
                 <AboutFeatureVideo />
-                <AboutCounterSection />
                 <KnowUsBetter />
                 <BecomeInstructorSection />
-                <AffiliateSection />
             </main>
             <Footer />
         </>

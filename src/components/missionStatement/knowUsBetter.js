@@ -10,15 +10,15 @@ const KnowUsBetter = () => {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="section-title mb-55">
-                                        <h2>Know us <span className="down-mark-line-2">Better</span> Than<br />
-                                            Other Education Platform </h2>
+                                        <h2>Shakhsiyah Schools are Governed by the <span className="down-mark-line-2">Mission</span><br />
+                                        of Shakhsiyah Education</h2>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-6 justify-content-end">
                                     <div className="know-us-tittle mb-55">
-                                        <p>Helping employees gain skills and providing career development often take a back seat
-                                            to business priorities but workplace better right now. Seventy percent of workers think
-                                            that.</p>
+                                        <p>We aim to educate our children to be strong independent Muslims who 
+                                            recognize their interdependence on others and choose to serve Islam 
+                                            due to their own personal conviction.</p>
                                     </div>
                                 </div>
                             </div>
