@@ -81,159 +81,8 @@ const BlogDetailsMain = () => {
                                                         <p><a href="https://drive.google.com/file/d/1CKazdAP9kGle4KLawjAPAjPYLPkXAhs-/view?usp=share_link" target="_blank">E- Safety, Mobile Phone and Camera Policy (EYFS, Primary and Secondary)</a></p>
                                                         <p><a href="https://drive.google.com/file/d/12QW4ntrNDmHNzjzWOYq5qe9HbW2bVBul/view?usp=sharing" target="_blank">SEN Policy</a></p>
                                                         <p><a href="https://drive.google.com/file/d/1eprl3d-y9je1BDkGfS0BSxvGoZuJgbly/view?usp=sharing" target="_blank">Guide for Parents and Teachers: Online Safety for Children</a></p>
-
-                                                </div>
-                                            </div>
-                                            <div className="latest-comments mb-50 mt-50">
-                                                <h3>3 Comments</h3>
-                                                <ul>
-                                                    <li>
-                                                        <div className="comments-box">
-                                                            <div className="comments-info d-flex">
-                                                                <div className="comments-avatar mr-20">
-                                                                    <img src="/assets/img/member/member-img-04.png" alt="" />
-                                                                </div>
-                                                                <div className="avatar-name">
-                                                                    <h5>Eleanor Fant</h5>
-                                                                    <span className="post-meta"> July 14, 2022</span>
-                                                                </div>
-                                                            </div>
-                                                            <div className="comments-text ml-65">
-                                                                <p>So I said lurgy dropped a clanger Jeffrey bugger cuppa gosh David
-                                                                    blatant have it, standard A bit of
-                                                                    how is your father my lady absolutely.</p>
-                                                                <div className="comments-replay">
-                                                                    <a href="#">Reply</a>
-                                                                </div>
-                                                            </div>
                                                         </div>
-                                                    </li>
-                                                    <li className="children">
-                                                        <div className="comments-box">
-                                                            <div className="comments-info d-flex">
-                                                                <div className="comments-avatar mr-20">
-                                                                    <img src="/assets/img/member/member-img-01.png" alt="" />
-                                                                </div>
-                                                                <div className="avatar-name">
-                                                                    <h5>Dominic</h5>
-                                                                    <span className="post-meta">April 16, 2022 </span>
-                                                                </div>
-                                                            </div>
-                                                            <div className="comments-text ml-65">
-                                                                <p>David blatant have it, standard A bit of how is your father my lady
-                                                                    absolutely.</p>
-                                                                <div className="comments-replay">
-                                                                    <a href="#">Reply</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <ul>
-                                                            <li className="children-2">
-                                                                <div className="comments-box">
-                                                                    <div className="comments-info d-flex">
-                                                                        <div className="comments-avatar mr-20">
-                                                                            <img src="/assets/img/member/member-img-02.png" alt="" />
-                                                                        </div>
-                                                                        <div className="avatar-name">
-                                                                            <h5>Von Rails</h5>
-                                                                            <span className="post-meta">April 18, 2022 </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="comments-text ml-65">
-                                                                        <p>He nicked it get stuffed mate spend a penny plastered.!</p>
-                                                                        <div className="comments-replay">
-                                                                            <a href="#">Reply</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                                <ul>
-                                                    <li>
-                                                        <div className="comments-box">
-                                                            <div className="comments-info d-flex">
-                                                                <div className="comments-avatar mr-20">
-                                                                    <img src="/assets/img/member/member-img-04.png" alt="" />
-                                                                </div>
-                                                                <div className="avatar-name">
-                                                                    <h5>Eleanor Fant</h5>
-                                                                    <span className="post-meta">July 14, 2022</span>
-                                                                </div>
-                                                            </div>
-                                                            <div className="comments-text ml-65">
-                                                                <p>So I said lurgy dropped a clanger Jeffrey bugger cuppa gosh David
-                                                                    blatant have it, standard A bit of
-                                                                    how is your father my lady absolutely.</p>
-                                                                <div className="comments-replay">
-                                                                    <a href="#">Reply</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li className="children">
-                                                        <div className="comments-box">
-                                                            <div className="comments-info d-flex">
-                                                                <div className="comments-avatar mr-20">
-                                                                    <img src="/assets/img/member/member-img-01.png" alt="" />
-                                                                </div>
-                                                                <div className="avatar-name">
-                                                                    <h5>Dominic</h5>
-                                                                    <span className="post-meta">April 16, 2022 </span>
-                                                                </div>
-                                                            </div>
-                                                            <div className="comments-text ml-65">
-                                                                <p>David blatant have it, standard A bit of how is your father my lady
-                                                                    absolutely.</p>
-                                                                <div className="comments-replay">
-                                                                    <a href="#">Reply</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="blog__comment">
-                                                <h3>Leave a Comment</h3>
-                                                <form action="#">
-                                                    <div className="row">
-                                                        <div className="col-xxl-6 col-xl-6 col-lg-6">
-                                                            <div className="blog__comment-input">
-                                                                <input type="text" placeholder="Your Name" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-xxl-6 col-xl-6 col-lg-6">
-                                                            <div className="blog__comment-input">
-                                                                <input type="email" placeholder="Your Email" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-xxl-12">
-                                                            <div className="blog__comment-input">
-                                                                <input type="text" placeholder="Website" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-xxl-12">
-                                                            <div className="blog__comment-input">
-                                                                <textarea placeholder="Enter your comment ..."></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-xxl-12">
-                                                            <div className="blog__comment-agree d-flex align-items-center mb-20">
-                                                                <input className="e-check-input" type="checkbox" id="e-agree" />
-                                                                <label className="e-check-label" htmlFor="e-agree">Save my name, email, and website
-                                                                    in this browser for the next
-                                                                    time I comment.</label>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-xxl-12">
-                                                            <div className="blog__comment-btn">
-                                                                <button type="submit" className="edu-btn">Post Comment</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
+                                                </div>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -241,10 +90,10 @@ const BlogDetailsMain = () => {
                         </div>
                         <div className="col-xl-4 col-lg-8 col-md-8">
                         <EventDetailsSidebar />
-                    </div>   
                         </div>
                     </div>
                 </div>
+            </div>
         </>
     );
 };
