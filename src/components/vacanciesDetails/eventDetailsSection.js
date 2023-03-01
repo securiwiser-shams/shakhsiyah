@@ -54,6 +54,10 @@ const EventDetailsSection = () => {
                                     <li>• To implement the financial decisions of the EHT and Governing Body.</li>
                                     <li>• To line manage the Accounts Officer and liaise with ISF’s Accountants and Auditors.</li>
                                 </ul>
+                                <br/>
+                                <h5>This job description forms part of the contract of employment of the person appointed to this post. It reflects the position 
+                                    at the present time only and may be reviewed in negotiation with the employee in the future. The appointment is subject to 
+                                    the current conditions of employment in the Shakhsiyah Employment Handbook.</h5>
                             </div><br/>   
                             <h3>Shakhsiyah School, London - Map</h3>   
                             <EventDetailsMap /> <br/>
