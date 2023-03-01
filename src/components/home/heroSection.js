@@ -9,14 +9,12 @@ const HeroSection = () => {
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-9">
                         <div className="hero-text pt-95">
-                            <h5>Discover your journey</h5>
-                            <h2>Discover <span className="down-mark-line">4500+</span> Courses
-                                from top Instructors
-                                Around the World</h2>
-                            <p>Take your learning organization to the next level. to the next level. Who will
-                                share their knowledge to people around the world.</p>
+                            <h5>Discover your child's potential</h5>
+                            <h2>We are unashamedly <span className="down-mark-line">proud</span> of our pupils’ many successes. </h2>
+                            <p>Shakhsiyah Schools endeavour to nurture the natural disposition (fitrah) of
+                                 each individual child.</p>
                             <div className="hero-btn">
-                                <Link to="/course" className="edu-btn">View all course</Link>
+                                <Link to="/mission-statement" className="edu-btn">More about us</Link>
                             </div>
                         </div>
                     </div>
@@ -28,7 +26,7 @@ const HeroSection = () => {
                             <div className="shape-4">
                                 <img className="" src="/assets/img/shape/shape-04.png" alt="shape" />
                                 <h5 className="hero-shape-text">Top Rated
-                                    Instructors</h5>
+                                    Teachers</h5>
                             </div>
                             <div className="shape-5">
                                 <div className="course-card">
@@ -38,8 +36,8 @@ const HeroSection = () => {
                                     <img src="/assets/img/shape/slider-card-4.png" alt="img not found" />
                                     <span><i className="far fa-plus"></i></span>
                                 </div>
-                                <h5>More than <span>21,500+</span> students
-                                    enrolled around the world</h5>
+                                <h5>More than <span>10,000+</span> students
+                                    enrolled since the late 1990s</h5>
                             </div>
                         </div>
                     </div>

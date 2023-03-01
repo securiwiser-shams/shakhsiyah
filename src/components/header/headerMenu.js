@@ -24,35 +24,29 @@ const HeaderMenu = () => {
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Early Years</Link>
                 <ul className="sub-menu">
-                    <li><Link to="/shop">Shop</Link></li>
-                    <li><Link to="/shop-details">Shop Details</Link></li>
-                    <li><Link to="/wishlist">wishlist</Link></li>
-                    <li><Link to="/cart">cart</Link></li>
-                    <li><Link to="/checkout">checkout</Link></li>
+                    <li><Link to="/shop">Curriculum</Link></li>
+                    <li><Link to="/shop-details">Assessment</Link></li>
+                    <li><Link to="/cart">School Life</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Primary School</Link>
                 <ul className="sub-menu">
-                    <li><Link to="/shop">Shop</Link></li>
-                    <li><Link to="/shop-details">Shop Details</Link></li>
-                    <li><Link to="/wishlist">wishlist</Link></li>
-                    <li><Link to="/cart">cart</Link></li>
-                    <li><Link to="/checkout">checkout</Link></li>
+                <li><Link to="/shop">Curriculum</Link></li>
+                    <li><Link to="/shop-details">Assessment</Link></li>
+                    <li><Link to="/cart">School Life</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Secondary School</Link>
                 <ul className="sub-menu">
-                    <li><Link to="/shop">Shop</Link></li>
-                    <li><Link to="/shop-details">Shop Details</Link></li>
-                    <li><Link to="/wishlist">wishlist</Link></li>
-                    <li><Link to="/cart">cart</Link></li>
-                    <li><Link to="/checkout">checkout</Link></li>
+                <li><Link to="/shop">Curriculum</Link></li>
+                    <li><Link to="/shop-details">Assessment</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Events</Link>
                      <ul className="sub-menu">
-                    <li><Link to="/event">Event</Link></li>
-                    <li><Link to="/event-details">Event Details</Link></li>
+                    <li><Link to="/event">All Events</Link></li>
+                    <li><Link to="/event-details">Tour de Shakhsiyah</Link></li>
+
                     </ul>
             {/*</li>
             <li className="menu-item-has-children"><Link to="/shop">Announcements</Link>

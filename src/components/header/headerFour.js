@@ -4,15 +4,16 @@ import useSticky from '../../hooks/useSticky';
 import CategoryDropdown from './categoryDropdown';
 import HeaderCart from './headerCart';
 import HeaderMenu from './headerMenu';
+import HeaderTop from './headerTop';
 import MobileMenu from './mobileMenu';
 
 const HeaderFour = () => {
     const { sticky } = useSticky();
-
     const [menuOpen, setMenuOpen] = useState(false)
     const [cartOpen, setCartOpen] = useState(false)
     return (
         <header>
+            <HeaderTop />
             <div className="header-top-area d-none d-lg-block">
                 <div className="container-fluid">
                     <div className="header-top-inner">
