@@ -13,12 +13,12 @@ const InstructorProfile = () => {
                         <div className="course-instructors-img mb-30">
                             <img className="mb-20" src="/assets/img/course/farahahmed.png" alt="instructors-img" />
                             <div className="course-details-tittle mb-30">
-                                <h3>Farah Ahmed</h3>
+                                <h3>Dr Farah Ahmed</h3>
                                 <span className="d-block mb-15">Chair of Trustees and Director of Education and Research</span>
                                 <ul>
-                                    <li><a href="mailto:info@example.com" target="_blank"><i className="fal fa-envelope"></i> info@example.com</a></li>
-                                    <li><a href="tel:987547587587" target="_blank"><i className="far fa-phone-alt"></i> (987) 547587587</a></li>
-                                    <li><a href="#" target="_blank"><i className="far fa-map-marker-alt"></i> North Helenavile, FV77 8WS</a></li>
+                                    <li><a href="mailto:info@example.com" target="_blank"><i className="fal fa-envelope"></i> mail@isfnet.org.uk</a></li>
+                                    <li><a href="tel:987547587587" target="_blank"><i className="far fa-phone-alt"></i> 0208 802 8651</a></li>
+                                    <li><a href="#" target="_blank"><i className="far fa-map-marker-alt"></i> London, N15 5RG</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -65,10 +65,7 @@ const InstructorProfile = () => {
                                     dialogic pedagogy in UK madrasahs (supplementary schools). Farah has published widely on Islamic education and has worked for nineteen years on 
                                     research driven curriculum development and teacher education for Muslim teachers.</p>
                             </div>
-                            <InstructorSkill />
                             <InstructorExperience />
-                            <InstructorCourse />
-                            <Pagination />
                         </div>
                     </div>
                 </div>

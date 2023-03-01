@@ -1,16 +1,15 @@
 import React from 'react';
-import Breadcrumb from '../common/breadcrumb';
 import Footer from '../footer/footer';
 import HeaderFour from '../header/headerFour';
-import EventDetailsSection from './eventDetailsSection';
+import BlogDetailsMain from './blogDetailsMain';
+
 
 const index = () => {
     return (
         <>
             <HeaderFour />
             <main>
-                <Breadcrumb breadcrumbTitle="Operations Manager" breadcrumbSubTitle="Operations Manager" />
-                <EventDetailsSection />
+                <BlogDetailsMain />
             </main>
             <Footer />
         </>

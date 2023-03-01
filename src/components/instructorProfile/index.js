@@ -9,7 +9,7 @@ const index = () => {
         <>
             <HeaderFour />
             <main>
-                <Breadcrumb breadcrumbTitle="Farah Ahmed" breadcrumbSubTitle="Farah Ahmed" />
+                <Breadcrumb breadcrumbTitle="Dr Farah Ahmed" breadcrumbSubTitle="Dr Farah Ahmed" />
                 <InstructorProfile />
             </main>
             <Footer />

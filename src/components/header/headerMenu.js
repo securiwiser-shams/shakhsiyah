@@ -18,6 +18,59 @@ const HeaderMenu = () => {
                     <li><Link to="/policies">Policies</Link></li>
                     <li><Link to="/vacancies">Vacancies</Link></li>
                     <li><Link to="/parents">Information for Parent</Link></li>
+                    </ul>
+            </li>
+            <li className="menu-item-has-children"><Link to="/admissions">Admissions</Link>
+            </li>
+            <li className="menu-item-has-children"><Link to="/shop">Early Years</Link>
+                <ul className="sub-menu">
+                    <li><Link to="/shop">Shop</Link></li>
+                    <li><Link to="/shop-details">Shop Details</Link></li>
+                    <li><Link to="/wishlist">wishlist</Link></li>
+                    <li><Link to="/cart">cart</Link></li>
+                    <li><Link to="/checkout">checkout</Link></li>
+                </ul>
+            </li>
+            <li className="menu-item-has-children"><Link to="/shop">Primary School</Link>
+                <ul className="sub-menu">
+                    <li><Link to="/shop">Shop</Link></li>
+                    <li><Link to="/shop-details">Shop Details</Link></li>
+                    <li><Link to="/wishlist">wishlist</Link></li>
+                    <li><Link to="/cart">cart</Link></li>
+                    <li><Link to="/checkout">checkout</Link></li>
+                </ul>
+            </li>
+            <li className="menu-item-has-children"><Link to="/shop">Secondary School</Link>
+                <ul className="sub-menu">
+                    <li><Link to="/shop">Shop</Link></li>
+                    <li><Link to="/shop-details">Shop Details</Link></li>
+                    <li><Link to="/wishlist">wishlist</Link></li>
+                    <li><Link to="/cart">cart</Link></li>
+                    <li><Link to="/checkout">checkout</Link></li>
+                </ul>
+            </li>
+            <li className="menu-item-has-children"><Link to="/shop">Events</Link>
+                     <ul className="sub-menu">
+                    <li><Link to="/event">Event</Link></li>
+                    <li><Link to="/event-details">Event Details</Link></li>
+                    </ul>
+            {/*</li>
+            <li className="menu-item-has-children"><Link to="/shop">Announcements</Link>
+                <ul className="sub-menu">
+                    <li><Link to="/shop">Shop</Link></li>
+                    <li><Link to="/shop-details">Shop Details</Link></li>
+                    <li><Link to="/wishlist">wishlist</Link></li>
+                    <li><Link to="/cart">cart</Link></li>
+                    <li><Link to="/checkout">checkout</Link></li>
+                    </ul>
+            </li>
+            <li className="menu-item-has-children"><Link to="/shop">Family Halaqah</Link>
+                <ul className="sub-menu">
+                    <li><Link to="/shop">Shop</Link></li>
+                    <li><Link to="/shop-details">Shop Details</Link></li>
+                    <li><Link to="/wishlist">wishlist</Link></li>
+                    <li><Link to="/cart">cart</Link></li>
+                    <li><Link to="/checkout">checkout</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/course">Course</Link>
@@ -29,15 +82,6 @@ const HeaderMenu = () => {
                     <li><Link to="/course-details">Course Details</Link></li>
                     <li><Link to="/webinars">Webinars</Link></li>
                     <li><Link to="/webinar-details">Webinar Details</Link></li>
-                </ul>
-            </li>
-            <li className="menu-item-has-children"><Link to="/shop">Shop</Link>
-                <ul className="sub-menu">
-                    <li><Link to="/shop">Shop</Link></li>
-                    <li><Link to="/shop-details">Shop Details</Link></li>
-                    <li><Link to="/wishlist">wishlist</Link></li>
-                    <li><Link to="/cart">cart</Link></li>
-                    <li><Link to="/checkout">checkout</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><a href="#!">Pages</a>
@@ -82,7 +126,7 @@ const HeaderMenu = () => {
                     <li><Link to="/registration">Sign Up</Link></li>
                     <li><Link to="/404">404-page</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                </ul>
+    </ul>*/}
             </li>
         </ul>
     );
