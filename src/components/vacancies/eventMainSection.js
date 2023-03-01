@@ -36,7 +36,7 @@ const EventMainSection = () => {
                                 </div>
                             </div>
                             <div className="get-ticket-btn">
-                                <Link to="/" className="get-btn">Apply</Link>
+                                <Link to="/vacancies-details" className="get-btn">Apply</Link>
                             </div>
                         </div>
                         <div className="single-item mb-30">
@@ -66,7 +66,7 @@ const EventMainSection = () => {
                                 </div>
                             </div>
                             <div className="get-ticket-btn">
-                                <Link to="/" className="get-btn">Apply</Link>
+                                <Link to="/vacancies-details" className="get-btn">Apply</Link>
                             </div>
                         </div>
                         <div className="single-item mb-30">
@@ -96,7 +96,7 @@ const EventMainSection = () => {
                                 </div>
                             </div>
                             <div className="get-ticket-btn">
-                                <Link to="/" className="get-btn">Apply</Link>
+                                <Link to="/vacancies-details" className="get-btn">Apply</Link>
                             </div>
                         </div>
                         <div className="single-item mb-30">
@@ -127,7 +127,7 @@ const EventMainSection = () => {
                                 </div>
                             </div>
                             <div className="get-ticket-btn">
-                                <Link to="/" className="get-btn">Apply</Link>
+                                <Link to="/vacancies-details" className="get-btn">Apply</Link>
                             </div>
                         </div>
                     </div>

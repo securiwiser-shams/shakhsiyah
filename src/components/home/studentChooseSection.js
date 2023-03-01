@@ -30,7 +30,7 @@ const StudentChooseSection = ({choose_area_class}) => {
                                 </ul>
                             </div>
                             <div className="student-btn">
-                                <Link to="/about" className="edu-sec-btn">More about us</Link>
+                                <Link to="/principles" className="edu-sec-btn">More about our principles</Link>
                             </div>
                         </div>
                     </div>
