@@ -24,7 +24,7 @@ const HeaderMenu = () => {
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Early Years</Link>
                 <ul className="sub-menu">
-                    <li><Link to="/shop">Curriculum</Link></li>
+                    <li><Link to="/early-curriculum">Curriculum</Link></li>
                     <li><Link to="/shop-details">Assessment</Link></li>
                     <li><Link to="/cart">School Life</Link></li>
                 </ul>
