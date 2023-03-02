@@ -37,7 +37,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-2.png" alt="img not found" />
+                                                <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -65,7 +65,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-1.png" alt="img not found" />
+                                            <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -93,7 +93,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-3.png" alt="img not found" />
+                                            <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -121,7 +121,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-1.png" alt="img not found" />
+                                            <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -149,7 +149,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-2.png" alt="img not found" />
+                                            <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -177,7 +177,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-1.png" alt="img not found" />
+                                            <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -205,7 +205,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-1.png" alt="img not found" />
+                                            <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -233,7 +233,7 @@ const CourseContentFour = () => {
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
-                                                <img src="/assets/img/course/academic-tutor-1.png" alt="img not found" />
+                                            <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
                                                 <Link to="/instructor-profile">EARLY YEARS</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>

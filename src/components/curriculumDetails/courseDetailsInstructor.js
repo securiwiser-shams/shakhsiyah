@@ -27,10 +27,14 @@ const CourseDetailsInstructor = () => {
                 </div>
             </div>
             <div className="intructors-content">
-                <p>Professionally, I come from the Data Science consulting space with experience in
-                    finance, retail, transport and other industries. I was trained by the best
-                    analytics mentors at Deloitte Australia and since starting on Udemy I have
-                    passed on my knowledge to spread around the world</p>
+                <p>Farah Ahmed is Leverhulme Early Career Research Fellow at the Faculty of Education, 
+                    University of Cambridge. She co-convenes the Intercultural and Conflict-transformation 
+                    Dialogue’ strand of the Cambridge Educational Dialogue Research group. Her current 
+                    project is: Rethinking Islamic education for British Muslim children: a philosophical 
+                    investigation of dialogue in Islamic educational theory and an empirical study trialling 
+                    dialogic pedagogy in UK madrasahs (supplementary schools). Farah has published widely on 
+                    Islamic education and has worked for nineteen years on research driven curriculum development 
+                    and teacher education for Muslim teachers.</p>
             </div>
         </div>
     );
