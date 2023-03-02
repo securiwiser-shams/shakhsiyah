@@ -33,10 +33,9 @@ const CourseBar = () => {
                                     <div className="couse-dropdown">
                                         <div className="course-drop-inner">
                                             <select>
-                                                <option>Newly published</option>
-                                                <option>Most Viewed</option>
-                                                <option>5 Star Rated</option>
-                                                <option>Duration</option>
+                                                <option>Early Years</option>
+                                                <option>Primary School</option>
+                                                <option>Secondary School</option>
                                             </select>
                                         </div>
                                     </div>

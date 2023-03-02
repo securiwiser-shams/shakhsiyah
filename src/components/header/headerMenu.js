@@ -31,14 +31,14 @@ const HeaderMenu = () => {
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Primary School</Link>
                 <ul className="sub-menu">
-                <li><Link to="/shop">Curriculum</Link></li>
+                <li><Link to="/primary-curriculum">Curriculum</Link></li>
                     <li><Link to="/shop-details">Assessment</Link></li>
                     <li><Link to="/cart">School Life</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Secondary School</Link>
                 <ul className="sub-menu">
-                <li><Link to="/shop">Curriculum</Link></li>
+                <li><Link to="/secondary-curriculum">Curriculum</Link></li>
                     <li><Link to="/shop-details">Assessment</Link></li>
                 </ul>
             </li>

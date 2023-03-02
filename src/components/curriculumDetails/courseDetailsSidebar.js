@@ -69,29 +69,11 @@ const CourseDetailsSidebar = () => {
                         </li>
                         <li>
                             <div className="course-vide-icon">
-                                <i className="flaticon-bookmark-white"></i>
-                                <span>Access</span>
-                            </div>
-                            <div className="video-corse-info">
-                                <span>Full Lifetime</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div className="course-vide-icon">
                                 <i className="flaticon-award"></i>
                                 <span>Certificate</span>
                             </div>
                             <div className="video-corse-info">
                                 <span>Yes </span>
-                            </div>
-                        </li>
-                        <li>
-                            <div className="course-vide-icon">
-                                <i className="flaticon-list"></i>
-                                <span>Recourse</span>
-                            </div>
-                            <div className="video-corse-info">
-                                <span>5 Downloadable Files </span>
                             </div>
                         </li>
                     </ul>
