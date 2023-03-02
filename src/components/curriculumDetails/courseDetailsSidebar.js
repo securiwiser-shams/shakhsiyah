@@ -97,19 +97,10 @@ const CourseDetailsSidebar = () => {
                     </ul>
                 </div>
                 <div className="video-wishlist">
-                    <Link to="/cart" className="video-cart-btn"><i className="fal fa-shopping-cart"></i>Add to cart</Link>
-                    <Link to="/wishlist" className="video-wishlist-btn"><i className="far fa-heart"></i>Add to Wishlist</Link>
+                    <Link to="/admissions" className="video-cart-btn"><i className="fal fa-shopping-cart"></i>Apply</Link>
                 </div>
-                <div className="course-gift">
-                    <div className="course-apply-coupon">
-                        <a href="#">Apply Coupon</a>
-                    </div>
-                    <div className="course-gift-coupon">
-                        <a href="#">Gift Courses</a>
                     </div>
                 </div>
-            </div>
-        </div>
     );
 };
 
