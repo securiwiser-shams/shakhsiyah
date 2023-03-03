@@ -46,9 +46,6 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
                                             </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>8 Credit</span>
-                                            </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
                                     </div>
@@ -73,9 +70,6 @@ const CourseContentFour = () => {
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>6 Credit</span>
                                             </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
@@ -102,9 +96,6 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
                                             </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>5 Credit</span>
-                                            </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
                                     </div>
@@ -129,9 +120,6 @@ const CourseContentFour = () => {
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>7 Credit</span>
                                             </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
@@ -158,9 +146,6 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
                                             </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>6 Credit</span>
-                                            </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
                                     </div>
@@ -185,9 +170,6 @@ const CourseContentFour = () => {
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>4 Credit</span>
                                             </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                             </div>
@@ -214,9 +196,6 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
                                             </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>4 Credit</span>
-                                            </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                             </div>
                                     </div>
@@ -241,9 +220,6 @@ const CourseContentFour = () => {
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>4 Credit</span>
                                             </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>

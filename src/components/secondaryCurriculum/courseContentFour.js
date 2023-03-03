@@ -8,7 +8,7 @@ const CourseContentFour = () => {
         <div className="course-content-area pb-90">
             <div className="container">
                 <div className="row mb-10">
-                <h1 className="mb-20">Early Years <span className="down-mark-line">Curriculum</span></h1>
+                <h1 className="mb-20">Secondary School <span className="down-mark-line">Curriculum</span></h1>
                 <p>Our Early Years ethos is that learning is through providing a stimulating adult 
                                                         supported environment for young children to develop their shakhsiyah, thinking, 
                                                         self awareness and physical development. We are continuously developing new and 
@@ -38,16 +38,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                                 <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>8 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
@@ -66,16 +63,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                             <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>6 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
@@ -94,16 +88,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                             <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>5 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
@@ -122,16 +113,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                             <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>7 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
@@ -150,16 +138,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                             <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>6 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
@@ -178,16 +163,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                             <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>4 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                             </div>
@@ -206,16 +188,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                             <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>4 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                             </div>
@@ -234,16 +213,13 @@ const CourseContentFour = () => {
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
                                             <img src="/assets/img/course/farah-svg.svg" alt="img not found" />
-                                                <Link to="/instructor-profile">EARLY YEARS</Link>
+                                                <Link to="/instructor-profile">SECONDARY SCHOOL</Link>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         </div>
                                         <div className="academic-footer">
                                             <div className="coursee-clock">
-                                                <i className="flaticon-clock"></i><span>3-5 Years</span>
-                                            </div>
-                                            <div className="course-creadit">
-                                                <i className="flaticon-menu-1"></i><span>4 Credit</span>
+                                                <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
                                             <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>

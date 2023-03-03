@@ -42,11 +42,15 @@ const HeaderMenu = () => {
                     <li><Link to="/shop-details">Assessment</Link></li>
                 </ul>
             </li>
-            <li className="menu-item-has-children"><Link to="/shop">Events</Link>
-                     <ul className="sub-menu">
-                    <li><Link to="/event">All Events</Link></li>
-                    <li><Link to="/event-details">Tour de Shakhsiyah</Link></li>
-
+            <li className="menu-item-has-children"><Link to="#">Community</Link>
+                <ul className="sub-menu">
+                    <li><Link to="/mission-statement">Family Halaqah</Link></li>
+                    <li className="menu-item-has-children"><Link to="/Event">Events</Link>
+                        <ul className="sub-menu">
+                            <li><Link to="/trustees">Tour De Shakhsiyah</Link></li>
+                        </ul>
+                    </li>
+                    <li><Link to="/principles">Annoucements</Link></li>
                     </ul>
             {/*</li>
             <li className="menu-item-has-children"><Link to="/shop">Announcements</Link>
