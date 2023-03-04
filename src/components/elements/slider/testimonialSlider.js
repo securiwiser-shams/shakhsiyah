@@ -57,7 +57,7 @@ const TestimonialSlider = () => {
                                 <div className="testimonial-items position-relative">
                                     <div className="testimonial-header">
                                         <div className="testimonial-img">
-                                            <img src="/assets/img/testimonial/Image.png" alt="img not found" />
+                                            <img src="/assets/img/testimonial/customer.png" alt="img not found" />
                                         </div>
                                         <div className="testimonial-title">
                                             <h4>Abz_fp</h4>
@@ -87,7 +87,7 @@ const TestimonialSlider = () => {
                                 <div className="testimonial-items position-relative">
                                     <div className="testimonial-header">
                                         <div className="testimonial-img">
-                                            <img src="/assets/img/testimonial/testimonial-02.png" alt="img not found" />
+                                            <img src="/assets/img/testimonial/customer.png" alt="img not found" />
                                         </div>
                                         <div className="testimonial-title">
                                             <h4>Ziiko Bon</h4>
@@ -116,7 +116,7 @@ const TestimonialSlider = () => {
                                 <div className="testimonial-items position-relative">
                                     <div className="testimonial-header">
                                         <div className="testimonial-img">
-                                            <img src="/assets/img/testimonial/testimonial.png" alt="img not found" />
+                                            <img src="/assets/img/testimonial/customer.png" alt="img not found" />
                                         </div>
                                         <div className="testimonial-title">
                                             <h4>Umm Yasmin</h4>

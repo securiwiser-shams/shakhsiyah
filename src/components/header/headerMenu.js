@@ -44,13 +44,13 @@ const HeaderMenu = () => {
             </li>
             <li className="menu-item-has-children"><Link to="#">Community</Link>
                 <ul className="sub-menu">
-                    <li><Link to="/mission-statement">Family Halaqah</Link></li>
+                    <li><Link to="/family-halaqah">Family Halaqah</Link></li>
                     <li className="menu-item-has-children"><Link to="/Event">Events</Link>
                         <ul className="sub-menu">
                             <li><Link to="/trustees">Tour De Shakhsiyah</Link></li>
                         </ul>
                     </li>
-                    <li><Link to="/principles">Annoucements</Link></li>
+                    <li><Link to="/principles">Announcements</Link></li>
                     </ul>
             {/*</li>
             <li className="menu-item-has-children"><Link to="/shop">Announcements</Link>
