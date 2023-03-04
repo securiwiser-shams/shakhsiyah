@@ -133,7 +133,7 @@ const CourseContentFour = () => {
                                     </div>
                                     <div className="academic-content">
                                         <div className="academic-content-header">
-                                            <Link to="/course-details"><h3>Mathematics</h3></Link>
+                                            <Link to="/curriculum-details"><h3>Mathematics</h3></Link>
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
@@ -146,7 +146,7 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
-                                            <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
+                                            <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@ const CourseContentFour = () => {
                                     </div>
                                     <div className="academic-content">
                                         <div className="academic-content-header">
-                                            <Link to="/course-details"><h3>Knowledge and Understanding of the World</h3></Link>
+                                            <Link to="/curriculum-details"><h3>Knowledge and Understanding of the World</h3></Link>
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
@@ -171,7 +171,7 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
-                                            <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
+                                            <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                             </div>
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@ const CourseContentFour = () => {
                                     </div>
                                     <div className="academic-content">
                                         <div className="academic-content-header">
-                                            <Link to="/course-details"><h3>Creative Development</h3></Link>
+                                            <Link to="/curriculum-details"><h3>Creative Development</h3></Link>
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
@@ -196,7 +196,7 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
-                                            <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
+                                            <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                             </div>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@ const CourseContentFour = () => {
                                     </div>
                                     <div className="academic-content">
                                         <div className="academic-content-header">
-                                            <Link to="/course-details"><h3>Physical Development</h3></Link>
+                                            <Link to="/curriculum-details"><h3>Physical Development</h3></Link>
                                         </div>
                                         <div className="academic-body">
                                             <div className="academic-tutor d-flex align-items-center">
@@ -221,7 +221,7 @@ const CourseContentFour = () => {
                                             <div className="coursee-clock">
                                                 <i className="flaticon-clock"></i><span>11-16 Years</span>
                                             </div>
-                                            <Link to="/course-details" className="edo-course-sec-btn">Apply now</Link>
+                                            <Link to="/curriculum-details" className="edo-course-sec-btn">Apply now</Link>
                                         </div>
                                     </div>
                                 </div>
