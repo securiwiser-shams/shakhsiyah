@@ -17,7 +17,7 @@ export const Seo = ({ title, description, pathname, children }) => {
             <meta name="twitter:title" content={seo.title} />
             <meta name="twitter:url" content={seo.url} />
             <meta name="twitter:description" content={seo.description} />
-            <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700;800&family=Serif:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700;800&family=serif:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
             <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
             {children}
         </>

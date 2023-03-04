@@ -132,7 +132,7 @@
 	h5 {
 		font-size: 15px;
 		font-weight: 400;
-		font-family: "Nunito Sans", sans-serif;
+		font-family: "Nunito Sans", serif;
 		color: $body-text;
 		margin-bottom: 25px;
 	}
@@ -1460,7 +1460,7 @@
 	color: #141517;
 	font-size: 16px;
 	font-weight: 600;
-	font-family: "Raleway", sans-serif;
+	font-family: "Raleway", serif;
 	text-align: left;
 	@media #{$xs,$sm} {
 		font-size: 15px;
@@ -1481,7 +1481,7 @@
 	span {
 		color: $heading-color;
 		font-weight: 600;
-		font-family: "Raleway", sans-serif;
+		font-family: "Raleway", serif;
 	}
 }
 .course-curriculam-accodion .course-curriculum-info {
@@ -1493,7 +1493,7 @@
 	h4 {
 		color: $body-text;
 		font-size: 15px;
-		font-family: "Nunito Sans", sans-serif;
+		font-family: "Nunito Sans", serif;
 		font-weight: 400;
 	}
 }
