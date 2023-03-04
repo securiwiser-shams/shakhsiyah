@@ -20,12 +20,12 @@ const ShopSectionMain = () => {
                             <div className="products-wrapper">
                                 <div className="product-items text-center">
                                     <div className="product-img">
-                                        <Link to="https://drive.google.com/file/d/1zyj8HuaLSQ_sQ76zCkOSTR2F1f438OwR/view"><img src="/assets/img/products/ikhlas.svg" alt="product-img" /></Link>
+                                        <Link to="https://drive.google.com/file/d/1zyj8HuaLSQ_sQ76zCkOSTR2F1f438OwR/view" target="_blank"><img src="/assets/img/products/ikhlas.svg" alt="product-img" /></Link>
                                         <div className="shop-quick-view">
                                         </div>
                                     </div>
                                     <div className="product-content">
-                                        <h4><Link to="https://drive.google.com/file/d/1zyj8HuaLSQ_sQ76zCkOSTR2F1f438OwR/view">Surah Ikhlās</Link></h4>
+                                        <h4><Link to="https://drive.google.com/file/d/1zyj8HuaLSQ_sQ76zCkOSTR2F1f438OwR/view" target="_blank">Surah Ikhlās</Link></h4>
                                         <div className="course-icon">
                                             <i className="fas fa-star"></i>
                                             <i className="fas fa-star"></i>
