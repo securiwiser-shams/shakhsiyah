@@ -12,7 +12,7 @@ const TestimonialSlider = () => {
                 <div className="row">
                     <div className="col-lg-6 offset-lg-3">
                         <div className="section-title text-center mb-55">
-                            <h2>What Students<br /> Think and Say About <span className="down-mark-line">Eduman</span></h2>
+                            <h2>What Parents<br /> Think and Say About <span className="down-mark-line">Shakhsiyah</span></h2>
                         </div>
                     </div>
                 </div>
@@ -60,16 +60,19 @@ const TestimonialSlider = () => {
                                             <img src="/assets/img/testimonial/Image.png" alt="img not found" />
                                         </div>
                                         <div className="testimonial-title">
-                                            <h4>David Johnson</h4>
-                                            <span>Student</span>
+                                            <h4>Abz_fp</h4>
+                                            <span>Parent</span>
                                         </div>
                                     </div>
                                     <div className="testimoni-quotes">
                                         <img src="/assets/img/testimonial/quotes.png" alt="img not found" />
                                     </div>
                                     <div className="testimonial-body">
-                                        <h3>Great Course !</h3>
-                                        <p>Thanks to our marketplace model, our content keeps pace with market changes. You’ll find courses on the latest technologies and business practice and more!</p>
+                                        <h3>Benefited Greatly !</h3>
+                                        <p>I had children that attended ISF, I found that they benefited greatly from the smaller 
+                                            classes and bilingual curriculum. This is one of the only schools in London that 
+                                            instills a deep Islamic ethos for children that they carry with them throughout 
+                                            their lives. Strong Islamic practice starts from young</p>
                                     </div>
                                     <div className="testimonial-icon">
                                         <i className="fas fa-star"></i>
@@ -87,17 +90,18 @@ const TestimonialSlider = () => {
                                             <img src="/assets/img/testimonial/testimonial-02.png" alt="img not found" />
                                         </div>
                                         <div className="testimonial-title">
-                                            <h4>Brandon Tylor</h4>
-                                            <span>Student</span>
+                                            <h4>Ziiko Bon</h4>
+                                            <span>Parent</span>
                                         </div>
                                     </div>
                                     <div className="testimoni-quotes">
                                         <img src="/assets/img/testimonial/quotes.png" alt="img not found" />
                                     </div>
                                     <div className="testimonial-body">
-                                        <h3>Best Experience !</h3>
-                                        <p>In every software-as-a-service solution, user billing and payments are key aspects in the
-                                            sale of services rendered. Let’s learn about Stripe the metal mates.</p>
+                                        <h3>Very good school !</h3>
+                                        <p>Very good school masha Allah certainly helped develop my daughter's basic principles, 
+                                            values and knowledge as a human being and from an Islamic perspective. Sad we had to 
+                                            leave because we moved out of area. Teacher Samia is amazing masha Allah. By Abu Sumaya.</p>
                                     </div>
                                     <div className="testimonial-icon">
                                         <i className="fas fa-star"></i>
@@ -115,17 +119,19 @@ const TestimonialSlider = () => {
                                             <img src="/assets/img/testimonial/testimonial.png" alt="img not found" />
                                         </div>
                                         <div className="testimonial-title">
-                                            <h4>Richard Joseph</h4>
-                                            <span>Student</span>
+                                            <h4>Umm Yasmin</h4>
+                                            <span>Parent</span>
                                         </div>
                                     </div>
                                     <div className="testimoni-quotes">
                                         <img src="/assets/img/testimonial/quotes.png" alt="img not found" />
                                     </div>
                                     <div className="testimonial-body">
-                                        <h3>Helpful Instructors !</h3>
-                                        <p>There are so many websites out there that have not considered the overall usability of
-                                            their visually impaired users. When it comes to designing better links.</p>
+                                        <h3>The nursery is well equipped and stuff friendly !</h3>
+                                        <p>My 3yo daughter went to the nursery at Shakhsiyah Foundation school for two years. 
+                                            The nursery is well equipped and stuff friendly. During her time there she learnt 
+                                            several surah's as well as some dua's and islamic rhymes. This nursery is a cosy 
+                                            and a welcoming place. MashaAllah.</p>
                                     </div>
                                     <div className="testimonial-icon">
                                         <i className="fas fa-star"></i>
