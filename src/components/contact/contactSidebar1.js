@@ -5,7 +5,7 @@ const ContactSidebar = () => {
         <div className="sidebar-widget-wrapper">
             <div className="support-contact mb-30">
                 <div className="support-tittle">
-                    <h4>London Branch</h4>
+                    <h4>Slough Branch</h4>
                 </div>
                 <div className="support-contact-inner">
                     <div className="support-item">
@@ -19,7 +19,7 @@ const ContactSidebar = () => {
                         </div>
                         <div className="support-info-phone">
                             <span>Phone</span>
-                            <p>Telephone :<a href="tel:0208 802 8651"> 0208 802 8651</a></p>
+                            <p>Telephone :<a href="tel:01753 518000"> 01753 518000</a></p>
                         </div>
                     </div>
                     <div className="support-item">
@@ -39,7 +39,7 @@ const ContactSidebar = () => {
                         </div>
                         <div className="support-info-email">
                             <span>Email</span>
-                            <a href="mailto:mail@isfnet.org.uk">mail@isfnet.org.uk</a>
+                            <a href="mailto:mail-slough@isfnet.org.uk">mail-slough@isfnet.org.uk  </a>
                         </div>
                     </div>
                     <div className="support-item">
@@ -66,7 +66,7 @@ const ContactSidebar = () => {
                         </div>
                         <div className="support-info-location">
                             <span>Location</span>
-                            <a href="#">1st Floor, 277 St Ann's Rd, London, <br />N15 5RG</a>
+                            <a href="#">Cippenham Lodge, Cippenham Ln, Slough, <br />SL1 5AN</a>
                         </div>
                     </div>
                 </div>

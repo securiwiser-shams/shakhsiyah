@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import EventDetailsMap from './eventDetailsMap';
+import EventDetailsMap1 from './eventDetailsMap1';
 import EventDetailsSidebar from './eventDetailsSidebar';
 
 const EventDetailsSection = () => {
@@ -62,7 +63,7 @@ const EventDetailsSection = () => {
                             <h3>Shakhsiyah School, London - Map</h3>   
                             <EventDetailsMap /> <br/>
                             <h3>Shakhsiyah School, Slough - Map</h3>   
-                            <EventDetailsMap />
+                            <EventDetailsMap1 />
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-8 col-md-8">

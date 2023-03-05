@@ -51,8 +51,8 @@ const Footer = () => {
                                     <h3>Insight Community</h3>
                                     <ul>
                                         <li><Link to="/course">Global Partners</Link></li>
-                                        <li><Link to="/contact">Forum</Link></li>
-                                        <li><Link to="/contact">Help and Support</Link></li>
+                                        <li><Link to="/contact">Contact</Link></li>
+                                        <li><Link to="/contact">Con</Link></li>
                                         <li><Link to="/contact">Community</Link></li>
                                         <li><Link to="/faq-page">Documentation</Link></li>
                                     </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
                             <div className="row">
                                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                     <div className="copyright-text border-line">
-                                        <p>© Copyrighted and Designed by <a href="https://themeforest.net/user/bdevs"><span>BDevs</span></a></p>
+                                        <p>© Copyrighted and Designed by <a href="https://www.justgetvisible.com"><span>Just Get Visible Ltd</span></a></p>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-lg-4 col-sm-6">

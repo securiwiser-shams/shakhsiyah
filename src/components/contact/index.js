@@ -4,8 +4,9 @@ import Footer from '../footer/footer';
 import HeaderFour from '../header/headerFour';
 import ContactFormSection from './contactFormSection';
 import ContactMap from './contactMap';
+import ContactMap1 from './contactMap1';
 import ContactSidebar from './contactSidebar';
-
+import ContactSidebar1 from './contactSidebar1';
 const index = () => {
     return (
         <>
@@ -22,10 +23,12 @@ const index = () => {
                                     </div>
                                     <ContactFormSection />
                                     <ContactMap />
+                                    <ContactMap1 />
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-5 col-md-8">
                                 <ContactSidebar />
+                                <ContactSidebar1 />
                             </div>
                         </div>
                     </div>

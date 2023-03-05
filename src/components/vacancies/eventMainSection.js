@@ -128,7 +128,12 @@ const EventMainSection = () => {
                             </div>
                             <div className="get-ticket-btn">
                                 <Link to="/vacancies-details" className="get-btn">Apply</Link>
-                            </div>
+                            </div><br/>
+                            <h3>Application Form</h3>
+                            <iframe src="https://docs.google.com/document/d/1iY-icRhNoiuHZ34KHfacHpI3EmDUgjlT/preview" width="740" height="940" allow="autoplay"></iframe>
+                            <h3>Guidance Notes for Applicants</h3><br/>
+                            <iframe src="https://drive.google.com/file/d/1SjA82PuSL84ZyzAA3eB7-iusX6sQpbMv/preview" width="740" height="940" allow="autoplay"></iframe>
+
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5 col-md-8">
