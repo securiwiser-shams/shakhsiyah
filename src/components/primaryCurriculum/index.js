@@ -10,7 +10,7 @@ const index = () => {
         <>
             <HeaderFour />
             <main>
-                <Breadcrumb breadcrumbTitle="Early Years Curriculum" breadcrumbSubTitle="Early Years Curriculum
+                <Breadcrumb breadcrumbTitle="Primary School Curriculum" breadcrumbSubTitle="Primary School Curriculum
 " />
                 <CourseBar />
                 <CourseContentFour />
