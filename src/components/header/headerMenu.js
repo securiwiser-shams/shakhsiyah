@@ -25,14 +25,14 @@ const HeaderMenu = () => {
             <li className="menu-item-has-children"><Link to="/shop">Early Years</Link>
                 <ul className="sub-menu">
                     <li><Link to="/early-curriculum">Curriculum</Link></li>
-                    <li><Link to="/shop-details">Assessment</Link></li>
+                    <li><Link to="/early-assessment">Assessment</Link></li>
                     <li><Link to="/cart">School Life</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="/shop">Primary School</Link>
                 <ul className="sub-menu">
                 <li><Link to="/primary-curriculum">Curriculum</Link></li>
-                    <li><Link to="/shop-details">Assessment</Link></li>
+                    <li><Link to="/primary-assessment">Assessment</Link></li>
                     <li><Link to="/cart">School Life</Link></li>
                 </ul>
             </li>
