@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 import EventDetailsMap from './eventDetailsMap';
 import EventDetailsSidebar from './eventDetailsSidebar';
-
+import EventDetailsSidebar1 from './eventDetailsSidebar1';
 const EventDetailsSection = () => {
     return (
         <div className="event-detalis-area pt-120 pb-90">
@@ -103,6 +103,7 @@ const EventDetailsSection = () => {
                     </div>
                     <div className="col-xl-4 col-lg-8 col-md-8">
                         <EventDetailsSidebar />
+                        <EventDetailsSidebar1 />
                     </div>
                 </div>
             </div>

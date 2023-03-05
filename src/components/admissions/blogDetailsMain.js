@@ -2,6 +2,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { useSelector } from 'react-redux';
 import EventDetailsSidebar from './eventDetailsSidebar';
+import EventDetailsSidebar1 from './eventDetailsSidebar1';
 
 
 const BlogDetailsMain = () => {
@@ -91,6 +92,7 @@ const BlogDetailsMain = () => {
                         </div>
                         <div className="col-xl-4 col-lg-8 col-md-8">
                         <EventDetailsSidebar />
+                        <EventDetailsSidebar1 />
                         </div>
                     </div>
                 </div>
