@@ -19,20 +19,9 @@ const HeaderFour = () => {
                     <div className="header-top-inner">
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-8">
-                                <div className="header-top-icon">
-                                    <a href="tel:0208 802 8651"><i className="fas fa-phone"></i>(London) 0208 802 8651</a>
-                                    <a href="mailto:mail@isfnet.org.uk"><i className="fal fa-envelope"></i>mail@isfnet.org.uk</a>
-                                    <i className="fal fa-map-marker-alt"></i><span>1st Floor, 277 St Ann's Rd, London, N15 5RG</span>
-                                </div>
                             </div>
                             <div className="col-xl-4 col-lg-4">
                                 <div className="header-top-login d-flex f-right">
-                                    <div className="header-social">
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
-                                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +36,7 @@ const HeaderFour = () => {
                             <div className="col-xl-12 col-lg-7 col-md-5 col-sm-9 col-9">
                                 <div className="header-left d-flex align-items-center">
                                     <div className="header-logo">
-                                        <Link to="/"><img src="/assets/img/logo/logo-black.png" alt="logo" /></Link>
+                                        <Link to="/"><img src="/assets/img/logo/logo.svg" alt="logo" /></Link>
                                     </div>
                                     <div className="main-menu d-none d-xl-block">
                                         <nav id="mobile-menu">
