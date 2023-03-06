@@ -10,8 +10,7 @@ const KnowUsBetter = () => {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="section-title mb-55">
-                                        <h2>Shakhsiyah Schools are Governed by the <span className="down-mark-line-2">Mission</span><br />
-                                        of Shakhsiyah Education</h2>
+                                        <h2>Shakhsiyah Schools are Governed by the <span className="down-mark-line-2">Mission</span> of Shakhsiyah Education</h2>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-6 justify-content-end">

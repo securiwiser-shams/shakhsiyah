@@ -44,7 +44,7 @@ const HeaderFour = () => {
                 <div className="container-fluid">
                     <div className="header-main-wrapper">
                         <div className="row align-items-center">
-                            <div className="col-xl-10 col-lg-7 col-md-5 col-sm-9 col-9">
+                            <div className="col-xl-12 col-lg-7 col-md-5 col-sm-9 col-9">
                                 <div className="header-left d-flex align-items-center">
                                     <div className="header-logo">
                                         <Link to="/"><img src="/assets/img/logo/logo-black.png" alt="logo" /></Link>
