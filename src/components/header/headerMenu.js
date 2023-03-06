@@ -22,7 +22,7 @@ const HeaderMenu = () => {
             </li>
             <li className="menu-item-has-children"><Link to="/admissions">Admissions</Link>
             </li>
-            <li className="menu-item-has-children"><Link to="/shop">Early Years</Link>
+            <li className="menu-item-has-children"><Link to="#">Early Years</Link>
                 <ul className="sub-menu">
                     <li><Link to="/early-curriculum">Curriculum</Link></li>
                     <li><Link to="/early-assessment">Assessment</Link></li>
@@ -42,8 +42,6 @@ const HeaderMenu = () => {
                 <li><Link to="/school-life-secondary">School Life</Link></li> 
             </ul>
             </li>
-            <li className="menu-item-has-children"><Link to="/blog">Blog</Link>
-                    </li>
             <li className="menu-item-has-children"><Link to="#">Community</Link>
                 <ul className="sub-menu">
                     <li><Link to="/family-halaqah">Family Halaqah</Link></li>
