@@ -13,13 +13,13 @@ const BlogDetailsMain = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="hero-course-1-text">
-                                <h2>Principles</h2>
+                                <h2>Primary School Life</h2>
                             </div>
                             <div className="course-title-breadcrumb">
                                 <nav>
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-                                        <li className="breadcrumb-item"><span>Principles</span></li>
+                                        <li className="breadcrumb-item"><span>Primary School Life</span></li>
                                     </ol>
                                 </nav>
                             </div>
