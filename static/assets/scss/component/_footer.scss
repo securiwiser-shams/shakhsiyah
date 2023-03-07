@@ -8,7 +8,7 @@
 
 // footer-style
 .footer-area {
-	background: $heading-color;
+	background: $navy;
 }
 .footer-img {
 	img {
@@ -110,7 +110,7 @@
 
 // footer-style
 .copyright-area {
-	background: #1a1f27;
+	background: $gold;
 	border-radius: 10px 10px 0 0;
 	padding: 30px 20px;
 	@media #{$sm,$xs} {

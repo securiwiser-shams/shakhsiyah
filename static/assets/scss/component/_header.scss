@@ -40,13 +40,14 @@
 .header-main-wrapper {
 	max-width: 1720px;
 	margin: 0 auto;
-	background: #1c2e52;
+	background: $navy;
 	@media #{$xs,$sm,$md,$lg} {
 		padding: 16px 0;
 	}
 }
-.header-spacing
-{padding-left: 0px !important;}
+.header-main-wrapper-background {
+	background-color: $navy;
+}
 
 .transpaerent-header {
 	position: absolute;

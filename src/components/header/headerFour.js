@@ -15,7 +15,7 @@ const HeaderFour = () => {
         <header>
             <HeaderTop />
             <div className="header-top-area d-none d-lg-block">
-                <div className="container-fluid">
+                <div className="container-fluid p-0 header-main-wrapper-background">
                     <div className="header-top-inner">
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-8">
@@ -30,7 +30,7 @@ const HeaderFour = () => {
             </div>
 
             <div className={sticky ? "sticky header-area sticky-header" : "header-area sticky-header"}>
-                <div className="container-fluid">
+                <div className="container-fluid p-0 header-main-wrapper-background">
                     <div className="header-main-wrapper">
                         <div className="row align-items-center">
                             <div className="col-xl-12 col-lg-7 col-md-5 col-sm-9 col-9">
