@@ -206,7 +206,7 @@ h6 {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 61px;
 }
 h2 {
 	font-size: 36px;
@@ -890,6 +890,9 @@ p {
 	@media #{$sm,$xs} {
 		justify-content: flex-start;
 	}
+}
+.background-testiminal-message {
+	background-color: $navy;
 }
 .share-btn {
 	border: 1px solid $border;

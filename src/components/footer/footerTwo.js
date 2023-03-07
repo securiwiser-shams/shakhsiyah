@@ -13,7 +13,7 @@ const FooterTwo = () => {
                                     <div className="university-footer-widget uf-w1 mb-40">
                                         <div className="footer-widget-head">
                                             <div className="footer-logo mb-30">
-                                                <Link to="/"><img src="/assets/img/logo/logo-black.png" alt="img not found" /></Link>
+                                                <Link to="/"><img src="/assets/img/logo/logo.svg" alt="img not found" /></Link>
                                             </div>
                                         </div>
                                         <div className="university-footer-widget-body">

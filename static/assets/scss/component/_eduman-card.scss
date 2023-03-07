@@ -22,7 +22,7 @@
 }
 .university-course-box {
 	padding: 42px 48px 42px 48px;
-	background: $theme-color;
+	background: $gold;
 	@media #{$xl} {
 		padding: 35px 48px 40px 48px;
 	}
@@ -86,7 +86,7 @@
 }
 .university-card-content {
 	h3 {
-		font-size: 18px;
+		font-size: 22px;
 		margin-bottom: 15px;
 		line-height: 1;
 	}

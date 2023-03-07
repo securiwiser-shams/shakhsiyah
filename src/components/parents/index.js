@@ -1,7 +1,7 @@
 import React from 'react';
-import Breadcrumb from '../common/breadcrumb';
+import Breadcrumb from './breadcrumbParent';
 import Footer from '../footer/footer';
-import HeaderFour from '../header/headerFour';
+import HeaderFour from '../header/header';
 import EventDetailsSection from './eventDetailsSection';
 
 const index = () => {

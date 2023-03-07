@@ -124,7 +124,7 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                     <div className="offset-widget offset-logo mb-40">
                         <div className="row align-items-center">
                             <div className="col-9">
-                                <Link to="/"><img src="/assets/img/logo/logo-black.png" alt="Logo" /></Link>
+                                <Link to="/"><img src="/assets/img/logo/logo.svg" alt="Logo" /></Link>
                             </div>
                             <div className="col-3 text-end"><button className="side-info-close" onClick={() => setMenuOpen(false)}><i className="fal fa-times"></i></button>
                             </div>
@@ -133,81 +133,54 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                     <div className="mm-menu mb-30 d-block d-xl-none">
                         <ul>
                             <li className={home ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('home'); }}>Home</a>
+                                <a onClick={() => { openMobileMenu('home'); }}>About Us</a>
                                 <ul className={home ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/">Home Style 1</Link></li>
-                                    <li><Link to="/homeTwo">Home Style 2</Link></li>
-                                    <li><Link to="/homeThree">Home Style 3</Link></li>
+                                    <li><Link to="/principles">Principles</Link></li>
+                                    <li><Link to="/mission-statement">Mission Statement</Link></li>
+                                    <li><Link to="/trustees">Trustees</Link></li>
+                                    <li><Link to="/senior-team">Senior Leadership Team</Link></li>
+                                    <li><Link to="/safeguarding-team">Safegaurding Team</Link></li>
+                                    <li><Link to="/policies">Policies</Link></li>
+                                    <li><Link to="/vacancies">Vacancies</Link></li>
+                                    <li><Link to="/parents">Information for Parent</Link></li>
                                 </ul>
                             </li>
                             <li className={courses ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('courses'); }}>Courses</a>
+                                <a onClick={() => { openMobileMenu('courses'); }}>Admissions</a>
                                 <ul className={courses ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/course">Course 1</Link></li>
-                                    <li><Link to="/courseTwo">Course 2</Link></li>
-                                    <li><Link to="/courseThree">Course 3</Link></li>
-                                    <li><Link to="/courseFour">Course 4</Link></li>
-                                    <li><Link to="/course-details">Course Details</Link></li>
-                                    <li><Link to="/webinars">Webinars</Link></li>
-                                    <li><Link to="/webinar-details">Webinar Details</Link></li>
+                                    <li><Link to="/admissions">Admissions</Link></li>
                                 </ul>
                             </li>
                             <li className={project ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('project'); }}>Shop</a>
+                                <a onClick={() => { openMobileMenu('project'); }}>Early Years</a>
                                 <ul className={project ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/shop">Shop</Link></li>
-                                    <li><Link to="/shop-details">Shop Details</Link></li>
-                                    <li><Link to="/wishlist">wishlist</Link></li>
-                                    <li><Link to="/cart">cart</Link></li>
-                                    <li><Link to="/checkout">checkout</Link></li>
+                                    <li><Link to="/early-curriculum">Curriculum</Link></li>
+                                    <li><Link to="/early-assessment">Assessment</Link></li>
+                                    <li><Link to="/school-life-early">School Life</Link></li>
+                                    </ul>
+                            </li>
+                            <li className={project ? "has-droupdown active" : "has-droupdown"}>
+                                <a onClick={() => { openMobileMenu('project'); }}>Primary School</a>
+                                <ul className={project ? "sub-menu active" : "sub-menu"}>
+                                    <li><Link to="/primary-curriculum">Curriculum</Link></li>
+                                    <li><Link to="/primary-assessment">Assessment</Link></li>
+                                    <li><Link to="/school-life-primary">School Life</Link></li>
+                                    </ul>
+                            </li>
+                            <li className={project ? "has-droupdown active" : "has-droupdown"}>
+                                <a onClick={() => { openMobileMenu('project'); }}>Secondary School</a>
+                                <ul className={project ? "sub-menu active" : "sub-menu"}>
+                                    <li><Link to="/secondary-curriculum">Curriculum</Link></li>
+                                    <li><Link to="/school-life-secondary">School Life</Link></li>
                                 </ul>
                             </li>
                             <li className={instructor ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('instructor'); }}>Instructor</a>
+                                <a onClick={() => { openMobileMenu('instructor'); }}>Community</a>
                                 <ul className={instructor ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/instructor">instructor</Link></li>
-                                    <li><Link to="/instructor-profile">instructor profile</Link></li>
-                                    <li><Link to="/student-profile">Student profile</Link></li>
-                                    <li><Link to="/become-instructor">become instructor</Link></li>
-                                </ul>
-                            </li>
-                            <li className={blog ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
-                                <ul className={blog ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/blog">Blog</Link></li>
-                                    <li><Link to="/blog-details">Blog Details</Link></li>
-                                </ul>
-                            </li>
-                            <li className={zoom ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('zoom'); }}>zoom class</a>
-                                <ul className={zoom ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/zoom-class">zoom class</Link></li>
-                                    <li><Link to="/zoom-class-details">zoom class details</Link></li>
-                                </ul>
-                            </li>
-                            <li className={events ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('events'); }}>Event</a>
-                                <ul className={events ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/event">Event</Link></li>
-                                    <li><Link to="/event-details">Event Details</Link></li>
-                                </ul>
-                            </li>
-                            <li className={faqs ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('faqs'); }}>Faq Page</a>
-                                <ul className={faqs ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/faq-page">FAQ page</Link></li>
-                                    <li><Link to="/faq-details">FAQ details</Link></li>
-                                </ul>
-                            </li>
-                            <li className={pages ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('pages'); }}>Pages</a>
-                                <ul className={pages ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/membership">membership plan</Link></li>
-                                    <li><Link to="/login">Sign In</Link></li>
-                                    <li><Link to="/registration">Sign Up</Link></li>
-                                    <li><Link to="/404">404-page</Link></li>
-                                    <li><Link to="/contact">Contact</Link></li>
+                                    <li><Link to="/family-halaqah">Family Halaqah</Link></li>
+                                    <li><Link to="/webinars">Webinar</Link></li>
+                                    <li><Link to="/event">Events</Link></li>
+                                    <li><Link to="/announcements">Announcements</Link></li>
                                 </ul>
                             </li>
                         </ul>
@@ -222,10 +195,15 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                     </div>
                     <div className="offset-widget offset_menu-top mb-20">
                         <div className="header-menu-top-icon mb-20">
-                            <a href="#"><i className="fas fa-phone"></i>(555) 674 890 556</a>
-                            <a href="#"><i className="fal fa-envelope"></i>info@example.com</a>
-                            <i className="fal fa-map-marker-alt"></i><span>3rd Avenue, San Francisco</span>
-                        </div>
+                            <p>London Branch</p>
+                            <a href="#"><i className="fas fa-phone"></i>02088028651</a>
+                            <a href="#"><i className="fal fa-envelope"></i>mail@isfnet.org.uk</a>
+                            <i className="fal fa-map-marker-alt"></i><span>1st Floor, 277 St Ann's Rd, London, N15 5RG</span><br/><br/>
+                            <p>Slough Branch</p>
+                            <a href="#"><i className="fas fa-phone"></i>01753 518000</a>
+                            <a href="#"><i className="fal fa-envelope"></i>mail-slough@isfnet.org.uk</a>
+                            <i className="fal fa-map-marker-alt"></i><span>Cippenham Lodge, Cippenham Ln, Slough SL1 5AN</span>
+                       </div>
                     </div>
                 </div>
             </div>

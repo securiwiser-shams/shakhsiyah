@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '../common/breadcrumb';
 import TestimonialSlider from '../elements/slider/testimonialSlider';
 import Footer from '../footer/footer';
-import HeaderFour from '../header/headerFour';
+import HeaderFour from '../header/header';
 import MembershipPrice from './membershipPrice';
 
 const index = () => {

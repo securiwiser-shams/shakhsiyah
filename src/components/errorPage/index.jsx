@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import Footer from '../footer/footer';
-import HeaderFour from '../header/headerFour';
+import HeaderFour from '../header/header';
 
 const index = () => {
     return (

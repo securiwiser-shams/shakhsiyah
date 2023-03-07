@@ -10,6 +10,11 @@ import FeatureSection from './featureSection';
 import HeroSection from './heroSection';
 import StudentChooseSection from './studentChooseSection';
 import TopCategorySection from './topCategorySection';
+import UniversityCardSection from './universityCardSection';
+import UniversityMessage from './universityMessage';
+
+
+
 
 const index = () => {
     return (
@@ -17,6 +22,8 @@ const index = () => {
         <Header />
             <main>
                 <HeroSection />
+                <UniversityCardSection />
+                <UniversityMessage />
                 <TopCategorySection />
                 <CourseTab />
                 <FeatureSection />

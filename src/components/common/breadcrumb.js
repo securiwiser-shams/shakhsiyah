@@ -7,7 +7,7 @@ const Breadcrumb = ({ breadcrumbTitle, breadcrumbSubTitle }) => {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12">
-                        <div className="hero-course-1-text">
+                        <div className="hero-course-1-text"> 
                             <h2>{breadcrumbTitle}</h2>
                         </div>
                         <div className="course-title-breadcrumb">

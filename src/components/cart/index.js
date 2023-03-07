@@ -1,7 +1,7 @@
 import React from 'react';
 import Breadcrumb from '../common/breadcrumb';
 import Footer from '../footer/footer';
-import HeaderFour from '../header/headerFour';
+import HeaderFour from '../header/header';
 import CartSection from './cartSection';
 
 const index = () => {

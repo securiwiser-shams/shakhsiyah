@@ -3,19 +3,15 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <section className="slider-area hero-height position-relative fix" style={{ backgroundImage: "url(/assets/img/slider/Image.svg)" }}>
+        <section className="slider-area hero-height position-relative fix" style={{ backgroundImage: "url(/assets/img/slider/hero2.png)" }}>
             <img className="shape-3 d-none d-xxl-block" src="/assets/img/shape/shape-03.png" alt="img not found" />
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-9">
                         <div className="hero-text pt-95">
-                            <h5>Discover your child's potential</h5>
-                            <h2>We are unashamedly <span className="down-mark-line">proud</span> of our pupils’ many successes. </h2>
-                            <p>Shakhsiyah Schools endeavour to nurture the natural disposition (fitrah) of
-                                 each individual child.</p>
-                            <div className="hero-btn">
-                                <Link to="/mission-statement" className="edu-btn">More about us</Link>
-                            </div>
+                            <h1>Islamic Day <span className="down-mark-line">School</span> For Children Aged 3 to 12</h1>
+                            <p>To educate, inspire and empower our nation's young people into future Scholars and Orators of the Islamic faith 
+                                who also equally contribute towards the local wider community as Leaders and professionals in their respective fields.</p>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6">

@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../footer/footer';
-import HeaderFour from '../header/headerFour';
+import HeaderFour from '../header/header';
 import BlogDetailsMain from './blogDetailsMain';
 
 const index = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
-import Breadcrumb from '../common/breadcrumb';
+import Breadcrumb from './breadcrumbEarlyCurriculum';
 import CourseBar from '../course/courseBar';
 import Footer from '../footer/footer';
-import HeaderFour from '../header/headerFour';
+import HeaderFour from '../header/header';
 import CourseContentFour from './courseContentFour';
 
 const index = () => {
