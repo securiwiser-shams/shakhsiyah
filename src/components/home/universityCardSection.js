@@ -12,7 +12,7 @@ const UniversityCardSection = () => {
                                 <div className="university-card-text">
                                     <p>Shakhsiyah Principles</p>
                                     <h3>Our Aims and Objectives</h3>
-                                    <Link to="/course" className="edu-six-btn">View Principles</Link>
+                                    <Link to="/principles" className="edu-six-btn">View Principles</Link>
                                 </div>
                             </div>
                             <div className="university-card-wrapper">

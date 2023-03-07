@@ -4,7 +4,7 @@ import React from 'react';
 const UniversityMessage = () => {
     return (
         <div className="university-message-area pt-110 pb-105">
-            <div className="container fluid p-0 background-testiminal-message">
+            <div className="container fluid background-testiminal-message">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4">
                         <div className="section-title mb-30">
