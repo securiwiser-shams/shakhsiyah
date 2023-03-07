@@ -13,38 +13,37 @@ const UniversityMessage = () => {
                     </div>
                     <div className="col-xl-4 col-lg-4">
                         <div className="message-profile-text">
-                            <span>Eduma helps you to develop essential education and your career of years experiences.
-                            </span>
-                            <p>Transform your life through education to make the most of each semester to choose the
-                                best major. Prepare for grad school. Whatever it is, you can do it here. Explore our
-                                digital viewbook. Your journey starts here.</p>
+                            <h3><b>Principles welcome</b></h3><br/>
+                            <ps>Assalamu alaikum,</ps><br/>
+                            <ps>I am delighted that you are considering Shakshsiyah for your daughter. </ps><br/><br/>
+                            <ps>The transition from Primary to Secondary is undoubtedly marked by a mixture of excitement and apprehension. 
+                                It is our first priority to ensure students settle in quickly and feel at ease in their new school environment. 
+                                We appreciate that students have different educational backgrounds and some may well be exposed to a subject 
+                                for the first time. However, my team and I will support and encourage all of our students to ensure that they 
+                                are not overwhelmed and achieve their full potential.</ps>
                         </div>
                         <div className="message-meta">
-                            <Link to="/instructor-profile"><img src="/assets/img/bg/message-meta.png" alt="meta-img" /></Link>
+                            <Link to="/instructor-profile"><img src="/assets/img/member/member-img-01.png" alt="meta-img" /></Link>
                             <div className="message-meta-link">
                                 <Link to="/instructor-profile"><h4>Daniel Abraham</h4></Link>
-                                <p>Vice Chancellor, Eduma</p>
+                                <ps>Vice Chancellor, Eduma</ps>
                             </div>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4">
                     <div className="message-profile-text">
-                            <span>Eduma helps you to develop essential education and your career of years experiences.
-                            </span>
-                            <p>Transform your life through education to make the most of each semester to choose the
-                                best major. Prepare for grad school. Whatever it is, you can do it here. Explore our
-                                digital viewbook. Your journey starts here.</p>
-                        </div>
-                        <div className="message-sticker position-relative">
-                            <img src="/assets/img/bg/message-sticker.png" alt="img" />
-                            <div className="etablist-price">
-                                <p> Etablished <span>1990</span> USA</p>
+                            <ps>We have carefully designed a curriculum that aims to cater for the spiritual, intellectual and 
+                                worldly needs of the student. To this end, we have placed a strong emphasis on the study of the 
+                                Arabic language; the spiritual and worldly advantages of which are obvious. Moreover, the Arabic 
+                                language is a wonderful vehicle for sharpening the intellectual powers and connecting the aspiring 
+                                student to their Islamic heritage: it functions in much the same way as Greek and Latin did in the 
+                                Liberal education once afforded children in this country. Accordingly, students will throughout the 
+                                course of their time, be exposed to Arabic on a daily basis..</ps>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 

@@ -238,6 +238,14 @@ p {
 	margin-bottom: 15px;
 	line-height: 26px;
 }
+ps {
+	font-family: $nunito;
+	font-size: 22px;
+	font-weight: 400;
+	color: $white;
+	margin-bottom: 15px;
+	line-height: 26px;
+}
 
 *::-moz-selection {
 	background: $theme-color;
@@ -661,16 +669,16 @@ p {
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 600;
-	color: $heading-color;
-	background-color: $theme-color-2;
+	color: $white;
+	background-color: $navy;
 	border: 1px solid transparent;
 	padding: 0 40px;
 	display: inline-block;
 	@include transition(0.3s);
 	&:hover {
-		background-color: $theme-color;
+		background-color: $gold;
 		color: $white;
 		border: 1px solid $white;
 	}
