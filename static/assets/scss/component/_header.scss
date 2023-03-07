@@ -45,6 +45,9 @@
 		padding: 16px 0;
 	}
 }
+.header-spacing
+{padding-left: 0px !important;}
+
 .transpaerent-header {
 	position: absolute;
 	right: 0;
@@ -375,7 +378,7 @@
 	margin: 0px 29px;
 }
 .header-top-area {
-	border-bottom: 1px solid #ebebeb;
+	border-bottom: 0px solid #ebebeb;
 }
 .header-top-inner {
 	max-width: 1720px;
