@@ -7,11 +7,7 @@ import UniversityMessage from './universityMessage';
 import AboutFeatureSection from './aboutFeatureSection'; 
 import AboutFeatureVideo from './aboutFeatureVideo';
 import GallaryInstaSection from './gallaryInstaSection';
-
-
-
-
-
+import BrowserCourseSection from './browserCourseSection';
 
 const index = () => {
     return (
@@ -23,6 +19,7 @@ const index = () => {
                 <UniversityMessage />
                 <AboutFeatureSection />
                 <AboutFeatureVideo />
+                <BrowserCourseSection />
                 <GallaryInstaSection />
             </main>
             <Footer />

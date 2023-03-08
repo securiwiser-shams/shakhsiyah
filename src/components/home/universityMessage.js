@@ -8,7 +8,7 @@ const UniversityMessage = () => {
                 <div className="row">
                     <div className="col-xl-4 col-lg-4">
                         <div className="section-title mb-30">
-                            <h2>Welcome to <span className="down-mark-line-2">Eduman</span>University Education Online Platform</h2>
+                            <h2>Welcome to <span className="down-mark-line-2">Islamic</span>Shakhsiyah School</h2>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4">

@@ -9,15 +9,15 @@ const BrowserCourseSection = () => {
                     <div className="col-xl-6 col-lg-6 col-md-12 mb-30">
                         <div className="browser-course-wrapper course-height">
                             <div className="browser-course-bg">
-                                <img src="/assets/img/browser-course/browser-course-01.jpg" alt="img not found" />
+                                <img src="/assets/img/browser-course/feature1.png" alt="img not found" />
                             </div>
                             <div className="browser-course-content">
-                                <span>Start from today</span>
+                                <span>North London Branch</span>
                                 <div className="browser-course-tittle">
-                                    <Link to="/instructor">Become an instructor and spread your knowledge</Link>
+                                    <Link to="/parents">First Floor, 277 St Ann's Rd, London, N15 5RG</Link>
                                 </div>
                                 <div className="browser-btn">
-                                    <Link to="/become-instructor" className="course-btn">View details</Link>
+                                    <Link to="/parents" className="course-btn">Visit School</Link>
                                 </div>
                             </div>
                         </div>
@@ -25,17 +25,17 @@ const BrowserCourseSection = () => {
                     <div className="col-xl-6 col-lg-6 col-md-12 mb-30">
                         <div className="browser-course-wrapper course-height">
                             <div className="browser-course-bg">
-                                <img src="/assets/img/browser-course/browser-course-02.jpg" alt="img not found" />
+                                <img src="/assets/img/browser-course/feature2.png" alt="img not found" />
                             </div>
                             <div className="row">
                                 <div className="col-xl-7 col-lg-7">
                                     <div className="browser-course-content">
-                                        <span>Discover your gain</span>
+                                        <span>Slough Branch</span>
                                         <div className="browser-course-tittle">
-                                            <Link to="/course-details">Keep your skilled centers of excellence competitive</Link>
+                                            <Link to="/parents">Cippenham Lodge, Cippenham  Ln, Slough, SL1 5AN</Link>
                                         </div>
                                         <div className="browser-btn">
-                                            <Link to="/course" className="course-btn">Browse courses</Link>
+                                        <Link to="/parents" className="course-btn">Visit School</Link>
                                         </div>
                                     </div>
                                 </div>

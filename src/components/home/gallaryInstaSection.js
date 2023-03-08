@@ -12,25 +12,25 @@ const GallaryInstaSection = () => {
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary_img-2.jpg" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary2.png" alt="img not found" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary_img-3.jpg" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary3.png" alt="img not found" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary_img-4.jpg" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary4.png" alt="img not found" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary_img-5.jpg" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary5.png" alt="img not found" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
