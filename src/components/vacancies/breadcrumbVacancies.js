@@ -3,7 +3,7 @@ import React from 'react';
 
 const Breadcrumb = ({ breadcrumbTitle, breadcrumbSubTitle }) => {
     return (
-        <div className="hero-arera course-item-height" style={{ backgroundImage: "url(/assets/img/slider/vacancies-slider.svg)" }}>
+        <div className="hero-arera course-item-height" style={{ backgroundImage: "url(/assets/img/slider/vacancy-slider.png)" }}>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12">
