@@ -246,7 +246,16 @@ ps {
 	margin-bottom: 15px;
 	line-height: 26px;
 }
-
+underline {
+	text-decoration: underline;
+	text-decoration-color: $gold;
+	font-family: $nunito;
+	font-size: 20px;
+	font-weight: normal;
+	color: $body-text;
+	margin-bottom: 15px;
+	line-height: 26px;
+}
 *::-moz-selection {
 	background: $theme-color;
 	color: $white;
@@ -550,17 +559,17 @@ ps {
 	height: 55px;
 	line-height: 53px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 19px;
 	font-weight: 600;
-	color: $white;
-	background-color: $theme-color;
+	color: $navy;
+	background-color: $gold;
 	padding: 0 40px;
 	@include border-radius(4px);
 	@include transition(0.3s);
 	border: 1px solid transparent;
 	&:hover {
 		background-color: $theme-color-2;
-		color: $heading-color;
+		color: $navy;
 	}
 	&:focus {
 		color: $white;

@@ -9,7 +9,7 @@ const BlogDetailsMain = () => {
     const blogItem = useSelector(state => state.blogs.specificItem);
     return (
         <>
-            <div className="hero-arera course-item-height" style={{ background: "url(/assets/img/slider/policies-slider.png)" }}>
+            <div className="hero-arera course-item-height" style={{ background: "url(/assets/img/slider/early-school-life.png)" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">

@@ -1,23 +1,25 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { useSelector } from 'react-redux';
+import EventDetailsSidebar from './eventDetailsSidebar';
+import EventDetailsSidebar1 from './eventDetailsSidebar1';
 
 const BlogDetailsMain = () => {
     const blogItem = useSelector(state => state.blogs.specificItem);
     return (
         <>
-            <div className="hero-arera course-item-height" style={{ background: "url(/assets/img/slider/primary-assessment.png)" }}>
+            <div className="hero-arera course-item-height" style={{ background: "url(/assets/img/slider/school-life-secondary.png)" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="hero-course-1-text">
-                                <h2>Assessment</h2>
+                                <h2>Secondary School Life</h2>
                             </div>
                             <div className="course-title-breadcrumb">
                                 <nav>
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-                                        <li className="breadcrumb-item"><span>Primary School Assessment</span></li>
+                                        <li className="breadcrumb-item"><span>Secondary School Life</span></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -35,8 +37,19 @@ const BlogDetailsMain = () => {
                                     <div className="col-xl-12 col-lg-12 col-md-12">
                                         <div className="blog-wrapper position-relative blog-details-wrapper mb-30">
                                             <div className="blog-thumb ">
-                                            <h1 className="mb-20">Primary School <span className="down-mark-line">Assessment</span></h1>
+                                            <h1 className="mb-20">Secondary <span className="down-mark-line"> School</span> Life</h1>
                                             </div>
+                                            <div className="blog-content-wrapper">
+                                                <div className="blog-meta">
+                                                    <div className="blog-user">
+                                                    </div>
+                                                </div>
+                                                <div className="blog-content">
+                                                    <p>At Shakhsiyah Schools we believe that learning is a lifelong journey, and extends well beyond the classroom. As a community, 
+                                                        we are constantly seeking knowledge to grow closer to Allah (swt). The curriculum and formal classroom learning is just 
+                                                        one element of learning in Shakhsiyah Schools. Children learn through all aspects of school life in many ways as our 
+                                                        concept of learning is holistic tarbiyah.</p>
+                                                        <p>Children learn through a range of experiences. Our key activities are listed below, with further information.</p>
                                                     </div>
                                                 </div>                                        
                                         </div>
@@ -45,7 +58,8 @@ const BlogDetailsMain = () => {
                             </div>
                         </div>
                         </div>
-                
+                    </div>
+                </div>
         </>
     );
 };

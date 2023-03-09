@@ -1,5 +1,5 @@
 import React from 'react';
-import Breadcrumb from '../common/breadcrumb';
+import Breadcrumb from './breadcrumbPrimaryCurriculum';
 import CourseBar from '../course/courseBar';
 import Footer from '../footer/footer';
 import HeaderFour from '../header/header';

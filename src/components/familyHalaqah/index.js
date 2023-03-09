@@ -1,5 +1,5 @@
 import React from 'react';
-import Breadcrumb from '../common/breadcrumb';
+import Breadcrumb from './breadcrumbHalaqah';
 import Footer from '../footer/footer';
 import HeaderFour from '../header/header';
 import ShopSectionMain from './shopSectionMain';

@@ -1,7 +1,6 @@
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import useSticky from '../../hooks/useSticky';
-import CategoryDropdown from './categoryDropdown';
 import HeaderCart from './headerCart';
 import HeaderMenu from './headerMenu';
 import HeaderTop from './headerTop';
@@ -45,29 +44,24 @@ const HeaderFour = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-5 col-lg-5 col-md-7 col-sm-3 col-3">
+                            {/*<div className="col-xl-5 col-lg-5 col-md-7 col-sm-3 col-3">
                                 <div className="header-right d-flex align-items-center justify-content-end">
-                                    <div className="header-search d-none d-xxl-block mr-30">
-                                        
-                                    
-                                    </div>
-                                    <div className="menu-bar d-xl-none ml-20">
-                                        <button type='button' className="side-toggle" onClick={() => { setMenuOpen(!menuOpen) }}>
-                                            <div className="bar-icon">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                        </button>
+                                    <div className="d-none d-md-block">
+                                            <Link to='/admissions' className="user-btn-sign-up edu-btn">Apply</Link>
+                                        </div>
+                                        <div className="menu-bar d-xl-none ml-20">
+                                            <button type='button' className="side-toggle" onClick={() => { setMenuOpen(!menuOpen) }}>
+                                                <div className="bar-icon">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                      </button>*/}
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-
+                        
             <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div onClick={() => setMenuOpen(false)} className={menuOpen ? "offcanvas-overlay overlay-signin" : "offcanvas-overlay"}></div>
 
