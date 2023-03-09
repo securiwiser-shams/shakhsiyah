@@ -36,13 +36,13 @@ const EventDetailsSection = () => {
                                     <h3>INSPECTION REPORTS</h3>
                                     <p>Full reports from our recent inspections can be accessed using the links below:</p>
                                     <h4>Slough Reports</h4>
-                                    <p><a href="https://drive.google.com/file/d/17HcmwFfmGhSw7W52IBfb0PAKWPbzCtsw/view?usp=sharing" target="_blank">Slough RCI Report - June 2022</a></p>
-                                <p><a href="https://drive.google.com/file/d/1pQMjqrpxDvNr3UbySW-EU8WKArfuXxFV/view?usp=sharing" target="_blank">Slough Full Inspection - October 2017</a></p>
-                                <p><a href="https://drive.google.com/file/d/1B5JKTiYKrrAXxAZ5zHXaMOI_u_FeXZN6/view?usp=sharing" target="_blank">Slough Emergency Inspection - December 2020</a></p>
+                                    <underline><a href="https://drive.google.com/file/d/17HcmwFfmGhSw7W52IBfb0PAKWPbzCtsw/view?usp=sharing" target="_blank">Slough RCI Report - June 2022</a></underline><br/><br/>
+                                    <underline><a href="https://drive.google.com/file/d/1pQMjqrpxDvNr3UbySW-EU8WKArfuXxFV/view?usp=sharing" target="_blank">Slough Full Inspection - October 2017</a></underline><br/><br/>
+                                    <underline><a href="https://drive.google.com/file/d/1B5JKTiYKrrAXxAZ5zHXaMOI_u_FeXZN6/view?usp=sharing" target="_blank">Slough Emergency Inspection - December 2020</a></underline><br/><br/>
                                 <h4>London Reports</h4>
-                                    <p><a href="https://drive.google.com/file/d/1P8wrEg5fecbV8r3zPKP-vxyKRAry4JTh/view?usp=share_link" target="_blank">London RCI Report - November 2022</a></p>
-                                <p><a href="https://drive.google.com/file/d/1YMvx-mv15nHvHacd37fie5z-3SEtqzt5/view?usp=sharing" target="_blank">London Full Inspection - June 2018</a></p>
-                                <p><a href="https://drive.google.com/file/d/1ctnbWMhG__f8khGCCIu62F-y1yDjX5Fl/view?usp=sharing" target="_blank">London Inspection - August 2020</a></p>
+                                <underline><a href="https://drive.google.com/file/d/1P8wrEg5fecbV8r3zPKP-vxyKRAry4JTh/view?usp=share_link" target="_blank">London RCI Report - November 2022</a></underline><br/><br/>
+                                <underline><a href="https://drive.google.com/file/d/1YMvx-mv15nHvHacd37fie5z-3SEtqzt5/view?usp=sharing" target="_blank">London Full Inspection - June 2018</a></underline><br/><br/>
+                                <underline><a href="https://drive.google.com/file/d/1ctnbWMhG__f8khGCCIu62F-y1yDjX5Fl/view?usp=sharing" target="_blank">London Inspection - August 2020</a></underline><br/>
                                 </div>
                             </div>
                             <div className="even-point-tittle">
