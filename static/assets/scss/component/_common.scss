@@ -238,14 +238,6 @@ p {
 	margin-bottom: 15px;
 	line-height: 26px;
 }
-ps {
-	font-family: $nunito;
-	font-size: 22px;
-	font-weight: 400;
-	color: $white;
-	margin-bottom: 15px;
-	line-height: 26px;
-}
 underline {
 	text-decoration: underline;
 	text-decoration-color: $gold;
@@ -907,9 +899,6 @@ underline {
 	@media #{$sm,$xs} {
 		justify-content: flex-start;
 	}
-}
-.background-testiminal-message {
-	background-color: $navy;
 }
 .share-btn {
 	border: 1px solid $border;

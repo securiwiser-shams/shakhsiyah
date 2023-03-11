@@ -16,10 +16,10 @@ const AboutFeatureVideo = () => {
                             <div className="features-video-wrapper">
                                 <div className="features-shape-wrapper-1">
                                     <img className="features-shape" src="/assets/img/shape/features-shape.png" alt="features-shape" />
-                                    Get <span>help</span> from <br /> this video
+                                    <span>Taqwah</span>
                                 </div>
                                 <div className="features-shape-werapper-2">
-                                    <span>65k+</span> <br />views daily
+                                    <span>Tarbiyah</span> <br />
                                     <img className="features-shape-2" src="/assets/img/shape/features-shape-2.png" alt="features-shape-2" />
                                 </div>
                                 <div className="reatures-video-thumb">
