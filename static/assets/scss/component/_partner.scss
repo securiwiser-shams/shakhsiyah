@@ -16,6 +16,7 @@
 	gap: 130px 70px;
 	width: 900px;
 	margin-top: 10px;
+	margin-right: 100px;
 	@media #{$xl} {
 		gap: 45px 45px;
 	}
@@ -31,7 +32,10 @@
 	left: -250px;
 	z-index: -1;
 }
-
+.responsive {
+	width: 100%;
+	height: auto;
+  }
 .partner-text {
 	margin-top: 20px;
 	p {
