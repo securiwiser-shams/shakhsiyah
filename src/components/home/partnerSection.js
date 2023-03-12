@@ -5,7 +5,7 @@ const PartnerSection = () => {
         <div className="patner-area pt-110 pb-80">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-5 col-lg-4 col-md-4">
+                    <div className="col-xl-3 col-lg-4 col-md-4">
                         <div className="partner-box mb-30">
                             <div className="partner-thumb d-none d-sm-block">
                                 <img src="/assets/img/bg/partner.png" alt="partner-png" />
@@ -35,10 +35,10 @@ const PartnerSection = () => {
                                 <img src="/assets/img/brand/haringey.png" alt="not found" class="responsive" width="120" height="51" ></img>
                             </div>
                             <div className="singel-partner">
-                                <img src="/assets/img/brand/isa.png" alt="not found" class="responsive" width="152" height="67" ></img>
+                                <img src="/assets/img/brand/ams.png" alt="not found" class="responsive" width="152" height="67" ></img>
                             </div>
                             <div className="singel-partner">
-                                <img src="/assets/img/brand/ams.png" alt="not found" class="responsive" width="61" height="62" ></img>
+                                <img src="/assets/img/brand/isa.png" alt="not found" class="responsive" width="61" height="62" ></img>
                             </div>
                             <div className="singel-partner">
                                 <img src="/assets/img/brand/nida.png" alt="not found" class="responsive" width="72" height="72" ></img>

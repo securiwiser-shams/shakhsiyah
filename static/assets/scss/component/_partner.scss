@@ -13,10 +13,9 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 130px 70px;
+	gap: 110px 70px;
 	width: 900px;
 	margin-top: 10px;
-	margin-right: 100px;
 	@media #{$xl} {
 		gap: 45px 45px;
 	}
