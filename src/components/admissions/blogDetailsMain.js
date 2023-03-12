@@ -63,16 +63,16 @@ const BlogDetailsMain = () => {
                                                         assessment are successful, the child may be offered a place as soon it becomes available. Parents
                                                         will then be provided with the following printable documents: </p>
                                                     
-                                                        <underline><a href="https://drive.google.com/file/d/1jfTj8vY7Ab1Y5rC1-sVoqQkTRCvzKVSg/view?usp=share_link" target="_blank">Holistic Curriculum In Shakhsiyah Schools</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/1eM9AiAyiCGgYQJtNOjoyluItln_UAnLo/view?usp=sharing" target="_blank">Parents’ Contract</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/1kTfXHp2xRNo0SmsL-GqTiJWfJ5XCO6Lz/view?usp=sharing" target="_blank">Registration Form (New Admissions Only)</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/11z1waRQ_eglcyrbJuU0rQF-pzA7iq7vO/view?usp=sharing" target="_blank">Child Information Form (Current Pupils Only)</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/1p8hPCnXU1Rvimj5HoZ1FPS-6pRssTQqI/view?usp=sharing" target="_blank">General Consent Form</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/1yKRFvzgIC9gUV_CpURhK6QSfDkKMwHN4/view?usp=sharing" target="_blank">Term Dates 2022-2023</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/1f5gVLuHgOxWnJCdhsBBmVu9Qyb0hjcem/view?usp=sharing" target="_blank">Academic Year Planner 2022-2023</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/1bYrQhJGQmjj-sh20wS8j0vX6gv8waweV/view?usp=sharing" target="_blank">Attendance Policy</a></underline><br/><br/>
-                                                        <underline><a href="https://drive.google.com/file/d/1Ks6_MSGBtFxkf9vf3ELGB_mUmy9ZLItn/view?usp=sharing" target="_blank">Uniform Information</a></underline>
-                                                        <underline><a href="/policies" target="_blank">Complaints Procedure & Admissions Policy </a></underline><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1jfTj8vY7Ab1Y5rC1-sVoqQkTRCvzKVSg/view?usp=share_link" target="_blank">Holistic Curriculum In Shakhsiyah Schools</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1eM9AiAyiCGgYQJtNOjoyluItln_UAnLo/view?usp=sharing" target="_blank">Parents’ Contract</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1kTfXHp2xRNo0SmsL-GqTiJWfJ5XCO6Lz/view?usp=sharing" target="_blank">Registration Form (New Admissions Only)</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/11z1waRQ_eglcyrbJuU0rQF-pzA7iq7vO/view?usp=sharing" target="_blank">Child Information Form (Current Pupils Only)</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1p8hPCnXU1Rvimj5HoZ1FPS-6pRssTQqI/view?usp=sharing" target="_blank">General Consent Form</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1yKRFvzgIC9gUV_CpURhK6QSfDkKMwHN4/view?usp=sharing" target="_blank">Term Dates 2022-2023</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1f5gVLuHgOxWnJCdhsBBmVu9Qyb0hjcem/view?usp=sharing" target="_blank">Academic Year Planner 2022-2023</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1bYrQhJGQmjj-sh20wS8j0vX6gv8waweV/view?usp=sharing" target="_blank">Attendance Policy</a></u><br/><br/>
+                                                        <u><a href="https://drive.google.com/file/d/1Ks6_MSGBtFxkf9vf3ELGB_mUmy9ZLItn/view?usp=sharing" target="_blank">Uniform Information</a></u>
+                                                        <u><a href="/policies" target="_blank">Complaints Procedure & Admissions Policy </a></u><br/><br/>
                                                         </div>
                                                         <h1 className="down-mark-line">Fees</h1>
                                                         <p>Our fee policy is updated at the start of each new academic year. Further information relating to our fee payment policy, 

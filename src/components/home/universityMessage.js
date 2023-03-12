@@ -22,7 +22,7 @@ const UniversityMessage = () => {
                                 for the first time. However, my team and I will support and encourage all of our students to ensure that they 
                                 are not overwhelmed and achieve their full potential.</p>
                         </div>
-                        <div className="message-meta">
+                        <div className="message-meta"> 
                             <Link to="/instructor-profile"><img src="/assets/img/member/member-img-01.png" alt="meta-img" /></Link>
                             <div className="message-meta-link">
                                 <Link to="/instructor-profile"><h3>Dr Farah Ahmed</h3></Link>
