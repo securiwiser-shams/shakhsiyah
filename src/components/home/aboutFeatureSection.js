@@ -46,7 +46,7 @@ const AboutFeatureSection = () => {
                             </div>
                             <div className="features-text">
                                 <h3>RESPECT</h3>
-                                <p>We appreciate beauty in God's creation, RESPECT and love everyone for Allah's sake</p>
+                                <p class="blackTextOverride"> We appreciate beauty in God's creation, RESPECT and love everyone for Allah's sake</p>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ const AboutFeatureSection = () => {
                             </div>
                             <div className="features-text">
                                 <h3>EXCELLENCE</h3>
-                                <p>We embrace challenge and strive for EXCELLENCE in everything we do using a growth mindset</p>
+                                <p class="blackTextOverride"> We embrace challenge and strive for EXCELLENCE in everything we do using a growth mindset</p>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@ const AboutFeatureSection = () => {
                             </div>
                             <div className="features-text">
                                 <h3>PIETY</h3>
-                                <p>We strive to attain PIETY through patience, prayer, gratitude and benefiting our community</p>
+                                <p class="blackTextOverride"> We strive to attain PIETY through patience, prayer, gratitude and benefiting our community</p>
                             </div>
                         </div>
                     </div>

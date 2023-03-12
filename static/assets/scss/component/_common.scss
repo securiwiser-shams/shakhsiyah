@@ -223,6 +223,9 @@ h5 {
 h6 {
 	font-size: 14px;
 }
+h2, .h2 {
+	font-size: 46px !important;
+  }
 ul {
 	margin: 0px;
 	padding: 0px;
@@ -370,6 +373,19 @@ u {
 .black-color {
 	color: $black;
 }
+.gold-color {
+	color: $gold;
+}
+.whiteTextOverride
+{   color: $white !important;
+}
+.blackTextOverride
+{   color: $black !important;
+}
+.circular-img {
+	border-radius: 50%;
+	font: $white;
+}
 
 // spacing
 
@@ -394,6 +410,12 @@ u {
 .body-overlay.opened {
 	opacity: 1;
 	visibility: visible;
+}
+.background-message {
+	height: 100%;
+	width: 100%;
+	background-color: $navy;
+	margin-top: -90px;
 }
 
 // extra css

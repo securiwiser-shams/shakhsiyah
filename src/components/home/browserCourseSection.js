@@ -37,7 +37,7 @@ const BrowserCourseSection = () => {
                                     <div className="browser-course-content">
                                         <span>Slough Branch</span>
                                         <div className="browser-course-tittle">
-                                            <Link to="/parents">Cippenham Lodge, Cippenham  Ln, Slough, SL1 5AN</Link>
+                                            <Link to="/parents">Cippenham Lodge, Cippenham Ln, Slough, SL1 5AN</Link>
                                         </div>
                                         <div className="browser-btn">
                                         <Link to="/parents" className="course-btn">Visit School</Link>
