@@ -35,16 +35,16 @@ const PartnerSection = () => {
                                 <img src="/assets/img/brand/haringey.png" alt="not found" />
                             </div>
                             <div className="singel-partner">
-                                <img src="/assets/img/brand/isa.png" alt="not found" />
+                                <img src="/assets/img/brand/ams.png" alt="not found" />
                             </div>
                             <div className="singel-partner">
-                                <img src="/assets/img/brand/ams.png" alt="not found" />
+                                <img src="/assets/img/brand/isa.png" alt="not found" />
                             </div>
                             <div className="singel-partner">
                                 <img src="/assets/img/brand/nida.png" alt="not found" />
                             </div>
                             <div className="singel-partner">
-                                <img src="/assets/img/brand/ti.png" alt="not found" />
+                                <img src="/assets/img/brand/isa.png" alt="not found" />
                             </div>
                             <div className="singel-partner">
                                 <img src="/assets/img/brand/securiwiser.png" alt="not found" />
