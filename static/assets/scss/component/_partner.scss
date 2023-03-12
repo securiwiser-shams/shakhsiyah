@@ -7,13 +7,14 @@
 @use "../abstract" as *;
 
 .patner-area {
-	background-color: $section-bg;
+	background-color: $white;
 }
 .partner-wrapper {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 45px 70px;
+	gap: 130px 70px;
+	width: 900px;
 	margin-top: 10px;
 	@media #{$xl} {
 		gap: 45px 45px;

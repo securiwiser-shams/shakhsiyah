@@ -83,6 +83,18 @@
 		margin-left: 0;
 	}
 }
+.f-w5 {
+	margin-left: 100px;
+	@media #{$xl} {
+		margin-left: 70px;
+	}
+	@media #{$lg} {
+		margin-left: 20px;
+	}
+	@media #{$md,$sm,$xs} {
+		margin-left: 0;
+	}
+}
 
 .footer-icon {
 	@media #{$md} {

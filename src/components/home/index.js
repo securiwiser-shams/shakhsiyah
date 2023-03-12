@@ -6,6 +6,7 @@ import UniversityCardSection from './universityCardSection';
 import UniversityMessage from './universityMessage';
 import AboutFeatureSection from './aboutFeatureSection'; 
 import AboutFeatureVideo from './aboutFeatureVideo';
+import PartnerSection from './partnerSection';
 import GallaryInstaSection from './gallaryInstaSection';
 import BrowserCourseSection from './browserCourseSection';
 
@@ -20,6 +21,7 @@ const index = () => {
                 <AboutFeatureSection />
                 <AboutFeatureVideo />
                 <BrowserCourseSection />
+                <PartnerSection />
                 <GallaryInstaSection />
             </main>
             <Footer />
