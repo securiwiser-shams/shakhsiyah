@@ -3,12 +3,12 @@ import React from 'react';
 
 const BrowserCourseSection = () => {
     return (
-        <div className="browser-course-area">
+        <div className="browser-course-area background-area">
             <div className="container">
                 <div className="row">
                 <div className="col-12">
-                        <div className="section-title text-center mb-60">
-                            <h1>Our School <span className="down-mark-line-2"> Settings</span></h1>
+                        <div className="section-title text-center mb-60"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h1 class="white-color"> Our School <span className="down-mark-line-2"> Settings</span></h1>
                         </div>
                     </div>
                         <div className="col-xl-6 col-lg-6 col-md-12 mb-30">

@@ -417,7 +417,12 @@ u {
 	background-color: $navy;
 	margin-top: -90px;
 }
-
+.background-area {
+	height: 100%;
+	width: 100%;
+	background-color: $navy;
+	margin-top: -360px;
+}
 // extra css
 .progress-wrap {
 	@media #{$xs} {

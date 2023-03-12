@@ -106,8 +106,8 @@
 	left: -14%;
 	line-height: 18px;
 	span {
-		color: $heading-color;
-		font-weight: 700;
+		color: $gold;
+		font-weight: 900;
 	}
 	@media #{$md,} {
 		left: -20%;
@@ -138,7 +138,7 @@
 	}
 	img {
 		position: absolute;
-		bottom: -95px;
+		bottom: -146px;
 		right: 38px;
 	}
 }
