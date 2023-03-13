@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                 <div className="footer-widget f-w1 mb-40">
                                     <div className="footer-img">
-                                        <Link to="/"><img src="/assets/img/logo/footer-logo.svg" alt="footer-logo" /></Link>
+                                        <Link to="/"><img src="/assets/img/logo/footer-logo.png" alt="footer-logo" /></Link>
                                         <p>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lessons as best plans to knowledge.</p>
                                     </div>
                                     <div className="footer-icon">
@@ -26,7 +26,7 @@ const Footer = () => {
                                 <div className="footer-widget f-w2 mb-40">
                                     <h3>Online Platform</h3>
                                     <ul>
-                                        <li><Link to="/course">Proper Guidelines</Link></li>
+                                        <li><Link to="/contact">Contact</Link></li>
                                         <li><Link to="/course">Digital Library</Link></li>
                                         <li><Link to="/course">Compare Us</Link></li>
                                         <li><Link to="/become-instructor">Become Instructor</Link></li>
@@ -51,8 +51,8 @@ const Footer = () => {
                                     <h3>Insight Community</h3>
                                     <ul>
                                         <li><Link to="/course">Global Partners</Link></li>
-                                        <li><Link to="/contact">Contact</Link></li>
-                                        <li><Link to="/contact">Con</Link></li>
+                                        <li><Link to="/contact">Forum</Link></li>
+                                        <li><Link to="/contact">Help and Support</Link></li>
                                         <li><Link to="/contact">Community</Link></li>
                                         <li><Link to="/faq-page">Documentation</Link></li>
                                     </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
                             <div className="row">
                                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                     <div className="copyright-text border-line">
-                                        <p>© Copyrighted and Designed by <a href="https://www.justgetvisible.com"><span>Just Get Visible Ltd</span></a></p>
+                                        <p>© Copyrighted and Designed by <a href="https://themeforest.net/user/bdevs"><span>BDevs</span></a></p>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-lg-4 col-sm-6">
