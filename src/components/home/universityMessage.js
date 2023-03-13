@@ -23,7 +23,7 @@ const UniversityMessage = () => {
                                 are not overwhelmed and achieve their full potential.</p>
                         </div>
                         <div className="message-meta"> 
-                            <Link to="/instructor-profile"><img class="circular-img" src="/assets/img/member/member-img-01.png" alt="meta-img" /></Link>
+                            <Link to="/instructor-profile"><img class="circular-img" src="/assets/img/member/member-img-01.png" alt="meta-img" width="150" height="150" /></Link>
                             <div className="message-meta-link">
                                 <Link to="/instructor-profile"><h3 class="whiteTextOverride"> Dr Farah Ahmed</h3></Link>
                                 <p class="whiteTextOverride"> Chair of Trustees and Director of Education and Research</p>

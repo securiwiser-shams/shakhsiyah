@@ -6,31 +6,31 @@ const GallaryInstaSection = () => {
             <div className="swiper-containers">
                 <div className="swiper-wrappers gallery-inner">
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary1.png" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary1.png" alt="img not found" width="384" height="431"/>
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary2.png" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary2.png" alt="img not found" width="384" height="431" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary3.png" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary3.png" alt="img not found" width="384" height="431" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary4.png" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary4.png" alt="img not found" width="384" height="431" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <img src="/assets/img/gallery/gallary5.png" alt="img not found" />
+                        <img src="/assets/img/gallery/gallary5.png" alt="img not found" width="384" height="431" />
                         <div className="gallery-link">
                             <a href="#" className="gallery-insta"><i className="fab fa-instagram"></i></a>
                         </div>
