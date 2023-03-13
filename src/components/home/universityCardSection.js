@@ -69,7 +69,7 @@ const UniversityCardSection = () => {
                                 </div>
                                 <div className="university-card-content">
                                     <h3>Early Years</h3>
-                                    <p>Full time early years education  for children ages 4 to 7.</p>
+                                    <p>Full time early years education for children ages 4 to 7.</p>
                                 </div>
                             </div>
                             <div className="university-card-wrapper">
@@ -229,7 +229,7 @@ const UniversityCardSection = () => {
                                 </div>
                                 <div className="university-card-content">
                                     <h3>Secondary School</h3>
-                                    <p>Higher education is designed for career professionals seeking</p>
+                                    <p>Higher education is designed forcareer professionals seeking</p>
                                 </div>
                             </div>
                         </div>
