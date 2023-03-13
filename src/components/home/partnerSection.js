@@ -11,8 +11,8 @@ const PartnerSection = () => {
                                 <img src="/assets/img/bg/partner.png" alt="partner-png" />
                             </div>
                             <div className="section-title mb-30">
-                                <h2>Our Schools are <span className="down-mark-line-2"> Regulated </span> by</h2><br/>
-                                <h2>We are <span className="down-mark-line-2"> Members </span> of/Work with</h2>
+                                <h3 class="font-partner"> Our Schools are <span className="down-mark-line-2"> Regulated </span> by</h3><br/><br/>
+                                <h3 class="font-partner"> We are <span className="down-mark-line-2"> Members </span> of/Work with</h3>
                             </div>
                             <div className="Partner-content">
                                 <div className="partner-text">

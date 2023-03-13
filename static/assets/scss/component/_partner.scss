@@ -11,13 +11,13 @@
 }
 .partner-wrapper {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	flex-wrap: wrap;
 	gap: 110px 70px;
 	width: 900px;
 	margin-top: 10px;
 	@media #{$xl} {
-		gap: 45px 45px;
+		gap: 80px 45px;
 	}
 }
 .partner-box {

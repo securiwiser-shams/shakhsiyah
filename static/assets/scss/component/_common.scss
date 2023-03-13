@@ -228,7 +228,6 @@ h2, .h2 {
   }
 ul {
 	margin: 0px;
-	padding: 0px;
 }
 li {
 	list-style: none;
@@ -385,6 +384,9 @@ u {
 .circular-img {
 	border-radius: 50%;
 	font: $white;
+}
+.font-partner {
+	font-size: 36px;
 }
 
 // spacing
