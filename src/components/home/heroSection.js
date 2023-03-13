@@ -20,7 +20,7 @@ const HeroSection = () => {
                             <img data-depth="0.2" className="shape-2" src="/assets/img/shape/shape-02.png" alt="shape" />
                             <img className="shape-6" src="/assets/img/shape/slider-shape-6.png" alt="shape" />
                             <div className="shape-4">
-                                <img className="" src="/assets/img/shape/shape-04.png" alt="shape" />
+                                <img className="" src="/assets/img/shape/shape-04.png" alt="shape" width="80" height="80" />
                                 <h5 className="hero-shape-text">Top Rated
                                     Teachers</h5>
                             </div>

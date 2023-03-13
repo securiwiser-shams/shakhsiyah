@@ -8,7 +8,7 @@ const PartnerSection = () => {
                     <div className="col-xl-5 col-lg-4 col-md-4">
                         <div className="partner-box mb-30">
                             <div className="partner-thumb d-none d-sm-block">
-                                <img src="/assets/img/bg/partner.png" alt="partner-png" />
+                                <img src="/assets/img/bg/partner.png" alt="partner-png" width="757" height="474" />
                             </div>
                             <div className="section-title mb-30">
                                 <h2>Our <span className="down-mark-line-2"> Global </span> Honorable Partners

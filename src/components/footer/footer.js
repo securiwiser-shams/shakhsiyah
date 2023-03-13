@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                 <div className="footer-widget f-w1 mb-40">
                                     <div className="footer-img">
-                                        <Link to="/"><img src="/assets/img/logo/footer-logo.svg" alt="footer-logo" /></Link>
+                                        <Link to="/"><img src="/assets/img/logo/footer-logo.svg" alt="footer-logo" width="211" height="71" /></Link>
                                         <p>The principle of loving learning for the sake of Allah as growing towards Allah is the ultimate purpose of the human being.</p>
                                     </div>
                                     <div className="footer-icon">

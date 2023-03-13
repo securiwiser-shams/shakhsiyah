@@ -2,13 +2,13 @@ import React from 'react';
 
 const PartnerSection = () => {
     return (
-        <div className="patner-area pt-110 pb-80">
+        <div className="patner-area pt-110 pb-80"> 
             <div className="container">
                 <div className="row">
                     <div className="col-xl-3 col-lg-4 col-md-4">
                         <div className="partner-box mb-30">
                             <div className="partner-thumb d-none d-sm-block">
-                                <img src="/assets/img/bg/partner.png" alt="partner-png" />
+                                <img src="/assets/img/bg/partner.png" alt="partner-png" width="757" height="474"  />
                             </div>
                             <div className="section-title mb-30">
                                 <h3 class="font-partner"> Our Schools are <span className="down-mark-line-2"> Regulated </span> by</h3><br/><br/>
