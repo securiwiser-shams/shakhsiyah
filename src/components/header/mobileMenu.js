@@ -143,6 +143,7 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                                     <li><Link to="/policies">Policies</Link></li>
                                     <li><Link to="/vacancies">Vacancies</Link></li>
                                     <li><Link to="/parents">Information for Parent</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </li>
                             <li className={courses ? "has-droupdown active" : "has-droupdown"}>
@@ -157,6 +158,8 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                                     <li><Link to="/early-curriculum">Curriculum</Link></li>
                                     <li><Link to="/early-assessment">Assessment</Link></li>
                                     <li><Link to="/school-life-early">School Life</Link></li>
+                                    <li><Link to="#">Term Dates</Link></li>
+                                    <li><Link to="#">Calendar</Link></li>
                                     </ul>
                             </li>
                             <li className={project ? "has-droupdown active" : "has-droupdown"}>
@@ -165,13 +168,18 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                                     <li><Link to="/primary-curriculum">Curriculum</Link></li>
                                     <li><Link to="/primary-assessment">Assessment</Link></li>
                                     <li><Link to="/school-life-primary">School Life</Link></li>
+                                    <li><Link to="#">Term Dates</Link></li>
+                                    <li><Link to="#">Calendar</Link></li>
                                     </ul>
                             </li>
                             <li className={project ? "has-droupdown active" : "has-droupdown"}>
                                 <a onClick={() => { openMobileMenu('project'); }}>Secondary School</a>
                                 <ul className={project ? "sub-menu active" : "sub-menu"}>
                                     <li><Link to="/secondary-curriculum">Curriculum</Link></li>
+                                    <li><Link to="#">Assessment</Link></li>
                                     <li><Link to="/school-life-secondary">School Life</Link></li>
+                                    <li><Link to="#">Term Dates</Link></li>
+                                    <li><Link to="#">Calendar</Link></li>
                                 </ul>
                             </li>
                             <li className={instructor ? "has-droupdown active" : "has-droupdown"}>
