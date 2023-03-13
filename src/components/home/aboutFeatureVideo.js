@@ -23,7 +23,7 @@ const AboutFeatureVideo = () => {
                                     <img className="features-shape-2" src="/assets/img/shape/features-shape-2.png" alt="features-shape-2" />
                                 </div>
                                 <div className="reatures-video-thumb">
-                                    <img src="/assets/img/features/features.jpg" alt="features-img" width="1070" height="550" /> 
+                                    <img src="/assets/img/features/features.jpg" alt="features-img" /> 
                                 </div>
                                 <div className="features-video-content">
                                     <div className="features-btn">
