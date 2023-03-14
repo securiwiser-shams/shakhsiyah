@@ -11,7 +11,7 @@ const InstructorProfile = () => {
                 <div className="row">
                     <div className="col-xl-3 col-lg-3">
                         <div className="course-instructors-img mb-30">
-                            <img className="mb-20" src="/assets/img/course/farahahmed.png" alt="instructors-img" />
+                            <img className="mb-20" class="circular-img" src="/assets/img/course/farahahmed.png" alt="instructors-img" />
                             <div className="course-details-tittle mb-30">
                                 <h3>Dr Farah Ahmed</h3>
                                 <span className="d-block mb-15">Chair of Trustees and Director of Education and Research</span>
