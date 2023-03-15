@@ -16,7 +16,7 @@
     "gatsby-plugin-offline": "^6.1.0",
     "gatsby-plugin-sass": "^6.1.0",
     "gatsby-plugin-sharp": "^5.7.0",
-    "gatsby-plugin-sitemap": "^3.30",
+    "gatsby-plugin-sitemap": "^3.3.0",
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
     "prop-types": "^15.8.1",
