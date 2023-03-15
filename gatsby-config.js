@@ -3,6 +3,8 @@ module.exports = {
     title: `Shakhsiyah Schools`,
     description: `Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah.`,
     author: `@r-ichard`,
+    siteUrl: 'https://shakhsiyah.netlify.app/',
+
   },
   plugins: [
     {
