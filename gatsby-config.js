@@ -14,7 +14,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
@@ -47,5 +46,25 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: "gatsby-plugin-complex-sitemap-tree",
+      options: {
+        query: `
+          {
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+          }
+        `,
+        serialize: ({ path }) => ({
+          url: path,
+          changefreq: "daily",
+          priority: 0.7,
+        }),
+        output: "/sitemap.xml",
+      },
+    },
   ],
-}
+};

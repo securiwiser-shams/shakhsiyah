@@ -10,6 +10,7 @@
     "bootstrap": "^5.2.2",
     "gatsby": "^5.1.0",
     "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-complex-sitemap-tree": "^1.0.2",
     "gatsby-plugin-gatsby-cloud": "^5.1.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.1.0",
