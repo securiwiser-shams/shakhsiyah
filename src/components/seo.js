@@ -1,9 +1,8 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import SEO from "../components/SEO"
 
-const SEO = ({ title, description, image }) => {
+const SeoComponent = ({ title, description, image }) => {
   const { site } = useStaticQuery(query)
 
   const {
@@ -39,7 +38,7 @@ const SEO = ({ title, description, image }) => {
 }
 
 const query = graphql`
-  query SEO {
+  query {
     site {
       siteMetadata {
         defaultTitle: title
@@ -52,4 +51,4 @@ const query = graphql`
   }
 `
 
-export default SEO
+export default SeoComponent
