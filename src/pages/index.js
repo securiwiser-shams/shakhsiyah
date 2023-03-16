@@ -2,7 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import HomeMain from "../components/home"
-import { SEO } from "../components/layout/seo"
+import SEO from "../components/seo/seo"
 
 export const query = graphql`
   query {
@@ -17,6 +17,7 @@ export const query = graphql`
     }
   }
 `
+
 const IndexPage = ({ data }) => {
   const seoImageUrl = data?.allFile?.edges[0]?.node?.publicURL
   return (
@@ -32,3 +33,7 @@ const IndexPage = ({ data }) => {
 }
 
 export default IndexPage
+
+export const Head = () => (
+  <SEO />
+)
