@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Shakhsiyah Schools`,
+    titleTemplate: `%s | My Site`,
     description: `Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah.`,
     author: `@r-ichard`,
-    siteUrl: 'https://shakhsiyah.netlify.app/'
+    siteUrl: 'https://shakhsiyah.netlify.app/',
+    url: `https://shakhsiyah.netlify.app/`,
+    image: `src/images/gatsby-icon.png`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -62,5 +65,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-  ],
-};
+    `gatsby-plugin-react-helmet`
+  ]
+}

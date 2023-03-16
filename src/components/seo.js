@@ -1,25 +1,54 @@
 import React from "react"
-import { useSiteMetadata } from "../hooks/use-site-metadata"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
-export const Seo = ({ title, description, pathname, children }) => {
-    const { title: defaultTitle, description: defaultDescription, siteUrl } = useSiteMetadata()
+const SEO = ({ title, description, image }) => {
+  const { site } = useStaticQuery(query)
 
-    const seo = {
-        title: title || defaultTitle,
-        description: description || defaultDescription,
-        url: `${siteUrl}${pathname || ``}`,
-    }
+  const {
+    defaultTitle,
+    titleTemplate,
+    defaultDescription,
+    siteUrl,
+    defaultImage,
+  } = site.siteMetadata
 
-    return (
-        <>
-            <title>{seo.title}</title>
-            <meta name="description" content={seo.description} />
-            <meta name="twitter:title" content={seo.title} />
-            <meta name="twitter:url" content={seo.url} />
-            <meta name="twitter:description" content={seo.description} />
-            <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700;800&family=serif:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
-            <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
-            {children}
-        </>
-    )
+  const seo = {
+    title: title || defaultTitle,
+    description: description || defaultDescription,
+    image: `${siteUrl}${image || defaultImage}`,
+  }
+
+  return (
+    <Helmet title={seo.title} titleTemplate={titleTemplate}>
+      <meta name="description" content={seo.description} />
+      <meta name="image" content={seo.image} />
+
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
+      <meta property="og:image" content={seo.image} />
+      <meta property="og:image:alt" content={seo.title} />
+
+      <meta property="twitter:title" content={seo.title} />
+      <meta property="twitter:description" content={seo.description} />
+      <meta property="twitter:image" content={seo.image} />
+      <meta property="twitter:image:alt" content={seo.title} />
+    </Helmet>
+  )
 }
+
+const query = graphql`
+  query SEO {
+    site {
+      siteMetadata {
+        defaultTitle: title
+        titleTemplate
+        defaultDescription: description
+        siteUrl: url
+        defaultImage: image
+      }
+    }
+  }
+`
+
+export default SEO
