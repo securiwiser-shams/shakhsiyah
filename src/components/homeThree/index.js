@@ -10,25 +10,31 @@ import GallaryInstaSection from './gallaryInstaSection';
 import HeroSectionThree from './heroSectionThree';
 import UniversityCardSection from './universityCardSection';
 import UniversityMessage from './universityMessage';
+import SeoComponent from "../seo"
 
-const index = () => {
+const IndexPage = () => {
     return (
-        <>
-            <HeaderThree />
-            <main>
-                <HeroSectionThree />
-                <UniversityCardSection />
-                <UniversityMessage />
-                <AcademicCourse />
-                <CounterSectionThree />
-                <CampusSection />
-                <EventSection />
-                <BlogSection />
-                <GallaryInstaSection />
-            </main>
-            <FooterTwo />
-        </>
+      <>
+        <SeoComponent 
+          title="Home Page"
+          description="This is the homepage of my Gatsby site"
+          // provide the correct image path here
+          image="/images/homepage.png"
+        />
+        <HeaderThree />
+        <main>
+          <HeroSectionThree />
+          <UniversityCardSection />
+          <UniversityMessage />
+          <AcademicCourse />
+          <CounterSectionThree />
+          <CampusSection />
+          <EventSection />
+          <BlogSection />
+          <GallaryInstaSection />
+        </main>
+        <FooterTwo />
+      </>
     );
-};
-
-export default index;
+  };
+  
