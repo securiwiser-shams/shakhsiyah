@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: 'https://shakhsiyah.netlify.app/',
     url: `https://shakhsiyah.netlify.app/`,
     image: `static/gatsby-icon.png`, 
+    twitterUsername: "AbuRuqyyyah",
   },
   plugins: [
     `gatsby-plugin-sitemap`,
