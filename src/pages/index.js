@@ -1,7 +1,8 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Seo from "../components/layout/seo"
+import HomeMain from "../components/home"
+import { Seo } from "../components/layout/seo"
 
 export const query = graphql`
   query {
@@ -25,6 +26,7 @@ const IndexPage = ({ data }) => {
         description="Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah."
         title="Shakhsiyah Schools"
       />
+      <HomeMain />
     </Layout>
   )
 }
