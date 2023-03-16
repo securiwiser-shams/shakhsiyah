@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import SEO from "../components/SEO"
 
 const SEO = ({ title, description, image }) => {
   const { site } = useStaticQuery(query)
