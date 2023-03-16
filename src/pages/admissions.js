@@ -23,8 +23,8 @@ const BlogDetailsPage = ({ data }) => {
     <Layout>
       <SEO
         image={seoImageUrl?.length > 1 ? `https://shakhsiyah.netlify.app${seoImageUrl}` : null}
-        description="Securiwiser is a cybersecurity service provider offering the best cybersecurity consulting & cyber risk monitoring services. We can assist you with effective cybersecurity tools to monitor & protect your business from cyber-attack. Get in touch with us today! "
-        title="Best Cybersecurity Service Provider | Cybersecurity Consulting Firm"
+        description="Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah."
+        title="Shakhsiyah Schools"
       />
       <BlogDetailsPageMain />
     </Layout>
