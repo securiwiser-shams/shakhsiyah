@@ -39,13 +39,13 @@ function Seo({ description, lang, image, meta, title }) {
           property: `og:image`,
           content:
             image ||
-            "https://user-images.githubusercontent.com/50321640/155998484-594aaef9-5780-4ce6-8667-4ecac4f23e09.jpg",
+            "https://raw.githubusercontent.com/shakhsiyah/shakhsiyah/60fe6f0dcbb0e9d6797765f5631c6e62aaeddf54/logo-share.png?token=GHSAT0AAAAAACAEBPNHL2VQ5YNEYUZFEQM6ZATFS4Q",
         },
         {
           property: `twitter:image`,
           content:
             image ||
-            "https://user-images.githubusercontent.com/50321640/155998484-594aaef9-5780-4ce6-8667-4ecac4f23e09.jpg",
+            "https://raw.githubusercontent.com/shakhsiyah/shakhsiyah/60fe6f0dcbb0e9d6797765f5631c6e62aaeddf54/logo-share.png?token=GHSAT0AAAAAACAEBPNHL2VQ5YNEYUZFEQM6ZATFS4Q",
         },
         {
           name: `twitter:card`,
