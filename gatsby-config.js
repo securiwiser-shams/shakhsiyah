@@ -6,7 +6,7 @@ module.exports = {
     author: `@r-ichard`,
     siteUrl: 'https://shakhsiyah.netlify.app/',
     url: `https://shakhsiyah.netlify.app/`,
-    image: `src/images/gatsby-icon.png`,
+    image: `static/gatsby-icon.png`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,

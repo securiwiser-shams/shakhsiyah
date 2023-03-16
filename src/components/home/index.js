@@ -9,11 +9,17 @@ import AboutFeatureVideo from './aboutFeatureVideo';
 import PartnerSection from './partnerSection';
 import GallaryInstaSection from './gallaryInstaSection';
 import BrowserCourseSection from './browserCourseSection';
+import Seo from "../components/Seo"
 
-const index = () => {
+const IndexPage = () => {
     return (
         <>
-        <Header />
+            <Seo 
+                title="Home Page"
+                description="This is the homepage of my Gatsby site"
+                image="/static/gatsby-icon.jpg"
+            />
+            <Header />
             <main>
                 <HeroSection />
                 <UniversityCardSection />
@@ -29,4 +35,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default IndexPage;
