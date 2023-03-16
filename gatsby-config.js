@@ -44,6 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
+        host: 'https://shakhsiyah.netlify.app',
+        sitemap: `https://shakhsiyah.netlify.app/sitemap.xml`,
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
