@@ -9,7 +9,7 @@ import AboutFeatureVideo from './aboutFeatureVideo';
 import PartnerSection from './partnerSection';
 import GallaryInstaSection from './gallaryInstaSection';
 import BrowserCourseSection from './browserCourseSection';
-import SeoComponent from "../../components/Seo"
+import SeoComponent from "/components/Seo"
 
 const IndexPage = () => {
   return (
