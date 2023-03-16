@@ -39,13 +39,13 @@ function Seo({ description, lang, image, meta, title }) {
           property: `og:image`,
           content:
             image ||
-            "https://raw.githubusercontent.com/shakhsiyah/shakhsiyah/main/src/images/logo-thumb.png?token=GHSAT0AAAAAACAEBPNG5N632HN562YPRNVUZATFZCQ",
+            "https://shakhsiyah.netlify.app/assets/img/logo/logo-thumb.png",
         },
         {
           property: `twitter:image`,
           content:
             image ||
-            "https://raw.githubusercontent.com/shakhsiyah/shakhsiyah/main/src/images/logo-thumb.png?token=GHSAT0AAAAAACAEBPNG5N632HN562YPRNVUZATFZCQ",
+            "https://shakhsiyah.netlify.app/assets/img/logo/logo-thumb.png",
         },
         {
           name: `twitter:card`,
