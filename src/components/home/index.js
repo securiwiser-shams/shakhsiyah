@@ -17,7 +17,8 @@ const IndexPage = () => {
       <SeoComponent 
         title="Home Page"
         description="This is the homepage of my Gatsby site"
-        image="/static/gatsby-icon.png"
+        // provide the correct image path here
+        image="/images/homepage.png"
       />
       <Header />
       <main>
