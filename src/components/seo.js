@@ -32,7 +32,7 @@ const SeoComponent = ({ title, description, image }) => {
       <meta property="twitter:title" content={seo.title} />
       <meta property="twitter:description" content={seo.description} />
       <meta property="twitter:image" content={seo.image} />
-      <meta property="twitter:image:alt" content={seo.title} />
+      <meta property="twitter:image:alt" content={seo.title} /> 
     </Helmet>
   )
 }
