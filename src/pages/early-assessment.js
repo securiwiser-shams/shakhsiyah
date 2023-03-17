@@ -24,8 +24,8 @@ const BlogDetailsPage = ({ data }) => {
     <Layout>
       <Seo
         image={seoImageUrl?.length > 1 ? `https://shakhsiyah.netlify.app${seoImageUrl}` : null}
-        description="Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah."
-        title="Shakhsiyah Schools"
+        description="Our principle of Taqdeer underpins all areas of assessment in our Early Years provision. The Early Years Pedagogy at our schools aims to empower and support children so that they may become powerful learners."
+        title="Early Years Assessment"
       />
       <BlogDetailsPageMain />
     </Layout>

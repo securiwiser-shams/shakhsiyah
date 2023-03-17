@@ -24,8 +24,8 @@ const ShopPage = ({ data }) => {
     <Layout>
       <Seo
         image={seoImageUrl?.length > 1 ? `https://shakhsiyah.netlify.app${seoImageUrl}` : null}
-        description="Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah."
-        title="Shakhsiyah Schools"
+        description="Our free Quranic resources are specially designed for Muslim parents and educators for an at home Halaqah. These are available to download below."
+        title="Family Halaqah"
       />
       <ShopMain />
     </Layout>

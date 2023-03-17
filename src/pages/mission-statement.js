@@ -24,8 +24,8 @@ const AboutPage = ({ data }) => {
     <Layout>
       <Seo
         image={seoImageUrl?.length > 1 ? `https://shakhsiyah.netlify.app${seoImageUrl}` : null}
-        description="Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah."
-        title="Shakhsiyah Schools"
+        description="The Islamic Shakhsiyah Foundation is an educational establishment aimed at providing high quality academic education in combination with classical Islamic culturing as:"
+        title="Mission Statement"
       />
       <AboutMain />
     </Layout>

@@ -24,8 +24,8 @@ const BlogDetailsPage = ({ data }) => {
     <Layout>
       <Seo
         image={seoImageUrl?.length > 1 ? `https://shakhsiyah.netlify.app${seoImageUrl}` : null}
-        description="Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah."
-        title="Shakhsiyah Schools"
+        description="Parents must fill in an application form for their child to be added to the school’s waiting list. If the child already attends another school, a copy of the latest school report will be required during the admission procedure."
+        title="Admissions"
       />
       <BlogDetailsPageMain />
     </Layout>
