@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import ScrollAnimation from "react-animate-on-scroll"
 
 const UniversityCardSection = () => {
     return (
@@ -17,6 +18,10 @@ const UniversityCardSection = () => {
                             </div>
                             <div className="university-card-wrapper">
                                 <div className="university-card-icon">
+                                <ScrollAnimation
+                                 animateIn="fadeIn"
+                                 animateOut="fadeOut"
+                                  >
                                     <svg id="Page-1" xmlns="http://www.w3.org/2000/svg" width="31.154" height="31.157"
                                         viewBox="0 0 31.154 31.157">
                                         <g id="_001---Degree" data-name="001---Degree" transform="translate(0 0)">
@@ -66,6 +71,7 @@ const UniversityCardSection = () => {
                                                 transform="translate(-11.109 -18.052)" fill="#e04c34" />
                                         </g>
                                     </svg>
+                                    </ScrollAnimation> 
                                 </div>
                                 <div className="university-card-content">
                                     <h3>Early Years</h3>
@@ -74,6 +80,10 @@ const UniversityCardSection = () => {
                             </div>
                             <div className="university-card-wrapper">
                                 <div className="university-card-icon">
+                                <ScrollAnimation
+                                  animateIn="fadeIn"
+                                  animateOut="fadeOut"
+                                   >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="27.226" height="31.157"
                                         viewBox="0 0 27.226 31.157">
                                         <g id="graduation" transform="translate(-14.464 -7.667)">
@@ -166,6 +176,7 @@ const UniversityCardSection = () => {
                                                 transform="translate(0)" fill="#032770" />
                                         </g>
                                     </svg>
+                                    </ScrollAnimation> 
                                 </div>
                                 <div className="university-card-content">
                                     <h3>Primary School</h3>
@@ -174,6 +185,10 @@ const UniversityCardSection = () => {
                             </div>
                             <div className="university-card-wrapper">
                                 <div className="university-card-icon">
+                                <ScrollAnimation
+                                 animateIn="fadeIn"
+                                 animateOut="fadeOut"
+                                  >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32.11" height="31.157"
                                         viewBox="0 0 32.11 31.157">
                                         <g id="_x31_9_Know_How" transform="translate(0 -0.9)">
@@ -226,6 +241,7 @@ const UniversityCardSection = () => {
                                             </g>
                                         </g>
                                     </svg>
+                                    </ScrollAnimation> 
                                 </div>
                                 <div className="university-card-content">
                                     <h3>Secondary School</h3>

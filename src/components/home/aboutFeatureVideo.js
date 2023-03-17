@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
+import ScrollAnimation from "react-animate-on-scroll"
 
 const AboutFeatureVideo = () => {
 
@@ -23,7 +24,12 @@ const AboutFeatureVideo = () => {
                                     <img className="features-shape-2" src="/assets/img/shape/features-shape-2.png" alt="features-shape-2" />
                                 </div>
                                 <div className="reatures-video-thumb">
+                                <ScrollAnimation
+                                 animateIn="fadeIn"
+                                 animateOut="fadeOut"
+                                  >
                                     <img src="/assets/img/features/features.jpg" alt="features-img" /> 
+                                    </ScrollAnimation> 
                                 </div>
                                 <div className="features-video-content">
                                     <div className="features-btn">

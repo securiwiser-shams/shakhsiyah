@@ -24,6 +24,7 @@
     "gatsby-transformer-sharp": "^5.7.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-burger-menu": "^3.0.9",
     "react-calendar": "^4.0.0",
     "react-dom": "^18.0.0",

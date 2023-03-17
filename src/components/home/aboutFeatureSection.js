@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from "react-animate-on-scroll"
 
 const AboutFeatureSection = () => {
     return (
@@ -13,6 +14,10 @@ const AboutFeatureSection = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="features-box text-center mb-30">
                             <div className="features-svg">
+                            <ScrollAnimation
+                             animateIn="fadeIn"
+                             animateOut="fadeOut"
+                              >
                                 <svg id="Group_3029" data-name="Group 3029" xmlns="http://www.w3.org/2000/svg" width="79.896"
                                     height="78.92" viewBox="0 0 79.896 78.92">
                                     <path id="Path_7772" data-name="Path 7772"
@@ -43,6 +48,7 @@ const AboutFeatureSection = () => {
                                         d="M95.99,50.744a7.077,7.077,0,0,0,7.069-7.069c-.388-9.377-13.75-9.376-14.137,0A7.076,7.076,0,0,0,95.99,50.744Zm0-11.3a4.235,4.235,0,0,1,0,8.47A4.235,4.235,0,0,1,95.99,39.44Z"
                                         transform="translate(-31.331 -16.03)" fill="#2467ec" />
                                 </svg>
+                                </ScrollAnimation>
                             </div>
                             <div className="features-text">
                                 <h3>RESPECT</h3>
@@ -53,6 +59,10 @@ const AboutFeatureSection = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="features-box text-center mb-30">
                             <div className="features-svg">
+                            <ScrollAnimation
+                             animateIn="fadeIn"
+                             animateOut="fadeOut"
+                              >
                                 <svg id="teacher" xmlns="http://www.w3.org/2000/svg" width="70.837" height="78.921"
                                     viewBox="0 0 70.837 78.921">
                                     <path id="Path_7781" data-name="Path 7781" d="M277.332,341.332h2.952v8.855h-2.952Zm0,0"
@@ -99,6 +109,7 @@ const AboutFeatureSection = () => {
                                     <path id="Path_7795" data-name="Path 7795" d="M373.332,42.668h2.952v2.951h-2.952Zm0,0"
                                         transform="translate(-321.681 -36.765)" fill="#455d76" />
                                 </svg>
+                                </ScrollAnimation>
                             </div>
                             <div className="features-text">
                                 <h3>EXCELLENCE</h3>
@@ -109,6 +120,10 @@ const AboutFeatureSection = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="features-box text-center mb-30">
                             <div className="features-svg">
+                            <ScrollAnimation
+                             animateIn="fadeIn"
+                             animateOut="fadeOut"
+                              >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="78.918" height="78.921"
                                     viewBox="0 0 78.918 78.921">
                                     <g id="save-money" transform="translate(-0.009)">
@@ -139,6 +154,7 @@ const AboutFeatureSection = () => {
                                         </g>
                                     </g>
                                 </svg>
+                                </ScrollAnimation>
                             </div>
                             <div className="features-text">
                                 <h3>PIETY</h3>

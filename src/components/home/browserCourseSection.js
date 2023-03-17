@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import ScrollAnimation from "react-animate-on-scroll"
 
 const BrowserCourseSection = () => {
     return (
@@ -14,7 +15,12 @@ const BrowserCourseSection = () => {
                         <div className="col-xl-6 col-lg-6 col-md-12 mb-30">
                         <div className="browser-course-wrapper course-height">
                             <div className="browser-course-bg">
+                            <ScrollAnimation
+                             animateIn="fadeIn"
+                             animateOut="fadeOut"
+                               >
                                 <img src="/assets/img/browser-course/feature1.png" alt="img not found" width="630" height="270" />
+                                </ScrollAnimation>
                             </div>
                             <div className="browser-course-content">
                                 <span>North London Branch</span>
@@ -30,7 +36,12 @@ const BrowserCourseSection = () => {
                     <div className="col-xl-6 col-lg-6 col-md-12 mb-30">
                         <div className="browser-course-wrapper course-height">
                             <div className="browser-course-bg">
+                            <ScrollAnimation
+                             animateIn="fadeIn"
+                             animateOut="fadeOut"
+                               >
                                 <img src="/assets/img/browser-course/feature2.png" alt="img not found" width="630" height="270" />
+                                </ScrollAnimation>
                             </div>
                             <div className="row">
                                 <div className="col-xl-7 col-lg-7">
