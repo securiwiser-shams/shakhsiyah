@@ -12,8 +12,12 @@ const PartnerSection = () => {
                                 <img src="/assets/img/bg/partner.png" alt="partner-png" width="757" height="474"  />
                             </div>
                             <div className="section-title mb-30">
+                            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
                                 <h3 class="font-partner"> Our Schools are <span className="down-mark-line-2"> Regulated </span> by</h3><br/><br/>
-                                <h3 class="font-partner"> We are <span className="down-mark-line-2"> Members </span> of/Work with</h3>
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                            <h3 class="font-partner"> We are <span className="down-mark-line-2"> Members </span> of/Work with</h3>
+                            </ScrollAnimation>
                             </div>
                             <div className="Partner-content">
                                 <div className="partner-text">

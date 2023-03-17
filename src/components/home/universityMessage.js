@@ -9,11 +9,20 @@ const UniversityMessage = () => {
                 <div className="row">
                     <div className="col-xl-4 col-lg-4">
                         <div className="section-title mb-30">
+                        <ScrollAnimation
+                                 animateIn="fadeIn"
+                                 animateOut="fadeOut"
+                                  >
                             <h2 class="gold-color"> Welcome to Islamic <span className="down-mark-line-2">Shakhsiyah</span> School</h2>
+                            </ScrollAnimation> 
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4">
                         <div className="message-profile-text">
+                        <ScrollAnimation
+                                 animateIn="fadeIn"
+                                 animateOut="fadeOut"
+                                  >
                         <h3 class="whiteTextOverride"> <b>Principles welcome</b></h3><br/>
                             <p class="whiteTextOverride"> Assalamu alaikum,</p>
                             <p class="whiteTextOverride"> I am delighted that you are considering Shakshsiyah for your daughter. </p>
@@ -22,6 +31,7 @@ const UniversityMessage = () => {
                                 We appreciate that students have different educational backgrounds and some may well be exposed to a subject 
                                 for the first time. However, my team and I will support and encourage all of our students to ensure that they 
                                 are not overwhelmed and achieve their full potential.</p>
+                                </ScrollAnimation> 
                         </div>
                         <div className="message-meta"> 
                         <ScrollAnimation
@@ -39,6 +49,10 @@ const UniversityMessage = () => {
                     </div>
                     <div className="col-xl-4 col-lg-4">
                     <div className="message-profile-text"><br/><br/><br/><br/>
+                    <ScrollAnimation
+                                 animateIn="fadeIn" 
+                                 animateOut="fadeOut"
+                                  > 
                             <p class="whiteTextOverride">We have carefully designed a curriculum that aims to cater for the spiritual, intellectual and 
                                 worldly needs of the student. To this end, we have placed a strong emphasis on the study of the 
                                 Arabic language; the spiritual and worldly advantages of which are obvious. Moreover, the Arabic 
@@ -46,6 +60,7 @@ const UniversityMessage = () => {
                                 student to their Islamic heritage: it functions in much the same way as Greek and Latin did in the 
                                 Liberal education once afforded children in this country. Accordingly, students will throughout the 
                                 course of their time, be exposed to Arabic on a daily basis..</p>
+                                </ScrollAnimation> 
                             </div>
                         </div>
                     </div>
