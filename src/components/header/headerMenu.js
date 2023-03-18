@@ -4,7 +4,7 @@ import React from 'react';
 const HeaderMenu = () => {
     return (
         <ul>
-            <li className="menu-item-has-children"><Link to="#">About Us</Link>
+            <li className="menu-item-has-children"><Link to="/principle">About Us</Link>
                 <ul className="sub-menu">
                     <li><Link to="/principles">Principles</Link></li>
                     <li><Link to="/mission-statement">Mission Statement</Link></li>
@@ -22,7 +22,7 @@ const HeaderMenu = () => {
             </li>
             <li className="menu-item-has-children"><Link to="/admissions">Admissions</Link>
             </li>
-            <li className="menu-item-has-children"><Link to="#">Early Years</Link>
+            <li className="menu-item-has-children"><Link to="/early-curriculum">Early Years</Link>
                 <ul className="sub-menu">
                     <li><Link to="/early-curriculum">Curriculum</Link></li>
                     <li><Link to="/early-assessment">Assessment</Link></li>
@@ -31,7 +31,7 @@ const HeaderMenu = () => {
                     <li><Link to="#">Calendar</Link></li>
                 </ul>
             </li>
-            <li className="menu-item-has-children"><Link to="#">Primary School</Link>
+            <li className="menu-item-has-children"><Link to="/primary-curriculum">Primary School</Link>
                 <ul className="sub-menu">
                 <li><Link to="/primary-curriculum">Curriculum</Link></li>
                     <li><Link to="/primary-assessment">Assessment</Link></li>
@@ -40,7 +40,7 @@ const HeaderMenu = () => {
                     <li><Link to="#">Calendar</Link></li>
                 </ul>
             </li>
-            <li className="menu-item-has-children"><Link to="#">Secondary School</Link>
+            <li className="menu-item-has-children"><Link to="/secondary-curriculum">Secondary School</Link>
                 <ul className="sub-menu">
                 <li><Link to="/secondary-curriculum">Curriculum</Link></li>
                 <li><Link to="#">Assessment</Link></li>
@@ -49,7 +49,7 @@ const HeaderMenu = () => {
                 <li><Link to="#">Calendar</Link></li> 
             </ul>
             </li>
-            <li className="menu-item-has-children"><Link to="#">ISF Community</Link>
+            <li className="menu-item-has-children"><Link to="/family-halaqah">ISF Community</Link>
                 <ul className="sub-menu">
                     <li><Link to="/family-halaqah">Family Halaqah</Link></li>
                     <li><Link to="/webinars">Webinars</Link></li>
