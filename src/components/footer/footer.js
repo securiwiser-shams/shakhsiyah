@@ -19,11 +19,11 @@ const Footer = () => {
                                         <p>The principle of loving learning for the sake of Allah as growing towards Allah is the ultimate purpose of the human being.</p>
                                     </div>
                                     <div className="footer-icon">
-                                        <a href="https://www.facebook.com/IslamicShakhsiyah/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
-                                        <a href="https://twitter.com/Shakhsiyah" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                                        <a href="https://www.instagram.com/islamicshakhsiyah/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                                        <a href="https://www.linkedin.com/company/islamic-shakhsiyah-foundation/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/c/IslamicShakhsiyahFoundation" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+                                        <a href="https://www.facebook.com/IslamicShakhsiyah/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page"><i className="fab fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/Shakhsiyah" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter"><i className="fab fa-twitter"></i></a>
+                                        <a href="https://www.instagram.com/islamicshakhsiyah/" target="_blank" rel="noopener noreferrer" aria-label="Islamic Shakhsiyah on Instagram"><i className="fab fa-instagram"></i></a>
+                                        <a href="https://www.linkedin.com/company/islamic-shakhsiyah-foundation/" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn page"><i className="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.youtube.com/c/IslamicShakhsiyahFoundation" target="_blank" rel="noopener noreferrer" aria-label="Visit our YouTube channel"><i className="fab fa-youtube"></i></a>
 
                                     </div>
                                 </div>
@@ -134,9 +134,9 @@ const Footer = () => {
                                         </div>
                                         <div className="copyright-svg-content">
                                             <p>North London Branch</p>
-                                            <h5><a href="tel:0208 802 8651">0208 802 8651</a></h5>
+                                            <h6><a href="tel:0208 802 8651">0208 802 8651</a></h6>
                                             <p>Slough Branch</p>
-                                            <h5><a href="tel:0175 351 8000">0175 351 8000</a></h5>
+                                            <h6><a href="tel:0175 351 8000">0175 351 8000</a></h6>
                                         </div>
                                     </div>
                                 </div>

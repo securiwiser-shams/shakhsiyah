@@ -14,7 +14,9 @@ const HeaderTop = () => {
                 </div>
             </div>
             <div className="eduman-header-notice-action-close">
-                <button onClick={handleToggleF}><i className="fal fa-times"></i></button>
+            <button onClick={handleToggleF} aria-label="Close notification">
+            <i className="fal fa-times"></i>
+            </button>
             </div>
         </div>
     );

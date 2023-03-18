@@ -197,7 +197,7 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                         <div className="menu-search position-relative ">
                             <form action="#" className="filter-search-input">
                                 <input type="text" placeholder="Search keyword" />
-                                <button><i className="fal fa-search"></i></button>
+                                <button aria-label="Search"><i className="fal fa-search"></i></button>
                             </form>
                         </div>
                     </div>

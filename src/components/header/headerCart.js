@@ -31,7 +31,9 @@ const HeaderCart = ({setCartOpen, cartOpen}) => {
                     <h4>Shopping cart</h4>
                 </div>
                 <div className="cartmini__close">
-                    <button type="button" className="cartmini__close-btn" onClick={() => setCartOpen(false)}><i className="fal fa-times"></i></button>
+                <button type="button" className="cartmini__close-btn" onClick={() => setCartOpen(false)} aria-label="Close Cart">
+                <i className="fal fa-times"></i>
+                </button>                
                 </div>
                 <div className="cartmini__widget">
                     <div className="cartmini__inner">
@@ -51,7 +53,7 @@ const HeaderCart = ({setCartOpen, cartOpen}) => {
                                         <span className="product__sm-price">$24.00</span>
                                     </div>
                                 </div>
-                                <button type='button' className="cartmini__del"><i className="fal fa-times"></i></button>
+                                <button type="button" className="cartmini__del" aria-label="Delete item"><i className="fal fa-times"></i></button>
                             </li>
                             <li>
                                 <div className="cartmini__thumb">
@@ -68,7 +70,7 @@ const HeaderCart = ({setCartOpen, cartOpen}) => {
                                         <span className="product__sm-price">$12.00</span>
                                     </div>
                                 </div>
-                                <button type='button' className="cartmini__del"><i className="fal fa-times"></i></button>
+                                <button type="button" className="cartmini__del" aria-label="Delete item"><i className="fal fa-times"></i></button>
                             </li>
                             <li>
                                 <div className="cartmini__thumb">
@@ -85,7 +87,7 @@ const HeaderCart = ({setCartOpen, cartOpen}) => {
                                         <span className="product__sm-price">$42.00</span>
                                     </div>
                                 </div>
-                                <button type='button' className="cartmini__del"><i className="fal fa-times"></i></button>
+                                <button type="button" className="cartmini__del" aria-label="Delete item"><i className="fal fa-times"></i></button>
                             </li>
                         </ul>
                     </div>

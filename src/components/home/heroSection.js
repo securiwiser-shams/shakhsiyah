@@ -21,8 +21,8 @@ const HeroSection = () => {
                             <img className="shape-6" src="/assets/img/shape/slider-shape-6.png" alt="shape" />
                             <div className="shape-4">
                                 <img className="" src="/assets/img/shape/shape-04.png" alt="shape" width="80" height="80" />
-                                <h5 className="hero-shape-text">Top Rated
-                                    Teachers</h5>
+                                <h4 className="hero-shape-text">Top Rated
+                                    Teachers</h4>
                             </div>
                             <div className="shape-5">
                                 <div className="course-card">
