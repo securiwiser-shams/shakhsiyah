@@ -11,9 +11,14 @@ const UniversityCardSection = () => {
                         <div className="university-main-wraper d-flex align-items-center">
                             <div className="university-course-box">
                                 <div className="university-card-text">
+                                <ScrollAnimation
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
                                     <p>Shakhsiyah Principles</p>
                                     <h3>Our Aims and Objectives</h3>
                                     <Link to="/principles" className="edu-six-btn">View Principles</Link>
+                                    </ScrollAnimation>
                                 </div>
                             </div>
                             <div className="university-card-wrapper">
@@ -74,8 +79,13 @@ const UniversityCardSection = () => {
                                     </ScrollAnimation> 
                                 </div>
                                 <div className="university-card-content">
+                                <ScrollAnimation
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
                                     <h3>Early Years</h3>
                                     <p>Full time early years education for children ages 4 to 7.</p>
+                                    </ScrollAnimation>
                                 </div>
                             </div>
                             <div className="university-card-wrapper">
@@ -179,8 +189,13 @@ const UniversityCardSection = () => {
                                     </ScrollAnimation> 
                                 </div>
                                 <div className="university-card-content">
+                                <ScrollAnimation
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
                                     <h3>Primary School</h3>
                                     <p>Higher education is designed for career professionals seeking</p>
+                                    </ScrollAnimation> 
                                 </div>
                             </div>
                             <div className="university-card-wrapper">
@@ -244,8 +259,13 @@ const UniversityCardSection = () => {
                                     </ScrollAnimation> 
                                 </div>
                                 <div className="university-card-content">
+                                <ScrollAnimation
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
                                     <h3>Secondary School</h3>
                                     <p>Higher education is designed forcareer professionals seeking</p>
+                                    </ScrollAnimation> 
                                 </div>
                             </div>
                         </div>

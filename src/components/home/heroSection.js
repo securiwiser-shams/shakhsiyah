@@ -5,8 +5,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const HeroSection = () => {
   return (
     <ScrollAnimation
-    animateIn="animate__bounceOutUp"
-    animateOut="animate__bounceOutDown"
+    animateIn="animate__fadeIn"
+    animateOut="animate__fadeOut"
      >
       <section className="slider-area hero-height position-relative fix" style={{ backgroundImage: "url(/assets/img/slider/hero2.png)" }}>
         <img className="shape-3 d-none d-xxl-block" src="/assets/img/shape/shape-03.png" alt="img not found" />
