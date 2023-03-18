@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll"
+import { StaticImage } from 'gatsby-plugin-image';
 
 const AboutFeatureSection = () => {
     return (
@@ -8,15 +9,20 @@ const AboutFeatureSection = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title text-center mb-60">
+                        <ScrollAnimation
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
                             <h1>Our <span className="down-mark-line-2">Values</span></h1>
+                            </ScrollAnimation> 
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="features-box text-center mb-30">
                             <div className="features-svg">
                             <ScrollAnimation
-                             animateIn="fadeIn"
-                             animateOut="fadeOut"
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
                               >
                                 <svg id="Group_3029" data-name="Group 3029" xmlns="http://www.w3.org/2000/svg" width="79.896"
                                     height="78.92" viewBox="0 0 79.896 78.92">
@@ -51,8 +57,13 @@ const AboutFeatureSection = () => {
                                 </ScrollAnimation>
                             </div>
                             <div className="features-text">
+                            <ScrollAnimation
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
+                              >
                                 <h3>RESPECT</h3>
                                 <p class="blackTextOverride"> We appreciate beauty in God's creation, RESPECT and love everyone for Allah's sake</p>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
@@ -60,8 +71,8 @@ const AboutFeatureSection = () => {
                         <div className="features-box text-center mb-30">
                             <div className="features-svg">
                             <ScrollAnimation
-                             animateIn="fadeIn"
-                             animateOut="fadeOut"
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
                               >
                                 <svg id="teacher" xmlns="http://www.w3.org/2000/svg" width="70.837" height="78.921"
                                     viewBox="0 0 70.837 78.921">
@@ -112,8 +123,13 @@ const AboutFeatureSection = () => {
                                 </ScrollAnimation>
                             </div>
                             <div className="features-text">
+                            <ScrollAnimation
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
+                              >
                                 <h3>EXCELLENCE</h3>
                                 <p class="blackTextOverride"> We embrace challenge and strive for EXCELLENCE in everything we do using a growth mindset</p>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
@@ -121,8 +137,8 @@ const AboutFeatureSection = () => {
                         <div className="features-box text-center mb-30">
                             <div className="features-svg">
                             <ScrollAnimation
-                             animateIn="fadeIn"
-                             animateOut="fadeOut"
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
                               >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="78.918" height="78.921"
                                     viewBox="0 0 78.918 78.921">
@@ -157,8 +173,13 @@ const AboutFeatureSection = () => {
                                 </ScrollAnimation>
                             </div>
                             <div className="features-text">
+                            <ScrollAnimation
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
+                              >
                                 <h3>PIETY</h3>
                                 <p class="blackTextOverride"> We strive to attain PIETY through patience, prayer, gratitude and benefiting our community</p>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>

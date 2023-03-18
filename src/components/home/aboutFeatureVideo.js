@@ -26,8 +26,8 @@ const AboutFeatureVideo = () => {
                                 </div>
                                 <div className="reatures-video-thumb">
                                     <ScrollAnimation
-                                        animateIn="fadeIn"
-                                        animateOut="fadeOut"
+                                        animateIn="animate__fadeIn"
+                                        animateOut="animate__fadeOut"
                                     >
                                         <StaticImage src="./features.jpg" alt="features-img" quality={100} />
                                     </ScrollAnimation>

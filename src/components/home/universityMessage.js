@@ -11,8 +11,8 @@ const UniversityMessage = () => {
                     <div className="col-xl-4 col-lg-4">
                         <div className="section-title mb-30">
                         <ScrollAnimation
-                                 animateIn="fadeIn"
-                                 animateOut="fadeOut"
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
                                   >
                             <h2 class="gold-color"> Welcome to Islamic <span className="down-mark-line-2">Shakhsiyah</span> School</h2>
                             </ScrollAnimation> 
@@ -21,8 +21,8 @@ const UniversityMessage = () => {
                     <div className="col-xl-4 col-lg-4">
                         <div className="message-profile-text">
                         <ScrollAnimation
-                                 animateIn="fadeIn"
-                                 animateOut="fadeOut"
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
                                   >
                         <h3 class="whiteTextOverride"> <b>Principles welcome</b></h3><br/>
                             <p class="whiteTextOverride"> Assalamu alaikum,</p>
@@ -36,8 +36,8 @@ const UniversityMessage = () => {
                         </div>
                         <div className="message-meta"> 
                         <ScrollAnimation
-                                 animateIn="fadeIn"
-                                 animateOut="fadeOut"
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
                                   >   
                             <Link to="/instructor-profile">
                                 <StaticImage
@@ -51,16 +51,21 @@ const UniversityMessage = () => {
                             </Link>
                             </ScrollAnimation> 
                             <div className="message-meta-link">
+                            <ScrollAnimation
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
+                              >
                                 <Link to="/instructor-profile"><h3 class="whiteTextOverride"> Dr Farah Ahmed</h3></Link>
                                 <p class="whiteTextOverride"> Chair of Trustees and Director of Education and Research</p>
+                                </ScrollAnimation> 
                             </div>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4">
                     <div className="message-profile-text"><br/><br/><br/><br/>
                     <ScrollAnimation
-                                 animateIn="fadeIn" 
-                                 animateOut="fadeOut"
+                                 animateIn="animate__fadeIn" 
+                                 animateOut="animate__fadeOut"
                                   > 
                             <p class="whiteTextOverride">We have carefully designed a curriculum that aims to cater for the spiritual, intellectual and 
                                 worldly needs of the student. To this end, we have placed a strong emphasis on the study of the 

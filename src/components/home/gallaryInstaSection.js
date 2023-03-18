@@ -8,7 +8,7 @@ const GallaryInstaSection = () => {
             <div className="swiper-containers">
                 <div className="swiper-wrappers gallery-inner">
                     <div className="swiper-slides gallery-single w-img">
-                        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                        <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut">
                         <StaticImage src="./gallary1.png" alt="img not found" quality={100}  />
                         </ScrollAnimation>
                         <div className="gallery-link">
@@ -16,7 +16,7 @@ const GallaryInstaSection = () => {
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                        <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut">
                         <StaticImage src="./gallary2.png" alt="img not found" quality={100}  />
                         </ScrollAnimation> 
                         <div className="gallery-link">
@@ -24,7 +24,7 @@ const GallaryInstaSection = () => {
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                        <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut">
                         <StaticImage src="./gallary3.png" alt="img not found" quality={100} />
                         </ScrollAnimation>
                         <div className="gallery-link">
@@ -32,7 +32,7 @@ const GallaryInstaSection = () => {
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                        <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut">
                         <StaticImage src="./gallary4.png" alt="img not found" quality={100}  />
                         </ScrollAnimation>
                         <div className="gallery-link">
@@ -40,7 +40,7 @@ const GallaryInstaSection = () => {
                         </div>
                     </div>
                     <div className="swiper-slides gallery-single w-img">
-                        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                        <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut">
                         <StaticImage src="./gallary5.png" alt="img not found" quality={100} />
                         </ScrollAnimation>
                         <div className="gallery-link">

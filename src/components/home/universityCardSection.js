@@ -19,8 +19,8 @@ const UniversityCardSection = () => {
                             <div className="university-card-wrapper">
                                 <div className="university-card-icon">
                                 <ScrollAnimation
-                                 animateIn="fadeIn"
-                                 animateOut="fadeOut"
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
                                   >
                                     <svg id="Page-1" xmlns="http://www.w3.org/2000/svg" width="31.154" height="31.157"
                                         viewBox="0 0 31.154 31.157">
@@ -81,8 +81,8 @@ const UniversityCardSection = () => {
                             <div className="university-card-wrapper">
                                 <div className="university-card-icon">
                                 <ScrollAnimation
-                                  animateIn="fadeIn"
-                                  animateOut="fadeOut"
+                                  animateIn="animate__fadeIn"
+                                  animateOut="animate__fadeOut"
                                    >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="27.226" height="31.157"
                                         viewBox="0 0 27.226 31.157">
@@ -186,8 +186,8 @@ const UniversityCardSection = () => {
                             <div className="university-card-wrapper">
                                 <div className="university-card-icon">
                                 <ScrollAnimation
-                                 animateIn="fadeIn"
-                                 animateOut="fadeOut"
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
                                   >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32.11" height="31.157"
                                         viewBox="0 0 32.11 31.157">

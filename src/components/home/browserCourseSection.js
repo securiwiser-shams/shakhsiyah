@@ -17,8 +17,8 @@ const BrowserCourseSection = () => {
                         <div className="browser-course-wrapper course-height">
                             <div className="browser-course-bg">
                             <ScrollAnimation
-                             animateIn="fadeIn"
-                             animateOut="fadeOut"
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
                                >
                                 <StaticImage src="./feature1.png" alt="img not found" width={630} height={270} quality={100} />
                                 </ScrollAnimation>
@@ -38,8 +38,8 @@ const BrowserCourseSection = () => {
                         <div className="browser-course-wrapper course-height">
                             <div className="browser-course-bg">
                             <ScrollAnimation
-                             animateIn="fadeIn"
-                             animateOut="fadeOut"
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
                                >
                                 <StaticImage src="./feature2.png" alt="img not found" width={630} height={270} quality={100} />
                                 </ScrollAnimation>
