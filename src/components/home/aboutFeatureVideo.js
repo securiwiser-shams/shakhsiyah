@@ -29,7 +29,7 @@ const AboutFeatureVideo = () => {
                                         animateIn="animate__fadeIn"
                                         animateOut="animate__fadeOut"
                                     >
-                                        <StaticImage src="./features.jpg" alt="features-img" quality={100} />
+                                        <StaticImage src="./features.png" alt="features-img" quality={100} />
                                     </ScrollAnimation>
                                 </div>
                                 <div className="features-video-content">
