@@ -10,7 +10,12 @@ const BrowserCourseSection = () => {
                 <div className="row">
                 <div className="col-12">
                         <div className="section-title text-center mb-60"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        <ScrollAnimation
+                             animateIn="animate__fadeIn"
+                             animateOut="animate__fadeOut"
+                               >
                             <h1 class="white-color"> Our School <span className="down-mark-line-2"> Settings</span></h1>
+                            </ScrollAnimation>
                         </div>
                     </div>
                         <div className="col-xl-6 col-lg-6 col-md-12 mb-30">
