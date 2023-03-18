@@ -70,6 +70,13 @@ module.exports = {
       options: {
         defer: false,
       },
-    }
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: 'https://securiwiser.us6.list-manage.com/subscribe/post?u=c1d918ebb5b3df47d89d58902&amp;id=bfd965d8a1',
+        timeout: 5000, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+    },
   ],
-}
+};

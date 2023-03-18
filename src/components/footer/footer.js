@@ -1,5 +1,9 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import addToMailchimp from "gatsby-plugin-mailchimp"
+import { Formik } from "formik"
+import Swal from "sweetalert2/dist/sweetalert2.js"
+import "sweetalert2/src/sweetalert2.scss"
 
 const Footer = () => {
     return (
@@ -137,20 +141,91 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className="col-xl-5 col-lg-5 col-md-12">
-                                    <div className="copyright-subcribe">
-                                        <form action="#" className="widget__subscribe">
-                                            <div className="field">
-                                                <input type="email" placeholder="Enter Email" />
-                                            </div>
-                                            <button type="submit">Subscribe<i className="fas fa-paper-plane"></i></button>
-                                        </form>
+  <div className="copyright-subcribe">
+    <Formik
+      initialValues={{ email: "" }}
+      validate={values => {
+        const errors = {}
+        if (!values.email) {
+          errors.email = "Required"
+        } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
+          errors.email = "Invalid email address"
+        }
+        return errors
+      }}
+      onSubmit={(values, { setSubmitting }) => {
+        addToMailchimp(values.email)
+          .then(data => {
+            setSubmitting(false)
+            if (data.result === "error") {
+              Swal.fire({
+                icon: "error",
+                title: "Message Failed",
+                html: data.msg,
+                confirmButtonColor: "#2D9AFF",
+              })
+            } else {
+              Swal.fire({
+                icon: "success",
+                title: "Message Sent",
+                html: data.msg,
+                confirmButtonColor: "#2D9AFF",
+              })
+            }
+          })
+          .catch(() => {
+            Swal.fire({
+              icon: "error",
+              title: "Message Failed",
+              text: "Something went wrong",
+              confirmButtonColor: "#2D9AFF",
+            })
+          })
+      }}
+    >
+      {({
+        values,
+        errors,
+        touched,
+        handleChange,
+        handleBlur,
+        handleSubmit,
+        isSubmitting,
+        /* and other goodies */
+      }) => (
+        <form onSubmit={handleSubmit}>
+          <div className="field">
+            <input
+              type="email"
+              placeholder="Enter Email"
+              name="email"
+              onChange={handleChange}
+              onBlur={handleBlur}
+              value={values.email}
+            />
+          </div>
+          {!isSubmitting ? (
+            <button type="submit">Subscribe<i className="fas fa-paper-plane"></i></button>
+          ) : (
+            <button type="submit" disabled={true}>
+              Subscribing ...
+            </button>
+          )}
+          <div className="error" style={{ color: "red" }}>
+            {errors.email && touched.email && errors.email}
+          </div>
+        </form>
+      )}
+    </Formik>
+  </div>
+</div>
+
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </footer>
     );
 };
