@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <section className="slider-area hero-height position-relative fix" style={{ backgroundImage: "url(/assets/img/slider/hero2.png)" }}>
+        <section className="slider-area hero-height position-relative fix" style={{ backgroundImage: "url(/assets/img/slider/hero2.webp)" }}>
             <img className="shape-3 d-none d-xxl-block" src="/assets/img/shape/shape-03.png" alt="img not found" />
             <div className="container">
                 <div className="row">
