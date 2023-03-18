@@ -126,8 +126,11 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                             <div className="col-9">
                                 <Link to="/"><img src="/assets/img/logo/logo.svg" alt="Logo" width="211" height="71" /></Link>
                             </div>
-                            <div className="col-3 text-end"><button className="side-info-close" onClick={() => setMenuOpen(false)}><i className="fal fa-times"></i></button>
-                            </div>
+                            <div className="col-3 text-end">
+                            <button className="side-info-close" onClick={() => setMenuOpen(false)} aria-label="Close side information panel">
+                             <i className="fal fa-times"></i>
+                            </button>                            
+                         </div>
                         </div>
                     </div>
                     <div className="mm-menu mb-30 d-block d-xl-none">
