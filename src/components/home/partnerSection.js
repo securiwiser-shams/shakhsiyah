@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll"
+import { StaticImage } from 'gatsby-plugin-image';
 
 const PartnerSection = () => {
     return (
@@ -9,7 +10,7 @@ const PartnerSection = () => {
                     <div className="col-xl-3 col-lg-4 col-md-4">
                         <div className="partner-box mb-30">
                             <div className="partner-thumb d-none d-sm-block">
-                                <img src="/assets/img/bg/partner.png" alt="partner-png" width="757" height="474"  />
+                                <StaticImage src="./partner.png" alt="partner-png" quality={100} width={757} height={474} />
                             </div>
                             <div className="section-title mb-30">
                             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
@@ -32,7 +33,7 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/dfe.png" alt="not found" class="responsive" width="105" height="62" ></img>
+                                <StaticImage src="./dfe.png" alt="not found" width={105} height={62} />
                                 </ScrollAnimation> 
                             </div>
                             <div className="singel-partner">
@@ -40,7 +41,7 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/isi.png" alt="not found" class="responsive" width="240" height="43" ></img>
+                                <StaticImage src="./isi.png" alt="not found" width={240} height={43} />
                                 </ScrollAnimation> 
                             </div>
                             <div className="singel-partner">
@@ -48,7 +49,7 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/slough.png" alt="not found" class="responsive" width="125" height="53" ></img>
+                                <StaticImage src="./slough.png" alt="not found" quality={100} width={125} height={53} />
                                 </ScrollAnimation> 
                             </div>
                             <div className="singel-partner">
@@ -56,7 +57,7 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/haringey.png" alt="not found" class="responsive" width="120" height="51" ></img>
+                                <StaticImage src="./haringey.png" alt="not found" quality={100} width={120} height={51} />
                                 </ScrollAnimation> 
                             </div>
                             <div className="singel-partner">
@@ -64,7 +65,7 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/ams.png" alt="not found" class="responsive" width="152" height="67" ></img>
+                                <StaticImage src="./ams.png" alt="not found" quality={100} width={152} height={67} />
                                 </ScrollAnimation> 
                             </div>
                             <div className="singel-partner">
@@ -72,7 +73,16 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/isa.png" alt="not found" class="responsive" width="61" height="62" ></img>
+                                <StaticImage src="./isa.png" alt="not found" quality={100} width={61} height={62} />
+                                </ScrollAnimation> 
+                            </div>
+
+                            <div className="singel-partner">
+                            <ScrollAnimation
+                             animateIn="fadeIn"
+                             animateOut="fadeOut"
+                              >
+                                <StaticImage src="./nida.png" alt="not found" quality={100}  width={61} height={62} />
                                 </ScrollAnimation> 
                             </div>
                             <div className="singel-partner">
@@ -80,7 +90,7 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/nida.png" alt="not found" class="responsive" width="72" height="72" ></img>
+                                <StaticImage src="./ti.png" alt="not found" quality={100} width={61} height={62} />
                                 </ScrollAnimation> 
                             </div>
                             <div className="singel-partner">
@@ -88,16 +98,8 @@ const PartnerSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                               >
-                                <img src="/assets/img/brand/ti.png" alt="not found" class="responsive" width="83" height="79" ></img>
-                                </ScrollAnimation> 
-                            </div>
-                            <div className="singel-partner">
-                            <ScrollAnimation
-                             animateIn="fadeIn"
-                             animateOut="fadeOut"
-                              >
-                                <img src="/assets/img/brand/securiwiser.png" alt="not found" class="responsive" width="73" height="76" ></img>
-                                </ScrollAnimation> 
+                                <StaticImage src="./securiwiser.png" alt="not found" quality={100} width={61} height={62} />
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>

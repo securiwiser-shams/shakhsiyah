@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll"
+import { StaticImage } from 'gatsby-plugin-image';
 
 const UniversityMessage = () => {
     return (
@@ -39,7 +40,15 @@ const UniversityMessage = () => {
                                  animateOut="fadeOut"
                                   >   
                             <Link to="/instructor-profile">
-                            <img class="circular-img" src="/assets/img/member/member-img-01.png" alt="meta-img" width="150" height="150" /></Link>
+                                <StaticImage
+                                    src="./member-img-01.png"
+                                    alt="Description of your image"
+                                    width={150}
+                                    height={150}
+                                    quality={100}
+                                    className="circular-img"
+                                />
+                            </Link>
                             </ScrollAnimation> 
                             <div className="message-meta-link">
                                 <Link to="/instructor-profile"><h3 class="whiteTextOverride"> Dr Farah Ahmed</h3></Link>

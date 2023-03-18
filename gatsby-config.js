@@ -25,7 +25,7 @@ module.exports = {
         defaults: {
           formats: [`webp`, `jpg`],
           placeholder: `blurred`,
-          quality: 20,
+          quality: 80,
           backgroundColor: `transparent`,
         }
       }

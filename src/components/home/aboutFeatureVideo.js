@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import ScrollAnimation from "react-animate-on-scroll"
+import { StaticImage } from 'gatsby-plugin-image';
 
 const AboutFeatureVideo = () => {
 
     const [isOpen, setIsOpen] = useState(false);
-   const openVideoModal = () => setIsOpen(!isOpen);
+    const openVideoModal = () => setIsOpen(!isOpen);
 
     return (
         <div className="features-video-area">
@@ -16,20 +17,20 @@ const AboutFeatureVideo = () => {
                             <ModalVideo channel='youtube' isOpen={isOpen} videoId='OwKwrlpjtpg' onClose={() => { openVideoModal(); }} />
                             <div className="features-video-wrapper">
                                 <div className="features-shape-wrapper-1">
-                                    <img className="features-shape" src="/assets/img/shape/features-shape.png" alt="features-shape" />
+                                    <StaticImage className="features-shape" src="./features-shape.png" alt="features-shape" quality={100} />
                                     <span>Taqwah</span>
                                 </div>
                                 <div className="features-shape-werapper-2">
                                     <span>Tarbiyah</span> <br />
-                                    <img className="features-shape-2" src="/assets/img/shape/features-shape-2.png" alt="features-shape-2" />
+                                    <StaticImage className="features-shape-2" src="./features-shape-2.png" alt="features-shape-2" quality={100} />
                                 </div>
                                 <div className="reatures-video-thumb">
-                                <ScrollAnimation
-                                 animateIn="fadeIn"
-                                 animateOut="fadeOut"
-                                  >
-                                    <img src="/assets/img/features/features.jpg" alt="features-img" /> 
-                                    </ScrollAnimation> 
+                                    <ScrollAnimation
+                                        animateIn="fadeIn"
+                                        animateOut="fadeOut"
+                                    >
+                                        <StaticImage src="./features.jpg" alt="features-img" quality={100} />
+                                    </ScrollAnimation>
                                 </div>
                                 <div className="features-video-content">
                                     <div className="features-btn">

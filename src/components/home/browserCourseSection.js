@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll"
+import { StaticImage } from 'gatsby-plugin-image';
 
 const BrowserCourseSection = () => {
     return (
@@ -8,7 +9,7 @@ const BrowserCourseSection = () => {
             <div className="container">
                 <div className="row">
                 <div className="col-12">
-                        <div className="section-title text-center mb-60"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        <div className="section-title text-center mb-60"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                             <h1 class="white-color"> Our School <span className="down-mark-line-2"> Settings</span></h1>
                         </div>
                     </div>
@@ -19,7 +20,7 @@ const BrowserCourseSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                                >
-                                <img src="/assets/img/browser-course/feature1.png" alt="img not found" width="630" height="270" />
+                                <StaticImage src="./feature1.png" alt="img not found" width={630} height={270} quality={100} />
                                 </ScrollAnimation>
                             </div>
                             <div className="browser-course-content">
@@ -40,7 +41,7 @@ const BrowserCourseSection = () => {
                              animateIn="fadeIn"
                              animateOut="fadeOut"
                                >
-                                <img src="/assets/img/browser-course/feature2.png" alt="img not found" width="630" height="270" />
+                                <StaticImage src="./feature2.png" alt="img not found" width={630} height={270} quality={100} />
                                 </ScrollAnimation>
                             </div>
                             <div className="row">
