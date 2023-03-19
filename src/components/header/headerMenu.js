@@ -49,7 +49,7 @@ const HeaderMenu = () => {
                 <li><Link to="#">Calendar</Link></li> 
             </ul>
             </li>
-            <li className="menu-item-has-children"><Link to="#">ISF Community</Link>
+            <li className="menu-item-has-children"><Link to="#">Community</Link>
                 <ul className="sub-menu">
                     <li><Link to="/family-halaqah">Family Halaqah</Link></li>
                     <li><Link to="/webinars">Webinars</Link></li>

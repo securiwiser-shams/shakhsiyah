@@ -388,7 +388,11 @@
 		}
 	}
 }
-
+@media (max-width: 767px) {
+    .apply-button {
+        display: none;
+    }
+}
 // header-2-style
 .header-area-2 .main-menu ul li {
 	margin: 0px 29px;
