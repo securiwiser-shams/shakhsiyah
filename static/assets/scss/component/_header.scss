@@ -293,52 +293,67 @@
 			}
 			/*submenu start*/
 			.sub-menu {
-				background: $gold none repeat scroll 0 0;
+				background: $gold;
 				box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
 				left: 0;
 				opacity: 0;
 				position: absolute;
 				top: 120%;
-				transition: all 0.3s ease 0s;
+				transition: all 0.3s ease;
 				visibility: hidden;
 				width: 240px;
 				z-index: 9;
 				border-top: 3px solid $theme-color;
 				text-align: left;
 				padding: 15px 0;
-				li {
-					display: block;
-					margin: 0px;
-					padding: 8px 25px 8px 25px;
-					&:hover {
-						> .sub-menu {
-							top: 0%;
-						}
-					}
-					.sub-menu {
-						left: 100%;
-						top: 20%;
-						@include transition(0.3s);
-						width: 190px;
-					}
-					a {
-						padding: 0px;
-						display: inline-block;
-						color: #212237;
-						position: relative;
-						&:hover {
-							color: $theme-color;
-						}
-					}
-					a {
-						&:before {
-							width: 100%;
-							left: 0;
-							right: auto;
-						}
-					}
-				}
-			}
+			  }
+			  
+			  .sub-menu li {
+				display: block;
+				margin: 0;
+				padding: 8px 25px;
+			  }
+			  
+			  .sub-menu li:hover > .sub-menu {
+				top: 0;
+			  }
+			  
+			  .sub-menu li .sub-menu {
+				left: 100%;
+				top: 20%;
+				width: 190px;
+				transition: 0.3s;
+			  }
+			  
+			  .sub-menu li a {
+				display: inline-block;
+				padding: 0;
+				color: #212237;
+				position: relative;
+			  }
+			  
+			  .sub-menu li a:hover {
+				color: $theme-color;
+			  }
+			  
+			  .sub-menu li a:before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 1px;
+				bottom: 0;
+				left: 0;
+				background-color: $theme-color;
+				visibility: hidden;
+				transform: scaleX(0);
+				transition: all 0.3s ease-in-out 0s;
+			  }
+			  
+			  .sub-menu li a:hover:before {
+				visibility: visible;
+				transform: scaleX(1);
+			  }
+			  
 			/*submenu end*/
 			&:hover {
 				a {
