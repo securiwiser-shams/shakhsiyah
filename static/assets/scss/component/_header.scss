@@ -826,13 +826,12 @@ div.mean-container {
 }
 //  bar-icon style
 .bar-icon {
-	width: 20px;
-	height: 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	overflow: hidden;
-}
+	background-image: url('/assets/img/icon/menu-icon.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 20px; /* adjust as needed */
+	height: 20px; /* adjust as needed */
+  }
 .bar-icon span {
 	width: 100%;
 	height: 2px;
