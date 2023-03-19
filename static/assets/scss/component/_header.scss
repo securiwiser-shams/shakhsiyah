@@ -370,18 +370,13 @@
 			}
 			&.menu-item-has-children {
 				position: relative;
-				&:after {
-					position: absolute;
-					content: "\f107";
-					font-size: 12px;
-					color: $gold;
-					top: 50%;
-					transform: translateY(-50%);
-					right: -14px;
-					font-family: "Font Awesome 5 Pro";
-					@include transition(0.3s);
+				&:hover {
+				  ul.sub-menu {
+					display: block;
+				  }
 				}
-			}
+			  }
+			  
 			ul li.menu-item-has-children::after {
 				right: 14px;
 			}

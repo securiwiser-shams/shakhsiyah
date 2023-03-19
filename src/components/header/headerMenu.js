@@ -9,11 +9,11 @@ const HeaderMenu = () => {
                     <li><Link to="/principles">Principles</Link></li>
                     <li><Link to="/mission-statement">Mission Statement</Link></li>
                     <li className="menu-item-has-children"><Link to="#">Team</Link>
-                    <ul className="sub-menu menu-list">
-                    <li><Link to="/trustees" href="/trustees">Trustees</Link></li>
-                    <li><Link to="/senior-team">Senior Leadership Team</Link></li>
-                    <li><Link to="/safeguarding-team">Safeguarding Team</Link></li>
-                    </ul>
+                        <ul className="sub-menu">
+                            <li><Link to="/trustees">Trustees</Link></li>
+                            <li><Link to="/senior-team">Senior Leadership Team</Link></li>
+                            <li><Link to="/safeguarding-team">Safeguarding Team</Link></li>
+                        </ul>
                     </li>
                     <li><Link to="/policies">Policies</Link></li>
                     <li><Link to="/vacancies">Vacancies</Link></li>
