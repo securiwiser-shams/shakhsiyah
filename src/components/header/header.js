@@ -52,8 +52,7 @@ const HeaderFour = () => {
                                             <Link to='/admissions' className="user-btn-sign-up edu-btn">Apply</Link>
                                         </div>*/}
                                         <div className="menu-bar d-xl-none ml-20">
-                                            <button type='button' className="side-toggle" onClick={() => { setMenuOpen(!menuOpen) }}>
-                                                <div className="bar-icon">
+                                        <button type='button' className="side-toggle" onClick={() => { setMenuOpen(!menuOpen) }} aria-label="Toggle side menu">                                                <div className="bar-icon">
                                                     <span></span>
                                                     <span></span>
                                                     <span></span>
