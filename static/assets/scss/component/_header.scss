@@ -388,7 +388,11 @@
 		}
 	}
 }
-.apply-button {
+body {
+	overflow-x: hidden;
+  }
+  
+  .apply-button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -402,18 +406,19 @@
 	width: 120px;
 	height: 50px;
   }
-
+  
   .apply-button-text {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
   }
-
+  
   @media (max-width: 1280px) {
-    .apply-button {
-      display: none;
-    }
+	.apply-button {
+	  display: none;
+	}
   }
+  
 // header-2-style
 .header-area-2 .main-menu ul li {
 	margin: 0px 29px;
