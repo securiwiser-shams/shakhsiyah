@@ -392,7 +392,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-left: 20px;
 	background-color: $gold;
 	border-radius: 5px;
 	color: #333;
@@ -403,11 +402,17 @@
 	width: 120px;
 	height: 50px;
   }
-  
-  @media screen and (max-width: 1280px) {
-	.apply-button {
-	  display: none;
-	}
+
+  .apply-button-text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  @media (max-width: 1280px) {
+    .apply-button {
+      display: none;
+    }
   }
 // header-2-style
 .header-area-2 .main-menu ul li {
