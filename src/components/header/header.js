@@ -53,6 +53,7 @@ const HeaderFour = () => {
                   <Link
   to="/admissions"
   className="user-btn-sign-up edu-btn ml-auto apply-button"
+  style={{ width: "120px", height: "50px", marginLeft: "20px" }}
 >
   Apply
 </Link>
