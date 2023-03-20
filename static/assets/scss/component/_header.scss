@@ -391,9 +391,12 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
   }
   
   .container {
+	display: flex; /* Added this line to center the button */
+	justify-content: center;
 	overflow-x: hidden;
   }
   
@@ -410,6 +413,7 @@ body {
 	font-weight: bold;
 	width: 120px;
 	height: 50px;
+	margin-right: -10px; /* Adjust this value to remove the horizontal scroll */
   }
   
   .apply-button-text {
@@ -423,6 +427,7 @@ body {
 	  display: none;
 	}
   }
+  
   
   
   
