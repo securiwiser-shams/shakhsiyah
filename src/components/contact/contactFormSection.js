@@ -1,37 +1,28 @@
 import React, { useState } from 'react';
-import mail from '@sendgrid/mail';
-const path = require('path');
-
-mail.setApiKey(process.env.SENDGRID_API_KEY);
+import axios from 'axios';
 
 const ContactFormSection = () => {
   const [formData, setFormData] = useState({
     name: '',
-    phone: '',
     email: '',
     subject: 'Course',
     message: '',
+    school: '',
   });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const message = {
-      from: process.env.SENDGRID_AUTHORIZED_EMAIL,
-      to: 'shams@securiwiser.com',
-      subject: formData.subject,
-      html: `
-        <div>
-          <p><strong>Name: </strong>${formData.name}</p>
-          <p><strong>Email: </strong>${formData.email}</p>
-          <p><strong>Subject: </strong>${formData.subject}</p>
-          <p><strong>Message: </strong><br/>${formData.message}</p>
-        </div>
-      `,
+      name: formData.name,
+      email: formData.email,
+      title: formData.subject,
+      message: formData.message,
+      school: formData.school,
     };
 
     try {
-      await mail.send(message);
+      await axios.post('/api/send-email', message);
       alert('Email sent successfully!');
     } catch (error) {
       console.error(error);
@@ -62,17 +53,6 @@ const ContactFormSection = () => {
             <div className="contact-from-input mb-20">
               <input
                 type="text"
-                placeholder="Phone"
-                name="phone"
-                value={formData.phone}
-                onChange={handleInputChange}
-              />
-            </div>
-          </div>
-          <div className="col-xl-6">
-            <div className="contact-from-input mb-20">
-              <input
-                type="text"
                 placeholder="Email"
                 name="email"
                 value={formData.email}
@@ -93,6 +73,17 @@ const ContactFormSection = () => {
                 <option value="Payment">Payment</option>
                 <option value="Information">Information</option>
               </select>
+            </div>
+          </div>
+          <div className="col-xl-6">
+            <div className="contact-from-input mb-20">
+              <input
+                type="text"
+                placeholder="School (optional)"
+                name="school"
+                value={formData.school}
+                onChange={handleInputChange}
+              />
             </div>
           </div>
           <div className="col-xl-12">
