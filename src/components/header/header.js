@@ -51,11 +51,11 @@ const HeaderFour = () => {
                     </nav>
                   </div>
                   <Link
-                    to="/admissions"
-                    className="user-btn-sign-up edu-btn ml-auto apply-button"
-                    style={{ width: "100px", height: "40px", marginLeft: "20px" }}
-                  >
-                    Apply
+                   to="/admissions"
+                   className="user-btn-sign-up edu-btn ml-auto apply-button"
+                   style={{ marginLeft: "20px" }}
+                   >
+                  Apply
                   </Link>
                 </div>
               </div>
