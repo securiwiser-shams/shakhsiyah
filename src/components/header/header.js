@@ -5,7 +5,7 @@ import HeaderMenu from './headerMenu';
 import HeaderTop from './headerTop';
 import MobileMenu from './mobileMenu';
 
-const HeaderFour = () => {
+const Header = () => {
   const { sticky } = useSticky();
 
   const [menuOpen, setMenuOpen] = useState(false)
@@ -88,4 +88,4 @@ const HeaderFour = () => {
   );
 };
 
-export default HeaderFour;
+export default Header;
