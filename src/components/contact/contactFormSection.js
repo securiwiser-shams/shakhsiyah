@@ -24,7 +24,7 @@ const ContactFormSection = () => {
         <p><strong>Message:</strong> ${formData.message}</p>
       `,
     };
-
+ 
     try {
       sgMail.setApiKey('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'); // Set your own SendGrid API key
       await sgMail.send(message);
