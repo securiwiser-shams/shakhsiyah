@@ -15,8 +15,8 @@ const ContactFormSection = () => {
 
     const message = {
       to: 'shams@securiwiser.com', // Replace with your own email address
-      from: formData.email,
-      subject: formData.subject,
+      from: 'shams@securiwiser.com',
+      subject: 'hello world',
       html: `
         <p><strong>Name:</strong> ${formData.name}</p>
         <p><strong>Email:</strong> ${formData.email}</p>
@@ -26,7 +26,7 @@ const ContactFormSection = () => {
     };
 
     try {
-      sgMail.setApiKey('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'); // Set your own SendGrid API key
+      sgMail.setApiKey('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'); // Set your own SendGrid API key
       await sgMail.send(message);
       alert('Email sent successfully!');
     } catch (error) {
