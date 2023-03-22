@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import sgMail from '@sendgrid/mail';
 
 const ContactFormSection = () => {
   const [formData, setFormData] = useState({
@@ -14,19 +14,24 @@ const ContactFormSection = () => {
     e.preventDefault();
 
     const message = {
-      name: formData.name,
-      email: formData.email,
-      title: formData.subject,
-      message: formData.message,
-      school: formData.school,
+      to: 'shams@securiwiser.com', // Replace with your own email address
+      from: formData.email,
+      subject: formData.subject,
+      html: `
+        <p><strong>Name:</strong> ${formData.name}</p>
+        <p><strong>Email:</strong> ${formData.email}</p>
+        <p><strong>School:</strong> ${formData.school}</p>
+        <p><strong>Message:</strong> ${formData.message}</p>
+      `,
     };
 
     try {
-      await axios.post('/api/send-email', message);
+      sgMail.setApiKey('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'); // Set your own SendGrid API key
+      await sgMail.send(message);
       alert('Email sent successfully!');
     } catch (error) {
       console.error(error);
-      alert('Failed to send email!');
+      alert(`Failed to send email: ${error.message}`);
     }
   };
 
