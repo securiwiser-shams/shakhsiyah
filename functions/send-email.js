@@ -5,7 +5,7 @@ exports.handler = async (event, context) => {
 
   const messageToSend = {
     to: 'shams@securiwiser.com', // Replace with your own email address
-    from: 'shams@securiwiser.com',
+    from: process.env.SENDGRID_AUTHORIZED_EMAIL,
     subject,
     html: `
       <p><strong>Name:</strong> ${name}</p>
@@ -16,7 +16,7 @@ exports.handler = async (event, context) => {
   };
 
   try {
-    sgMail.setApiKey(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); // Set your own SendGrid API key
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY); // Set your own SendGrid API key
     await sgMail.send(messageToSend);
     return {
       statusCode: 200,
