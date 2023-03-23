@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import sgMail from '@sendgrid/mail';
 
-
 const ContactFormSection = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -16,8 +15,8 @@ const ContactFormSection = () => {
 
     const message = {
       to: 'shams@securiwiser.com', // Replace with your own email address
-      from: process.env.SENDGRID_AUTHORIZED_EMAIL,
-      subject: 'hello world',
+      from: 'shams@securiwiser.com',
+      subject: 'hello word',
       html: `
         <p><strong>Name:</strong> ${formData.name}</p>
         <p><strong>Email:</strong> ${formData.email}</p>
@@ -25,9 +24,9 @@ const ContactFormSection = () => {
         <p><strong>Message:</strong> ${formData.message}</p>
       `,
     };
- 
+
     try {
-      sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+      sgMail.setApiKey('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'); // Set your own SendGrid API key
       await sgMail.send(message);
       alert('Email sent successfully!');
     } catch (error) {
