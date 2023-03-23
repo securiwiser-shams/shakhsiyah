@@ -12,7 +12,7 @@ const ContactFormSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     const message = {
       to: 'shams@securiwiser.com', // Replace with your own email address
       from: 'shams@securiwiser.com',
@@ -24,16 +24,27 @@ const ContactFormSection = () => {
         <p><strong>Message:</strong> ${formData.message}</p>
       `,
     };
- 
+  
     try {
-      sgMail.setApiKey('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'); // Set your own SendGrid API key
-      await sgMail.send(message);
-      alert('Email sent successfully!');
+      const response = await fetch('https://shakhsiyah.netlify.app/https://api.sendgrid.com/v3/mail/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(message),
+      });
+  
+      if (response.ok) {
+        alert('Email sent successfully!');
+      } else {
+        throw new Error('Failed to send email');
+      }
     } catch (error) {
       console.error(error);
       alert(`Failed to send email: ${error.message}`);
     }
   };
+  
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
