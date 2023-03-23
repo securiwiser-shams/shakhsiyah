@@ -26,10 +26,8 @@ const ContactFormSection = () => {
     };
 
     try {
-      await fetch('/.netlify/functions/send-email', {
-        method: 'POST',
-        body: JSON.stringify(formData),
-      });
+      sgMail.setApiKey(process.env.SENDGRID_API_KEY); // Set your own SendGrid API key
+      await sgMail.send(message);
       alert('Email sent successfully!');
     } catch (error) {
       console.error(error);
