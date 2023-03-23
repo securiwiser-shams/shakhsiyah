@@ -26,8 +26,10 @@ const ContactFormSection = () => {
     };
 
     try {
-      sgMail.setApiKey('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'); // Set your own SendGrid API key
-      await sgMail.send(message);
+      await fetch('/.netlify/functions/send-email', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+      });
       alert('Email sent successfully!');
     } catch (error) {
       console.error(error);
