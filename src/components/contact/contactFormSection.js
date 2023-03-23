@@ -15,7 +15,7 @@ const ContactFormSection = () => {
 
     const message = {
       to: 'shams@securiwiser.com', // Replace with your own email address
-      from: 'shams@securiwiser.com',
+      from: (process.env.SENDGRID_API_KEY),
       subject: 'hello word',
       html: `
         <p><strong>Name:</strong> ${formData.name}</p>
