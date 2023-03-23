@@ -1,3 +1,5 @@
+const { createProxyMiddleware } = require("http-proxy-middleware")
+
 module.exports = {
   siteMetadata: {
     title: `Shakhsiyah Schools`,
@@ -79,4 +81,13 @@ module.exports = {
       },
     },
   ],
+  developMiddleware: app => {
+    app.use(
+      "/v3/mail/send",
+      createProxyMiddleware({
+        target: "https://api.sendgrid.com",
+        changeOrigin: true,
+      })
+    )
+  },
 };
