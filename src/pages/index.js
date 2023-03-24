@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import HomeMain from "../components/home"
 import Seo from "../components/layout/seo"
+import {CookieNotice} from "gatsby-cookie-notice";
+
 
 export const query = graphql`
   query {
@@ -28,6 +30,10 @@ const IndexPage = ({ data }) => {
         title="Shakhsiyah Schools"
       />
       <HomeMain />
+      <CookieNotice>
+    <h4>This websites uses cookies.</h4>
+    <p>We use cookies to make the site work better, but also to see how you interact with it. how you interact with it. We will only use cookies if you allow us to do so by clicking by clicking on "Accept Cookies". You can also choose which cookie you want to allow.</p>
+</CookieNotice>
     </Layout>
   );
 };
