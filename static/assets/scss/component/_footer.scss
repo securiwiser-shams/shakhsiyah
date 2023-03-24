@@ -7,14 +7,20 @@
 @use "../abstract" as *;
 
 // footer-style
+
 .footer-area {
-	background: $navy;
+	background: #141517;
 }
 .footer-img {
 	img {
 		margin-bottom: 30px;
 	}
 }
+.container{
+	width: 100%;
+	max-width: 1284px;
+}
+
 .footer-widget {
 	@media #{sm} {
 		margin-bottom: 20px;
@@ -119,12 +125,16 @@
 		}
 	}
 }
-
+ 
 // footer-style
+.footer-main{
+	width: 100%;
+}
 .copyright-area {
 	background: #1A1F27;
 	border-radius: 10px 10px 0 0;
 	padding: 30px 20px;
+	width: 100%;
 	@media #{$sm,$xs} {
 		padding: 30px 15px;
 	}
@@ -166,6 +176,8 @@
 }
 .copyright-subcribe {
 	position: relative;
+	display: flex;
+	width: 480px;
 	@media #{$md} {
 		margin-top: 30px;
 	}
@@ -237,7 +249,7 @@
 	}
 }
 .copyright-text {
-	width: 196px;
+	width: 100%;
 	position: relative;
 	top: 9px;
 	@media #{$sm} {

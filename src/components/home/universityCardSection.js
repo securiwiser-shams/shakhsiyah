@@ -85,6 +85,7 @@ const UniversityCardSection = () => {
                                   >
                                     <h3>Early Years</h3>
                                     <p>Full time early years education for children ages 4 to 7.</p>
+                                    <span>Learn more</span>
                                     </ScrollAnimation>
                                 </div>
                             </div>

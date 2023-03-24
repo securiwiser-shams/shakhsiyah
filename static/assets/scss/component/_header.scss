@@ -41,6 +41,7 @@
 	max-width: 1720px;
 	margin: 0 auto;
 	background: $navy;
+	height: 100px;
 	@media #{$xs,$sm,$md,$lg} {
 		padding: 16px 0;
 	}
@@ -408,6 +409,8 @@
 	display: inline-block;
 	width: 100%;
 	text-align: center;
+	color: black;
+	font-size: 19px;
   }
   
   @media (max-width: 1280px) {
@@ -1217,3 +1220,13 @@ div.mean-container {
 .sidebar__areas.open .cartmini__wrapper {
 	right: 0px;
 }
+.header-left{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 16px;
+	padding-right: 16px;
+	img{
+		transform: translateY(16px);
+	}
+}
+

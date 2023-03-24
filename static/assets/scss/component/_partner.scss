@@ -8,13 +8,13 @@
 
 .patner-area {
 	background-color: $white;
+	max-width: 100vw;
 }
 .partner-wrapper {
 	display: flex;
 	justify-content: left;
 	flex-wrap: wrap;
 	gap: 110px 70px;
-	width: 900px;
 	margin-top: 10px;
 	@media #{$xl} {
 		gap: 80px 45px;
