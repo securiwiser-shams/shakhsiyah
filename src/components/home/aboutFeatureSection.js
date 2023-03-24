@@ -122,7 +122,7 @@ const AboutFeatureSection = () => {
                                 </svg>
                                 </ScrollAnimation>
                             </div>
-                            <div className="features-text">
+                            <div className="features-text center">
                             <ScrollAnimation
                              animateIn="animate__fadeIn"
                              animateOut="animate__fadeOut"
