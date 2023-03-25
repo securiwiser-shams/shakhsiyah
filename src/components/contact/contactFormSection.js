@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { setApiKey, setDefaultHeader, request } from '@sendgrid/client';
-
+import sgMail from '@sendgrid/mail';
 
 const ContactFormSection = () => {
   const [formData, setFormData] = useState({
@@ -13,20 +12,11 @@ const ContactFormSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
-    setApiKey(process.env.SENDGRID_API_KEY); // Set your own SendGrid API key
-    setDefaultHeader('Origin', 'https://shakhsiyah.netlify.app'); // Replace with your own React app domain
 
-    const sgClient = request({
-      method: 'POST',
-      url: 'https://api.sendgrid.com/v3/mail/send',
-      body: {},
-    });
-  
     const message = {
       to: 'shams@securiwiser.com', // Replace with your own email address
       from: 'shams@securiwiser.com',
-      subject: formData.subject,
+      subject: 'hello word',
       html: `
         <p><strong>Name:</strong> ${formData.name}</p>
         <p><strong>Email:</strong> ${formData.email}</p>
@@ -34,22 +24,16 @@ const ContactFormSection = () => {
         <p><strong>Message:</strong> ${formData.message}</p>
       `,
     };
-  
+
     try {
-      const request = {
-        method: 'POST',
-        url: 'https://api.sendgrid.com/v3/mail/send',
-        body: message,
-      };
-  
-      await sgClient(request);
+      sgMail.setApiKey('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'); // Set your own SendGrid API key
+      await sgMail.send(message);
       alert('Email sent successfully!');
     } catch (error) {
       console.error(error);
       alert(`Failed to send email: ${error.message}`);
     }
   };
-  
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -118,8 +102,6 @@ const ContactFormSection = () => {
             </div>
           </div>
           <div className="col-xl-2 ">
-            <div>
-            </div>
             <div className="cont-btn mb-20">
               <button type="submit" className="cont-btn">
                 Submit
