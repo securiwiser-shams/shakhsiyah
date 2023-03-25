@@ -26,6 +26,7 @@
             color: black;
         }
         form{
+            max-width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -58,4 +59,18 @@
         width: 92vw !important;
     }
     
+}
+@media (max-width: 390px) {
+    .jouney_content{
+        h1{
+            font-size: 32px !important;
+        }
+        form{
+            width: 100%;
+            padding: 0 10px;
+            input[type="number"]{
+                width: 80px !important;
+            }
+        }
+    }
 }
