@@ -14,7 +14,7 @@ const ContactFormSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
   
-    setApiKey('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'); // Set your own SendGrid API key
+    setApiKey(process.env.SENDGRID_API_KEY); // Set your own SendGrid API key
     setDefaultHeader('Origin', 'https://shakhsiyah.netlify.app'); // Replace with your own React app domain
 
     const sgClient = request({
