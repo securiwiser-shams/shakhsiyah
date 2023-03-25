@@ -57,10 +57,12 @@
 	padding-top: 220px;
 	.container{
 		height: 524px;
-		width: 1297px;
 		max-width: 100vw;
 		.col-xl-4{
 			font-size: 19px;
+		}
+		.row{
+			justify-content: center;
 		}
 	}
 }

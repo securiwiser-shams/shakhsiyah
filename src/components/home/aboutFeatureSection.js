@@ -62,7 +62,7 @@ const AboutFeatureSection = () => {
                              animateOut="animate__fadeOut"
                               >
                                 <h2>RESPECT</h2>
-                                <p class="blackTextOverride"> We appreciate beauty in God's creation, RESPECT and love everyone for Allah's sake</p>
+                                <p className="blackTextOverride"> We appreciate beauty in God's creation, RESPECT and love everyone for Allah's sake</p>
                                 </ScrollAnimation>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ const AboutFeatureSection = () => {
                              animateOut="animate__fadeOut"
                               >
                                 <h2>EXCELLENCE</h2>
-                                <p class="blackTextOverride"> We embrace challenge and strive for EXCELLENCE in everything we do using a growth mindset</p>
+                                <p className="blackTextOverride"> We embrace challenge and strive for EXCELLENCE in everything we do using a growth mindset</p>
                                 </ScrollAnimation>
                             </div>
                         </div>
@@ -178,7 +178,7 @@ const AboutFeatureSection = () => {
                              animateOut="animate__fadeOut"
                               >
                                 <h2>PIETY</h2>
-                                <p class="blackTextOverride"> We strive to attain PIETY through patience, prayer, gratitude and benefiting our community</p>
+                                <p className="blackTextOverride"> We strive to attain PIETY through patience, prayer, gratitude and benefiting our community</p>
                                 </ScrollAnimation>
                             </div>
                         </div>

@@ -55,7 +55,7 @@ const Header = () => {
     className="user-btn-sign-up edu-btn ml-auto apply-button"
     style={{ width: "120px", height: "50px" }}
   >
-    <span class="apply-button-text">Apply</span>
+    <span className="apply-button-text">Apply</span>
   </Link>
                 </div>
               </div>

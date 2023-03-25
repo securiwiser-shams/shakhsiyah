@@ -9,39 +9,71 @@
 .patner-area {
 	background-color: $white;
 	max-width: 100vw;
-}
-.partner-wrapper {
-	display: flex;
-	justify-content: left;
-	flex-wrap: wrap;
-	gap: 110px 70px;
-	margin-top: 10px;
-	width: 70vw;
-	@media #{$xl} {
-		gap: 80px 45px;
+	height: 560px;
+	padding-top: 86px;
+	position: relative;
+	.row{
+		.col-xl-3{
+			width: 30%;
+		}
+		.col-xl-7{
+			width: 70%;
+		}
 	}
 }
+
+.partner-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: lef;
+	width: 100%;
+	.partner-row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		margin-top: 12px;
+		margin-bottom: 55px;
+	}
+	.singel-partner {
+		flex-basis: calc(25% - 20px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10px;
+	}
+	.second{
+		flex-basis: calc(18% - 20px);
+		justify-content: right;
+	}
+}
+
 .partner-box {
 	position: relative;
 	max-width: 430px;
 	z-index: 2;
 }
+
 .partner-thumb {
 	position: absolute;
 	top: -110px;
 	left: -250px;
 	z-index: -1;
 }
+
 .responsive {
 	width: 100%;
 	height: auto;
-  }
+}
+
 .partner-text {
 	margin-top: 20px;
+
 	p {
 		font-weight: 600;
 		color: $heading-color;
 		max-width: 245px;
+
 		span {
 			font-size: 24px;
 			font-weight: 700;

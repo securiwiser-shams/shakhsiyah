@@ -10,7 +10,7 @@ const JounerSection = () => {
                 <input type="number" name="day" min="1" max="31" placeholder="DD ↓" />
                 <input type="number" name="month" min="1" max="12" placeholder="MM ↓"  />
                 <input type="number" name="year" min="1900" max="2099" placeholder="YY↓" />
-                <input type="button" name="button"/>
+                <input type="button" name="button" value=""/>
                 </form>
             </div>
         </div>
