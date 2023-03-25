@@ -81,3 +81,31 @@
 		}
 	}
 }
+
+@media (max-width: 390px) {
+	.patner-area{
+		padding-top: 60px;
+		.col-xl-3{
+			position: absolute;
+			font-size: 30px;
+			width: 100vw !important;
+			padding: 0;
+		}
+		.font-partner{
+			margin-bottom: 40px;
+		}
+		.section-title {
+			top: -30px;
+		}
+		.partner-row{
+			margin-top: 20px;
+			margin-bottom: 90px;
+		}
+		.col-xl-7{
+			position: absolute;
+			width: 100vw !important;
+			padding: 0;
+			margin-top: 80px;
+		}
+	}
+}
