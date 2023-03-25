@@ -42,6 +42,11 @@
 	margin: 0 auto;
 	background: $navy;
 	height: 100px;
+	max-height: 100px !important;
+	div{
+		max-height: 100px;
+
+	}
 	@media #{$xs,$sm,$md,$lg} {
 		padding: 16px 0;
 	}
@@ -1233,4 +1238,22 @@ div.mean-container {
 .user-btn-sign-up{
 	padding: 0;
 	text-align: center;
+}
+@media (max-width: 1320px) {
+    .jouney_content{
+        width: 92vw !important;
+    }
+    .main-menu ul li{
+		margin: 0 20px;
+	}
+}
+
+@media (max-width: 1200px) {
+    .header-main-wrapper{
+		.row {
+			.col-xl-8{
+				padding-right: 26px;
+			}
+		}
+	}
 }

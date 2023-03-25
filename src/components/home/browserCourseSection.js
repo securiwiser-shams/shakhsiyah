@@ -14,7 +14,7 @@ const BrowserCourseSection = () => {
                              animateIn="animate__fadeIn"
                              animateOut="animate__fadeOut"
                                >
-                            <h1 class="white-color"> Our School <span className="down-mark-line-2"> Settings</span></h1>
+                            <h1 className="white-color"> Our School <span className="down-mark-line-2"> Settings</span></h1>
                             </ScrollAnimation>
                         </div>
                     </div>

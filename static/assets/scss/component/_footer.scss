@@ -10,15 +10,15 @@
 
 .footer-area {
 	background: #141517;
+	.container{
+		padding: 0;
+		max-width: 100%px;
+	}
 }
 .footer-img {
 	img {
 		margin-bottom: 30px;
 	}
-}
-.container{
-	width: 100%;
-	max-width: 1284px;
 }
 
 .footer-widget {
@@ -133,16 +133,26 @@
 .copyright-area {
 	background: #1A1F27;
 	border-radius: 10px 10px 0 0;
-	padding: 30px 20px;
+	padding: 20px 20px 0;
 	width: 100%;
+	height: 121px;
+	.col-xl-5 {
+		max-width: 30%;
+	}
+	
 	@media #{$sm,$xs} {
-		padding: 30px 15px;
+		padding: 20px 15px 0;
 	}
 }
 .copy-right-support {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: right;
+	 p,  h6 {
+		display: inline-block;
+		vertical-align: top;
+	  }
+	  
 	top: 5px;
 	position: relative;
 	@media #{$xs} {
@@ -165,6 +175,8 @@
 	margin-right: 20px;
 }
 .copyright-svg-content {
+	text-align: right;
+	width: 350px;
 	h6 {
 		color: $white;
 		font-size: 18px;
@@ -174,14 +186,21 @@
 			font-size: 16px;
 		}
 	}
+	p{
+		color: #2467EC;
+		font-size: 18px;
+		padding-right: 21px;
+	}
+	a{
+		font-size: 22px;
+		font-weight: 600;
+	}
 }
 .copyright-subcribe {
 	position: relative;
 	display: flex;
 	width: 480px;
-	@media #{$md} {
-		margin-top: 30px;
-	}
+	margin: 0;
 	.field{
 		background: $heading-color;
 		height: 70px;
@@ -196,6 +215,7 @@
 .copyright-subcribe .field input {
 	height: 70px;
 	border: 0;
+	width: 60%;
 	color: $white;
 	background: $heading-color;
 	outline: none;
@@ -204,6 +224,10 @@
 	}
 	&::-moz-placeholder {
 		color: $theme-color-2-2;
+	}
+	input:-internal-autofill-selected {
+		background: $heading-color !important;
+		color: $white !important;
 	}
 }
 .copyright-subcribe button {
@@ -258,7 +282,7 @@
 		color: $white;
 	}
 	span {
-		color: #a3a3a4;
+		color: #2467EC;
 	}
 }
 // border-style
@@ -283,7 +307,7 @@
 	height: 70px;
 	width: 1px;
 	background: #373a3e;
-	right: 50px;
+	right: -65px;
 	top: -9px;
 	@media #{$xl} {
 		right: 12px;
@@ -502,6 +526,57 @@
 		}
 	}
 }
-.col-xl-4{
-	margin: auto;
+.copyright-area{
+	.col-xl-3{
+		width: 270px;
+	}
+	.col-xl-4{
+		width: 400px;
+		margin-right: 120px;
+	}
+	.col-xl-5 {
+		padding: 0;
+		width: 480px;
+	}
+}
+
+.footer-icon a{
+	margin-right: 9px;
+}
+@media (max-width: 1400px) {
+	.container{
+		max-width: 95vw;
+		.border-line-2::before {
+			right: -60px;
+		}
+	}
+}
+@media (max-width: 1400px) {
+	.copyright-area{
+		.copyright-subcribe{
+			width: 34vw;
+			form{
+				width: 100%;
+				.field{
+					width: 100%;
+				}
+			}
+		}
+	}
+	html, body{
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+}
+@media (max-width: 1330px) {
+	.copyright-area{
+		.copyright-subcribe{
+			width: 33vw;
+		}
+	}
+	.footer-area{
+		.col-xl-4{
+			margin-right: 9vw;
+		}
+	}
 }
