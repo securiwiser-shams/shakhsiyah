@@ -12,11 +12,15 @@ const ContactFormSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
+    const sgClient = require('@sendgrid/client');
+    sgClient.setApiKey('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'); // Set your own SendGrid API key
+    sgClient.setDefaultHeader('Origin', 'https://shakhsiyah.netlify.app'); // Replace with your own React app domain
+  
     const message = {
       to: 'shams@securiwiser.com', // Replace with your own email address
       from: 'shams@securiwiser.com',
-      subject: 'hello word',
+      subject: 'hello world',
       html: `
         <p><strong>Name:</strong> ${formData.name}</p>
         <p><strong>Email:</strong> ${formData.email}</p>
@@ -24,16 +28,22 @@ const ContactFormSection = () => {
         <p><strong>Message:</strong> ${formData.message}</p>
       `,
     };
-
+  
     try {
-      sgMail.setApiKey('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'); // Set your own SendGrid API key
-      await sgMail.send(message);
+      const request = {
+        method: 'POST',
+        url: '/v3/mail/send',
+        body: message,
+      };
+  
+      await sgClient.request(request);
       alert('Email sent successfully!');
     } catch (error) {
       console.error(error);
       alert(`Failed to send email: ${error.message}`);
     }
   };
+  
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
