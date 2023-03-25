@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import sgMail from '@sendgrid/mail';
+import { setApiKey, setDefaultHeader, request } from '@sendgrid/client';
+
 
 const ContactFormSection = () => {
   const [formData, setFormData] = useState({
@@ -13,14 +14,19 @@ const ContactFormSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
   
-    const sgClient = require('@sendgrid/client');
-    sgClient.setApiKey('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'); // Set your own SendGrid API key
-    sgClient.setDefaultHeader('Origin', 'https://shakhsiyah.netlify.app'); // Replace with your own React app domain
+    setApiKey('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'); // Set your own SendGrid API key
+    setDefaultHeader('Origin', 'http://localhost:8000'); // Replace with your own React app domain
+
+    const sgClient = request({
+      method: 'POST',
+      url: 'https://api.sendgrid.com/v3/mail/send',
+      body: {},
+    });
   
     const message = {
       to: 'shams@securiwiser.com', // Replace with your own email address
       from: 'shams@securiwiser.com',
-      subject: 'hello world',
+      subject: formData.subject,
       html: `
         <p><strong>Name:</strong> ${formData.name}</p>
         <p><strong>Email:</strong> ${formData.email}</p>
@@ -32,11 +38,11 @@ const ContactFormSection = () => {
     try {
       const request = {
         method: 'POST',
-        url: '/v3/mail/send',
+        url: 'https://api.sendgrid.com/v3/mail/send',
         body: message,
       };
   
-      await sgClient.request(request);
+      await sgClient(request);
       alert('Email sent successfully!');
     } catch (error) {
       console.error(error);
@@ -112,6 +118,8 @@ const ContactFormSection = () => {
             </div>
           </div>
           <div className="col-xl-2 ">
+            <div>
+            </div>
             <div className="cont-btn mb-20">
               <button type="submit" className="cont-btn">
                 Submit
