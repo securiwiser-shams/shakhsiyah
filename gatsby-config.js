@@ -6,7 +6,7 @@ module.exports = {
     author: `@r-ichard`,
     siteUrl: 'https://shakhsiyah.netlify.app/',
     url: `https://shakhsiyah.netlify.app/`,
-    image: `static/favicon.png`, 
+    image: `static/favicon.png`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -27,8 +27,8 @@ module.exports = {
           placeholder: `blurred`,
           quality: 80,
           backgroundColor: `transparent`,
-        }
-      }
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-sass`,
@@ -41,22 +41,22 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://shakhsiyah.netlify.app`
-      }
+        siteUrl: `https://shakhsiyah.netlify.app`,
+      },
     },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         host: 'https://shakhsiyah.netlify.app',
         sitemap: `https://shakhsiyah.netlify.app/sitemap.xml`,
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-bootstrap-5`,
-        short_name: `gb5-starter`, 
+        short_name: `gb5-starter`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -72,10 +72,21 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-mailchimp",
+      resolve: `gatsby-plugin-mailchimp`,
       options: {
-        endpoint: 'https://securiwiser.us6.list-manage.com/subscribe/post?u=c1d918ebb5b3df47d89d58902&amp;id=bfd965d8a1',
+        endpoint:
+          'https://securiwiser.us6.list-manage.com/subscribe/post?u=c1d918ebb5b3df47d89d58902&amp;id=bfd965d8a1',
         timeout: 5000, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+    },
+    // Add the following two plugins for Netlify
+    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-netlify-headers`,
+      options: {
+        headers: {
+          '/api/*': ['Access-Control-Allow-Origin: *'],
+        },
       },
     },
   ],
