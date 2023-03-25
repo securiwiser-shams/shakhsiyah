@@ -16,6 +16,7 @@
 	flex-wrap: wrap;
 	gap: 110px 70px;
 	margin-top: 10px;
+	width: 70vw;
 	@media #{$xl} {
 		gap: 80px 45px;
 	}

@@ -9,7 +9,7 @@ const BrowserCourseSection = () => {
             <div className="container">
                 <div className="row">
                 <div className="col-12">
-                        <div className="section-title text-center mb-60"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        <div className="section-title text-center mb-60">
                         <ScrollAnimation
                              animateIn="animate__fadeIn"
                              animateOut="animate__fadeOut"
