@@ -142,6 +142,7 @@
 .copy-right-support {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	top: 5px;
 	position: relative;
 	@media #{$xs} {
@@ -181,26 +182,23 @@
 	@media #{$md} {
 		margin-top: 30px;
 	}
+	.field{
+		background: $heading-color;
+		height: 70px;
+		border-radius: 5px;
+		padding: 0 10px;
+		width: 480px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 }
 .copyright-subcribe .field input {
 	height: 70px;
-	width: 100%;
-	padding: 0 190px 0 45px;
-	background: $heading-color;
 	border: 0;
-	border-radius: 5px;
 	color: $white;
+	background: $heading-color;
 	outline: none;
-	@media #{$lg} {
-		padding: 0 150px 0 45px;
-	}
-	@media #{$md} {
-		padding-left: 0px 0px 0px 45px;
-	}
-	@media #{$xs} {
-		padding: 0 20px 0 45px;
-		height: 60px;
-	}
 	&::placeholder {
 		color: $theme-color-2-2;
 	}
@@ -209,19 +207,17 @@
 	}
 }
 .copyright-subcribe button {
-	position: absolute;
-	top: 10px;
-	right: 10px;
+	position: relative;
 	height: 50px;
 	width: 160px;
 	background: $theme-color;
 	border-radius: 5px;
-	color: $white;
+	color: #CFAB63;
+	i{
+		color: #fff;
+		padding-left: 18px;
+	}
 	font-weight: 600;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 10px;
 	@media #{$xs} {
 		margin-bottom: 20px;
 		position: relative;
@@ -237,6 +233,9 @@
 }
 .widget__subscribe .field {
 	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	&::before {
 		position: absolute;
 		content: "\f0e0";
@@ -502,4 +501,7 @@
 			color: $theme-color;
 		}
 	}
+}
+.col-xl-4{
+	margin: auto;
 }

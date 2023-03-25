@@ -1,0 +1,50 @@
+.jouney_container{
+    background-color: #1B2E52;
+    width: 100%;
+    height: 371px;
+    .jouney_content{
+        background-color: #CFAB63;
+        width: 1290px;
+        max-width: 100vw;
+        height: 345px;
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -91px auto;/*/////////////////////////////////*/
+        justify-content: center;
+        h1{
+            font-size: 46px;
+            color: black;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 600;
+            color: black;
+        }
+        form{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 404px;
+            input[type="number"]{
+                border-radius: 10px;
+                width: 101px;
+                height: 52px;
+                border:  none;
+                font-size: 21px;
+                padding: 0 18px;
+                color: black;
+                font-weight: 700;
+
+            }
+            input[type="button"]{
+                border-radius: 50px;
+                height: 52px;
+                width: 52px;
+                background-color: #1B2E52;
+                border: 2px solid black;
+            }
+        }
+    }
+}

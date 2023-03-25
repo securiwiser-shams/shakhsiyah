@@ -5,7 +5,7 @@ const ContactFormSection = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: 'Course', 
+    subject: 'Course',
     message: '',
     school: '',
   });

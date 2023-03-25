@@ -9,6 +9,7 @@ import AboutFeatureVideo from './aboutFeatureVideo';
 import PartnerSection from './partnerSection';
 import GallaryInstaSection from './gallaryInstaSection';
 import BrowserCourseSection from './browserCourseSection';
+import JounerSection from './jouner';
 
 const index = () => {
     return (
@@ -22,6 +23,7 @@ const index = () => {
                 <AboutFeatureVideo />
                 <BrowserCourseSection />
                 <PartnerSection />
+                <JounerSection/>
                 <GallaryInstaSection />
             </main>
             <Footer />

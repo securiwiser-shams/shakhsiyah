@@ -176,7 +176,7 @@
 	top: 25%;
 	line-height: 18px;
 	@media #{$md} {
-		right: -20%;
+		display: none;
 	}
 	@media #{$sm,$xs} {
 		display: none;

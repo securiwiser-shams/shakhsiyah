@@ -161,14 +161,14 @@ const Footer = () => {
               onBlur={handleBlur}
               value={values.email}
             />
-          </div>
-          {!isSubmitting ? (
+            {!isSubmitting ? (
             <button type="submit">Subscribe<i className="fas fa-paper-plane"></i></button>
           ) : (
             <button type="submit" disabled={true}>
               Subscribing ...
             </button>
           )}
+          </div>
           <div className="error" style={{ color: "red" }}>
             {errors.email && touched.email && errors.email}
           </div>
