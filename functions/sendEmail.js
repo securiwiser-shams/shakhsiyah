@@ -3,11 +3,11 @@ const sgMail = require('@sendgrid/mail');
 exports.handler = async (event) => {
   const { name, phone, email, subject, message } = JSON.parse(event.body);
 
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  sgMail.setApiKey(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);
 
   const msg = {
     to: 'shams@securiwiser.com',
-    from: process.env.SENDGRID_AUTHORIZED_EMAIL,
+    from: 'shams@securiwiser.com',
     subject: subject,
     text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage: ${message}`,
   };
