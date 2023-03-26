@@ -70,6 +70,7 @@ const ContactFormSection = () => {
                 value={subject}
                 onChange={handleChange}
               >
+                <option value=''>Select Department</option>
                 <option value='Course'>Course</option>
                 <option value='Financial Aid'>Financial Aid</option>
                 <option value='Payment'>Payment</option>
