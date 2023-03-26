@@ -18,7 +18,13 @@ const ContactFormSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('/.netlify/functions/sendEmail', formData);
+      const res = await axios.post('/.netlify/functions/sendEmail', {
+        name,
+        phone,
+        email,
+        subject,
+        message,
+      });
       console.log(res.data);
     } catch (err) {
       console.error(err);
@@ -70,11 +76,10 @@ const ContactFormSection = () => {
                 value={subject}
                 onChange={handleChange}
               >
-                <option value=''>Select Department</option>
-                <option value='Course'>Course</option>
-                <option value='Financial Aid'>Financial Aid</option>
-                <option value='Payment'>Payment</option>
-                <option value='Information'>Information</option>
+                <option defaultValue='Subject'>Course</option>
+                <option defaultValue='Subject'>Financial Aid</option>
+                <option defaultValue='Subject'>Payment</option>
+                <option defaultValue='Subject'>Information</option>
               </select>
             </div>
           </div>
