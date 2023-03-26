@@ -1,10 +1,9 @@
 const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 exports.handler = async (event) => {
   try {
     const { name, phone, email, subject, message } = JSON.parse(event.body);
-
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
     const msg = {
       to: 'shams@securiwiser.com',
@@ -14,15 +13,16 @@ exports.handler = async (event) => {
     };
 
     await sgMail.send(msg);
-    
+
     return {
       statusCode: 200,
       body: JSON.stringify({ message: 'Email sent successfully' }),
     };
   } catch (error) {
+    console.log(error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: error.toString() }),
+      body: JSON.stringify({ error: 'Error occurred while sending email' }),
     };
   }
 };
