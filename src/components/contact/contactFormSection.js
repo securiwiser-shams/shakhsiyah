@@ -10,6 +10,8 @@ const ContactFormSection = () => {
     message: '',
   });
 
+  const [formErrors, setFormErrors] = useState({});
+
   const { name, phone, email, subject, message } = formData;
 
   const handleChange = (e) =>
@@ -17,6 +19,20 @@ const ContactFormSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validate form data
+    const errors = {};
+    if (!name) errors.name = 'Name is required';
+    if (!phone) errors.phone = 'Phone number is required';
+    if (!email) errors.email = 'Email is required';
+    if (!subject) errors.subject = 'Subject is required';
+    if (!message) errors.message = 'Message is required';
+
+    if (Object.keys(errors).length > 0) {
+      setFormErrors(errors);
+      return;
+    }
+
     try {
       const res = await axios.post('/.netlify/functions/sendEmail', {
         name,
@@ -26,6 +42,14 @@ const ContactFormSection = () => {
         message,
       });
       console.log(res.data);
+      setFormErrors({});
+      setFormData({
+        name: '',
+        phone: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
     } catch (err) {
       console.error(err);
     }
@@ -44,6 +68,9 @@ const ContactFormSection = () => {
                 value={name}
                 onChange={handleChange}
               />
+              {formErrors.name && (
+                <span className='error'>{formErrors.name}</span>
+              )}
             </div>
           </div>
           <div className='col-xl-6'>
@@ -55,6 +82,9 @@ const ContactFormSection = () => {
                 value={phone}
                 onChange={handleChange}
               />
+              {formErrors.phone && (
+                <span className='error'>{formErrors.phone}</span>
+              )}
             </div>
           </div>
           <div className='col-xl-6'>
@@ -66,6 +96,9 @@ const ContactFormSection = () => {
                 value={email}
                 onChange={handleChange}
               />
+              {formErrors.email && (
+                <span className='error'>{formErrors.email}</span>
+              )}
             </div>
           </div>
           <div className='col-xl-6'>
@@ -82,6 +115,9 @@ const ContactFormSection = () => {
                 <option defaultValue='Subject'>Payment</option>
                 <option defaultValue='Subject'>Information</option>
               </select>
+              {formErrors.subject && (
+                <span className='error'>{formErrors.subject}</span>
+              )}
             </div>
           </div>
           <div className='col-xl-12'>
@@ -92,15 +128,16 @@ const ContactFormSection = () => {
                 value={message}
                 onChange={handleChange}
               ></textarea>
+              {formErrors.message && (
+                <span className='error'>{formErrors.message}</span>
+              )}
             </div>
           </div>
-          <div className='colxl-2 '>
-            <div className='cont-btn mb-20'>
-              <button type='submit' className='cont-btn'>
-                Submit
-              </button>
-            </div>
-          </div>
+        <div className='col-xl-12'>
+          <button className='edu-btn' type='submit'>
+            Submit
+          </button>
+        </div>
         </div>
       </form>
     </div>
