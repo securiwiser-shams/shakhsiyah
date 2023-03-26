@@ -1,5 +1,5 @@
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey(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);
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 exports.handler = async (event) => {
   try {
@@ -7,7 +7,7 @@ exports.handler = async (event) => {
 
     const msg = {
       to: 'shams@securiwiser.com',
-      from: 'shams@securiwiser.com',
+      from: process.env.SENDGRID_AUTHORIZED_EMAIL,
       subject: subject,
       text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage: ${message}`,
     };
