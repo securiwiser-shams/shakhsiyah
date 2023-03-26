@@ -9,6 +9,7 @@ const ContactFormSection = () => {
     subject: '',
     message: '',
   });
+  const [modalOpen, setModalOpen] = useState(false);
 
   const { name, phone, email, subject, message } = formData;
 
@@ -18,17 +19,23 @@ const ContactFormSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('/.netlify/functions/sendEmail', {
-        name,
-        phone,
-        email,
-        subject,
-        message,
-      });
+      const res = await axios.post('/.netlify/functions/sendEmail', formData);
       console.log(res.data);
+      setModalOpen(true);
     } catch (err) {
       console.error(err);
     }
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+    setFormData({
+      name: '',
+      phone: '',
+      email: '',
+      subject: '',
+      message: '',
+    });
   };
 
   return (
@@ -77,10 +84,10 @@ const ContactFormSection = () => {
                 onChange={handleChange}
               >
                 <option value=''>Select Department</option>
-                <option defaultValue='Subject'>Course</option>
-                <option defaultValue='Subject'>Financial Aid</option>
-                <option defaultValue='Subject'>Payment</option>
-                <option defaultValue='Subject'>Information</option>
+                <option value='Course'>Course</option>
+                <option value='Financial Aid'>Financial Aid</option>
+                <option value='Payment'>Payment</option>
+                <option value='Information'>Information</option>
               </select>
             </div>
           </div>
@@ -103,6 +110,16 @@ const ContactFormSection = () => {
           </div>
         </div>
       </form>
+      {modalOpen && (
+        <div className='modal'>
+          <div className='modal-content'>
+            <span className='close' onClick={handleCloseModal}>
+              &times;
+            </span>
+            <p>Email sent successfully!</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
