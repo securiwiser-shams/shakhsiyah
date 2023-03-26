@@ -7,7 +7,7 @@ exports.handler = async (event) => {
 
     const msg = {
       to: 'shams@securiwiser.com',
-      from: 'shams@securiwiser.com',
+      from: process.env.SENDGRID_AUTHORIZED_EMAIL,
       subject: subject,
       text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage: ${message}`,
     };
