@@ -50,7 +50,6 @@ const ContactFormSection = () => {
         subject: '',
         message: '',
       });
-      alert('Email sent successfully!');
     } catch (err) {
       console.error(err);
     }
