@@ -10,10 +10,11 @@ exports.handler = async (event) => {
       from: process.env.SENDGRID_AUTHORIZED_EMAIL,
       subject: 'Hello World',
       html: `
-        <p><strong>Name:</strong> ${formData.name}</p>
-        <p><strong>Email:</strong> ${formData.email}</p>
-        <p><strong>School:</strong> ${formData.school}</p>
-        <p><strong>Message:</strong> ${formData.message}</p>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Subject:</strong> ${subject}</p>
+        <p><strong>Message:</strong> ${message}</p>
       `,
     };
 
