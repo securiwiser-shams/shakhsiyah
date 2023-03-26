@@ -8,8 +8,13 @@ exports.handler = async (event) => {
     const msg = {
       to: 'shams@securiwiser.com',
       from: process.env.SENDGRID_AUTHORIZED_EMAIL,
-      subject: subject,
-      text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage: ${message}`,
+      subject: 'Hello World',
+      html: `
+        <p><strong>Name:</strong> ${formData.name}</p>
+        <p><strong>Email:</strong> ${formData.email}</p>
+        <p><strong>School:</strong> ${formData.school}</p>
+        <p><strong>Message:</strong> ${formData.message}</p>
+      `,
     };
 
     await sgMail.send(msg);
