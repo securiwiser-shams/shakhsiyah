@@ -76,6 +76,7 @@ const ContactFormSection = () => {
                 value={subject}
                 onChange={handleChange}
               >
+                <option value=''>Select Department</option>
                 <option defaultValue='Subject'>Course</option>
                 <option defaultValue='Subject'>Financial Aid</option>
                 <option defaultValue='Subject'>Payment</option>
