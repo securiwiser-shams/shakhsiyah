@@ -6,8 +6,8 @@ exports.handler = async (event) => {
     const { name, phone, email, subject, message } = JSON.parse(event.body);
 
     const msg = {
-      to: 'xxx',
-      from: 'xxx',
+      to: 'shams@securiwiser.com',
+      from: 'shams@securiwiser.com',
       subject: subject,
       text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage: ${message}`,
     };
