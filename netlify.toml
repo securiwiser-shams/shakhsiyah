@@ -1,0 +1,10 @@
+[build]
+  functions = "functions"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
+
+[build.environment]
+  SENDGRID_API_KEY = "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"
+  SENDGRID_TO_EMAIL = "shams@securiwiser.com"
+  SENDGRID_AUTHORIZED_EMAIL = "shams@securiwiser.com"
