@@ -13,14 +13,14 @@ const HeaderMenu = () => {
                             <li><Link to="/trustees">Trustees</Link></li>
                             <li><Link to="/senior-team">Senior Leadership Team</Link></li>
                             <li><Link to="/safeguarding-team">Safeguarding Team</Link></li>
-                        </ul>
+                        </ul> 
                     </li>
                     <li><Link to="/policies">Policies</Link></li>
                     <li><Link to="/vacancies">Vacancies</Link></li>
                     <li><Link to="/parents">Information for Parent</Link></li>
                     </ul>
             </li>
-            <li className="menu-item-has-children"><Link to="/admissions">Admissions</Link>
+            <li ><Link to="/admissions">Admissions</Link>
             </li>
             <li className="menu-item-has-children"><Link to="#">Early Years</Link>
                 <ul className="sub-menu">
