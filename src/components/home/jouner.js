@@ -2,6 +2,9 @@ import React from 'react';
 import RangoNumerico from './range';
 import arrow_gold from '../../../static/assets/img/arrow/arrow_gold.svg'
 const JounerSection = () => {
+    const fechaActual = new Date();
+    const yearActual = fechaActual.getFullYear();
+    const yearMenos7 = yearActual - 17;
     return (
         <div className='jouney_container'>
             <div className='jouney_content'>
@@ -10,7 +13,7 @@ const JounerSection = () => {
                 <form>
                     <RangoNumerico rango={[1, 31]} date="DD"/>
                     <RangoNumerico rango={[1, 12]} date="MM"/>
-                    <RangoNumerico rango={[2023, 2006]} date="YY"/>
+                    <RangoNumerico rango={[yearActual, yearMenos7]} date="YY"/>
                     <div className='button_arrow'>
                         <img src={arrow_gold}/>
                     </div>
