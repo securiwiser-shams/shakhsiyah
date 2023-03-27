@@ -110,6 +110,26 @@
 		}
 	}
 }
+@media (max-width: 460px) {
+	.browser-course-content {
+		width: 230px !important;
+	}
+	.browser-course-wrapper .browser-course-content {
+		line-height: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.browser-course-content{
+		padding: 0;
+		.col-xl-7 {
+			position: absolute;
+			font-size: 20px !important;
+			width: 100% !important;
+			padding: 0;
+			
+		}}
+}
 @media (max-width: 390px) {
 	.patner-area{
 		padding: 60px 0 0;
@@ -188,5 +208,11 @@
 				}
 			}
 		}
+	}
+}
+@media (max-width: 370px) {
+	.browser-course-content{
+		line-height: 15px;
+		width: 250px;
 	}
 }
