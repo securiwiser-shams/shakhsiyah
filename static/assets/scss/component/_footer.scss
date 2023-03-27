@@ -580,11 +580,32 @@
 		}
 	}
 }
-@media (max-width: 390px) {
+@media (max-width: 880px) {
+	.footer-area{
+		.footer-main{
+			.col-xl-3{
+				display: block;
+				width: 100%;
+			}
+		}
+		.footer-widget{
+			text-align: center;
+		}
+	}
+}
+@media (max-width: 670px) {
 	.footer-area{
 		.col{
-			width: 25%;
+			width: 50%;
+			text-align: center;
+			flex: none;
+			line-height: 17px;
 		}
+	}
+}
+
+@media (max-width: 390px) {
+	.footer-area{
 		.footer-main{
 			margin-bottom: 0;
 		}
