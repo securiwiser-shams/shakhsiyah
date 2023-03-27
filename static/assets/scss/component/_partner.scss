@@ -155,10 +155,15 @@
 		}
 		.browser-course-content{
 			padding: 10px;
+			.course-btn{
+				height: 30px;
+				line-height: 30px;
+				padding: 0 19px;
+			}
 		}
 		.browser-course-tittle{
 			a{
-				font-size: 15px;
+				font-size: 15px !important;
 			}
 		}
 		.gatsby-image-wrapper div{
