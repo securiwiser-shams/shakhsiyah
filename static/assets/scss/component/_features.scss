@@ -285,8 +285,28 @@
 		height: 1150px !important;
 	}
 }
+@media (max-width: 410px) {
+	.features-area {
+		height: 1200px !important;
+	}
+}
 @media (max-width: 395px) {
 	.features-area {
 		height: 1220px !important;
+	}
+}
+@media (max-width: 365px) {
+	.features-area {
+		height: 1270px !important;
+	}
+}
+@media (max-width: 315px) {
+	.features-area {
+		height: 1320px !important;
+	}
+}
+@media (max-width: 285px) {
+	.features-area {
+		height: 1370px !important;
 	}
 }

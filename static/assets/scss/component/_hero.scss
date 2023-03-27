@@ -1005,6 +1005,12 @@
 	}
 }
 
+@media (max-width: 419px) {
+	.slider-area {
+		height: 1250px !important;
+	}
+}
+
 @media (max-width: 390px) {
 	.hero-text {
 		h1 {
@@ -1078,7 +1084,11 @@
 
 	}
 }
-
+@media (max-width: 380px) {
+	.university-message-area {
+		height: 1400px !important;
+	}
+}
 @media (max-width: 366px) {
 	.university-message-area {
 		height: 1300px !important;
@@ -1090,8 +1100,38 @@
 	}
 }
 
-@media (max-width: 366px) {
+@media (max-width: 337px) {
 	.university-message-area {
-		height: 1525px !important;
+		height: 1350px !important;
+	}
+}
+@media (max-width: 327px) {
+	.university-message-area {
+		height: 1380px !important;
+	}
+}
+@media (max-width: 327px) {
+	.university-message-area {
+		height: 1380px !important;
+	}
+}
+@media (max-width: 315px) {
+	.university-message-area {
+		height: 1420px !important;
+	}
+}
+@media (max-width: 299px) {
+	.university-message-area {
+		height: 1460px !important;
+	}
+}
+@media (max-width: 291px) {
+	.university-message-area {
+		height: 1500px !important;
+	}
+}
+@media (max-width: 280px) {
+	.university-message-area {
+		height: 1550px !important;
 	}
 }
