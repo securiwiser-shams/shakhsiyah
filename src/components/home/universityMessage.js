@@ -41,7 +41,7 @@ const UniversityMessage = () => {
                                 animateIn="animate__fadeIn"
                                 animateOut="animate__fadeOut"
                             >
-                                <p className="whiteTextOverride">We have carefully designed a curriculum that aims to cater for the spiritual, intellectual and
+                                <p className="whiteTextOverride second_text">We have carefully designed a curriculum that aims to cater for the spiritual, intellectual and
                                     worldly needs of the student. To this end, we have placed a strong emphasis on the study of the
                                     Arabic language; the spiritual and worldly advantages of which are obvious. Moreover, the Arabic
                                     language is a wonderful vehicle for sharpening the intellectual powers and connecting the aspiring

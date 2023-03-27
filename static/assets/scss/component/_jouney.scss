@@ -16,6 +16,7 @@
         position: relative;
         top: -90px;
         margin: auto;
+        padding: 10px;
         h1{
             font-size: 46px;
             color: black;
@@ -24,6 +25,7 @@
             font-size: 24px;
             font-weight: 600;
             color: black;
+            text-align: center;
         }
         form{
             max-width: 100%;
@@ -60,8 +62,9 @@
     }
     
 }
-@media (max-width: 390px) {
+@media (max-width: 430px) {
     .jouney_content{
+        text-align: center;
         h1{
             font-size: 32px !important;
         }
@@ -70,6 +73,45 @@
             padding: 0 10px;
             input[type="number"]{
                 width: 80px !important;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 430px) {
+    .jouney_content{
+        text-align: center;
+        h1{
+            font-size: 32px !important;
+        }
+        form{
+            width: 100%;
+            padding: 0 10px;
+            input[type="number"]{
+                width: 70px !important;
+            }
+        }
+    }
+}
+@media (max-width: 335px) {
+    .jouney_container{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .jouney_content{
+        text-align: center;
+        height: auto !important;
+        p{
+            font-size: 12px;
+        }
+        form{
+            width: 100%;
+            display: block !important;
+            padding: 10px;
+            input[type="number"]{
+                width: 100% !important;
+                margin: 10px 0;
             }
         }
     }
