@@ -1,5 +1,5 @@
 import React from 'react';
-
+import RangoNumerico from './range';
 const JounerSection = () => {
     return (
         <div className='jouney_container'>
@@ -7,10 +7,9 @@ const JounerSection = () => {
                 <h1>Start Your Journey</h1>
                 <p>Enter your child’s date of birth to discover the key steps to joining us </p>
                 <form>
-                <input type="number" name="day" min="1" max="31" placeholder="DD ↓" />
-                <input type="number" name="month" min="1" max="12" placeholder="MM ↓"  />
-                <input type="number" name="year" min="1900" max="2099" placeholder="YY↓" />
-                <input type="button" name="button" value=""/>
+                    <RangoNumerico rango={[1, 31]} date="DD"/>
+                    <RangoNumerico rango={[1, 12]} date="MM"/>
+                    <RangoNumerico rango={[2023, 2006]} date="YY"/>
                 </form>
             </div>
         </div>

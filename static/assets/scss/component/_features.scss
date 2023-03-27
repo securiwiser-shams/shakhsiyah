@@ -280,3 +280,13 @@
 	transform: scale3d(1.1, 1.1, 1.1);
 }
 
+@media (max-width: 451px) {
+	.features-area {
+		height: 1150px !important;
+	}
+}
+@media (max-width: 395px) {
+	.features-area {
+		height: 1220px !important;
+	}
+}

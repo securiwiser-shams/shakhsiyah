@@ -23,18 +23,22 @@
 	.row {
 		display: flex;
 	}
-	.second_text{
+
+	.second_text {
 		margin-top: 104px;
 	}
+
 	.row {
 		width: 1297px;
 		max-width: 100vw;
 		margin: auto;
 	}
-	img{
+
+	img {
 		width: 100px;
 		height: 100px;
 	}
+
 	.message-meta {
 		justify-content: center;
 	}
@@ -872,7 +876,8 @@
 		height: 870px !important;
 		padding-top: 200px !important;
 	}
-	.second_text{
+
+	.second_text {
 		margin-top: 0 !important;
 	}
 }
@@ -895,10 +900,12 @@
 	.university-message-area {
 		height: 915px !important;
 	}
-	.second_text{
+
+	.second_text {
 		margin-top: 0 !important;
 	}
 }
+
 @media (max-width: 874px) {
 	.university-message-area {
 		padding-top: 180px !important;
@@ -933,11 +940,13 @@
 		height: 1000px !important;
 	}
 }
+
 @media (max-width: 667px) {
 	.university-message-area {
 		height: 1050px !important;
 	}
 }
+
 @media (max-width: 660px) {
 	.university-message-area {
 		h2 {
@@ -957,35 +966,45 @@
 		height: 1100px !important;
 	}
 }
+
 @media (max-width: 538px) {
 	.university-message-area {
 		height: 1150px !important;
 	}
 }
+
 @media (max-width: 504px) {
 	.university-message-area {
 		height: 1220px !important;
-		img, .gatsby-image-wrapper{
+
+		img,
+		.gatsby-image-wrapper {
 			height: 80px;
 			width: 80px;
 		}
 	}
 }
+
+
+
 @media (max-width: 463px) {
 	.university-message-area {
-		h2{
+		h2 {
 			font-size: 30px;
 		}
-		p{
+
+		p {
 			font-size: 18px;
 		}
 	}
 }
+
 @media (max-width: 410px) {
-	.slider-area{
+	.slider-area {
 		height: 660px;
 	}
 }
+
 @media (max-width: 390px) {
 	.hero-text {
 		h1 {
@@ -996,29 +1015,36 @@
 	.university-message-area {
 		height: 1350px !important;
 		margin-top: 100p;
-		.second_text{
+
+		.second_text {
 			margin-top: 0;
 		}
-		.gatsby-image-wrapper{
+
+		.gatsby-image-wrapper {
 			width: 60px;
 			height: 60px;
 		}
-		.message-meta{
+
+		.message-meta {
 			img {
 				width: 60px !important;
 				height: 60px !important;
 			}
 		}
-		.col-xl-4{
+
+		.col-xl-4 {
 			padding: 0;
 		}
+
 		.container {
 			padding: 0;
-			.row{
+
+			.row {
 				padding: 15px;
 			}
 		}
-		h2{
+
+		h2 {
 			font-size: 45px;
 		}
 	}
@@ -1028,6 +1054,7 @@
 		.container {
 			width: 100%;
 			padding: 0;
+
 			.row {
 				width: 100%;
 				margin: 0;
@@ -1041,6 +1068,7 @@
 				.features-video-wrapper {
 					max-width: 100%;
 					padding: 5px;
+
 					.reatures-video-thumb {
 						height: auto;
 					}
@@ -1054,12 +1082,14 @@
 @media (max-width: 366px) {
 	.university-message-area {
 		height: 1300px !important;
-		p{
+
+		p {
 			line-height: 20px;
 		}
-		
+
 	}
 }
+
 @media (max-width: 366px) {
 	.university-message-area {
 		height: 1525px !important;
