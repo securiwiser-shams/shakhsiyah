@@ -110,6 +110,13 @@
 		}
 	}
 }
+@media (max-width: 1060px) {
+	.features-video-area{
+		.features-shape-werapper-2, .features-shape-wrapper-1{
+			display: none;
+		}
+	}
+}
 @media (max-width: 921px) {
 	.patner-area{
 		.col-xl-3 {

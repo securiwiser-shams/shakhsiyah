@@ -859,11 +859,25 @@
 .message-profile-text {
 	display: inline;
 }
+.university-message-area{
+	.container{
+		padding: 0;
+		.row{
+			padding: 0 5px;
+		}
+	}
+}
 
 @media (max-width: 1300px) {
 	.university-message-area {
 		height: auto !important;
 		padding-bottom: 100px;
+	}
+}
+
+@media (max-width: 1020px){
+	.slider-area{
+		background-image: none !important;
 	}
 }
 
@@ -875,10 +889,6 @@
 	.university-message-area {
 		height: 870px !important;
 		padding-top: 200px !important;
-	}
-
-	.second_text {
-		margin-top: 0 !important;
 	}
 }
 
