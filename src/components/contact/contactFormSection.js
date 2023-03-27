@@ -17,43 +17,44 @@ const ContactFormSection = () => {
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Validate form data
-    const errors = {};
-    if (!name) errors.name = 'Name is required';
-    if (!phone) errors.phone = 'Phone number is required';
-    if (!email) errors.email = 'Email is required';
-    if (!subject) errors.subject = 'Subject is required';
-    if (!message) errors.message = 'Message is required';
-
-    if (Object.keys(errors).length > 0) {
-      setFormErrors(errors);
-      return;
-    }
-
-    try {
-      const res = await axios.post('/.netlify/functions/sendEmail', {
-        name,
-        phone,
-        email,
-        subject,
-        message,
-      });
-      console.log(res.data);
-      setFormErrors({});
-      setFormData({
-        name: '',
-        phone: '',
-        email: '',
-        subject: '',
-        message: '',
-      });
-    } catch (err) {
-      console.error(err);
-    }
-  };
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+    
+      // Validate form data
+      const errors = {};
+      if (!name) errors.name = 'Name is required';
+      if (!phone) errors.phone = 'Phone number is required';
+      if (!email) errors.email = 'Email is required';
+      if (!subject) errors.subject = 'Subject is required';
+      if (!message) errors.message = 'Message is required';
+    
+      if (Object.keys(errors).length > 0) {
+        setFormErrors(errors);
+        return;
+      }
+    
+      try {
+        const res = await axios.post('/.netlify/functions/sendEmail', {
+          name,
+          phone,
+          email,
+          subject,
+          message,
+        });
+        console.log(res.data);
+        setFormErrors({});
+        setFormData({
+          name: '',
+          phone: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
+        window.alert('Message sent successfully!');
+      } catch (err) {
+        console.error(err);
+      }
+    };    
 
   return (
     <div className='contact-form'>

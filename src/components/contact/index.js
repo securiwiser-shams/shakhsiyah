@@ -1,7 +1,7 @@
 import React from 'react';
 import Breadcrumb from '../common/breadcrumb';
 import Footer from '../footer/footer';
-import HeaderFour from '../header/header';
+import Header from '../header/header';
 import ContactFormSection from './contactFormSection';
 import ContactMap from './contactMap';
 import ContactMap1 from './contactMap1';
@@ -10,7 +10,7 @@ import ContactSidebar1 from './contactSidebar1';
 const index = () => {
     return (
         <>
-            <HeaderFour />
+            <Header />
             <main>
                 <Breadcrumb breadcrumbTitle="Contact" breadcrumbSubTitle="Contact" />
                 <div className="contact-area pt-120 pb-90">
