@@ -641,6 +641,12 @@
 			max-width: 50vw;
 			min-width: 350px;
 		}
+		.footer-widget {
+			.footer-icon{
+				display: flex;
+				justify-content: center;
+			}
+		}
 	}
 }
 @media (max-width: 767px) {
@@ -744,4 +750,16 @@
 			}
 		}
 	}
+}
+@media (max-width:290px) {
+	.footer-area {
+		.copyright-area{
+			height: 320px;
+		}
+		.col{
+			width: 50%;
+			min-width: 101px;
+		}
+	}
+	
 }

@@ -859,13 +859,16 @@
 .message-profile-text {
 	display: inline;
 }
-.university-message-area{
-	.container{
+
+.university-message-area {
+	.container {
 		padding: 0;
-		.row{
+
+		.row {
 			padding: 0 5px;
 		}
 	}
+
 }
 
 @media (max-width: 1300px) {
@@ -875,8 +878,8 @@
 	}
 }
 
-@media (max-width: 1020px){
-	.slider-area{
+@media (max-width: 1020px) {
+	.slider-area {
 		background-image: none !important;
 	}
 }
@@ -891,6 +894,16 @@
 		padding-top: 200px !important;
 	}
 }
+@media (max-width: 1032px) {
+	.university-message-area {
+		height: 915px !important;
+	}
+}
+@media (max-width: 1024px) {
+	.university-message-area {
+		height: 930px !important;
+	}
+}
 
 @media (max-width: 1020px) {
 	.hero-text {
@@ -899,6 +912,14 @@
 
 	.university-message-area {
 		height: 900px !important;
+	}
+
+	.slider-area {
+		align-items: start;
+
+		.container {
+			margin-top: 100px;
+		}
 	}
 }
 
@@ -914,6 +935,10 @@
 	.second_text {
 		margin-top: 0 !important;
 	}
+
+	.slider-area {
+		height: 600px;
+	}
 }
 
 @media (max-width: 874px) {
@@ -924,7 +949,7 @@
 
 @media (max-width: 817px) {
 	.university-message-area {
-		height: 1000px !important;
+		height: 930px !important;
 	}
 }
 
@@ -936,6 +961,20 @@
 				height: 90px;
 			}
 		}
+	}
+}
+
+@media (max-width: 766px) {
+	.slider-area {
+		.container {
+			margin-top: 33px;
+		}
+	}
+}
+
+@media (max-width: 737px) {
+	.university-message-area {
+		height: 990px !important;
 	}
 }
 
@@ -951,7 +990,7 @@
 	}
 }
 
-@media (max-width: 667px) {
+@media (max-width: 677px) {
 	.university-message-area {
 		height: 1050px !important;
 	}
@@ -971,6 +1010,12 @@
 	}
 }
 
+@media (max-width: 606px) {
+	.university-message-area {
+		height: 1090px !important;
+	}
+}
+
 @media (max-width: 597px) {
 	.university-message-area {
 		height: 1100px !important;
@@ -980,6 +1025,33 @@
 @media (max-width: 538px) {
 	.university-message-area {
 		height: 1150px !important;
+	}
+}
+
+@media (max-width: 528px) {
+	.message-meta-link {
+		width: 232px !important;
+
+		.animated {
+			width: 100%;
+		}
+	}
+}
+@media (max-width: 548px) {
+	.university-message-area {
+		height: 1150px !important;
+	}
+}
+
+@media (max-width: 547px) {
+	.university-message-area {
+		height: 1150px !important;
+	}
+}
+
+@media (max-width: 514px) {
+	.university-message-area {
+		height: 1200px !important;
 	}
 }
 
@@ -1009,6 +1081,17 @@
 	}
 }
 
+@media (max-width: 414px) {
+	.university-message-area {
+		height: 1260px !important;
+	}
+}
+@media (max-width: 419px) {
+	.slider-area {
+		max-height: 620px !important;
+	}
+}
+
 @media (max-width: 410px) {
 	.slider-area {
 		height: 660px;
@@ -1018,6 +1101,24 @@
 @media (max-width: 419px) {
 	.slider-area {
 		height: 1250px !important;
+	}
+}
+
+@media (max-width: 398px) {
+	.university-message-area {
+		height: 1290px !important;
+	}
+}
+
+@media (max-width: 393px) {
+	.university-message-area {
+		height: 1290px !important;
+	}
+}
+
+@media (max-width: 390px) {
+	.university-message-area {
+		height: 1285px;
 	}
 }
 
@@ -1094,11 +1195,13 @@
 
 	}
 }
+
 @media (max-width: 380px) {
 	.university-message-area {
 		height: 1400px !important;
 	}
 }
+
 @media (max-width: 366px) {
 	.university-message-area {
 		height: 1300px !important;
@@ -1115,33 +1218,38 @@
 		height: 1350px !important;
 	}
 }
+
 @media (max-width: 327px) {
 	.university-message-area {
 		height: 1380px !important;
 	}
 }
+
 @media (max-width: 327px) {
 	.university-message-area {
 		height: 1380px !important;
 	}
 }
+
 @media (max-width: 315px) {
 	.university-message-area {
 		height: 1420px !important;
 	}
 }
+
 @media (max-width: 299px) {
 	.university-message-area {
 		height: 1460px !important;
 	}
 }
+
 @media (max-width: 291px) {
 	.university-message-area {
 		height: 1500px !important;
 	}
 }
-@media (max-width: 280px) {
-	.university-message-area {
-		height: 1550px !important;
+@media (max-width: 290px){
+	.slider-area {
+		max-height: 642px !important;
 	}
 }
