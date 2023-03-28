@@ -25,7 +25,7 @@ const ContactFormSection = () => {
       if (!name) errors.name = 'Name is required';
       if (!phone) errors.phone = 'Phone number is required';
       if (!email) errors.email = 'Email is required';
-      if (!subject) errors.subject = 'Subject is required';
+      if (!subject) errors.subject = 'Department is required';
       if (!message) errors.message = 'Message is required';
     
       if (Object.keys(errors).length > 0) {
