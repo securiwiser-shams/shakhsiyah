@@ -53,12 +53,17 @@
                 align-items: center;
                 justify-content: space-between;
             }
+            .date_title:hover{
+                background-color: #c8ccda;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+            }
             .button_arrow{
                 border-radius: 50px;
                 width: 52px;
                 height: 52px;
                 background-color: #1B2E52;
-                border: 2px solid black;
+                border: 1px solid black;
                 color: #CFAB63;
                 font-size: 30px;
                 background-repeat: no-repeat;
@@ -67,6 +72,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                .button_arrow img{
+                    fill: #1B2E52;
+                }
+            }
+            .button_arrow:hover{
+                background-color: #2f5294;
+                transition: all .2s ease-in-out;
             }
         }
         .open{
@@ -116,7 +128,7 @@
         form{
             width: 100%;
             padding: 0 10px;
-            .date_title{
+            .date_title, .open{
                 width: 80px !important;
             }
         }
@@ -136,6 +148,9 @@
             .date_title{
                 width: 70px !important;
                 padding: 7px !important;
+            }
+            .open{
+                width: 70px !important;
             }
         }
     }
@@ -160,6 +175,15 @@
                 width: 100% !important;
                 margin: 10px 0;
             }
+            .open{
+                width: 79vw !important;
+                transform: translateY(-10px);
+            }
         }
+    }
+}
+@media (max-width: 280px) {
+    .jouney_content form .open{
+        width: 218px !important;
     }
 }

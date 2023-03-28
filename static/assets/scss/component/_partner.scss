@@ -160,6 +160,11 @@
 		}
 	}
 }
+@media (max-width: 530px) {
+	.browser-course-area {
+		height: 1010px !important;
+	}
+}
 @media (max-width: 460px) {
 	.browser-course-content {
 		width: 230px !important;
@@ -180,9 +185,14 @@
 			
 		}}
 }
+@media (max-width: 410px) {
+	.browser-course-area {
+		height: 930px !important;
+	}
+}
 @media (max-width: 390px) {
 	.browser-course-area{
-		height: 880px;
+		height: 880px  !important;
 		.row{
 			width: 100vw;
 			padding: 0;
