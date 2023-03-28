@@ -60,6 +60,7 @@ const HeaderMenu = () => {
                         </ul>
                     </li>
                     <li><Link to="/principles">Announcements</Link></li>
+                    <li><Link to="/blog">Blog</Link></li>
                     </ul>
             {/*</li>
             <li className="menu-item-has-children"><Link to="/shop">Announcements</Link>

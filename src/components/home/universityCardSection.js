@@ -85,7 +85,7 @@ const UniversityCardSection = () => {
                                   >
                                     <h3>Early Years</h3>
                                     <p>Full time early years education for children ages 4 to 7.</p>
-                                    <a href='/Early '><span>Learn more</span> <img src={arrow}/></a>
+                                    <a href='/early-curriculum'><span>Learn more</span> <img src={arrow}/></a>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@ const UniversityCardSection = () => {
                                   >
                                     <h3>Primary School</h3>
                                     <p>Higher education is designed for career professionals seeking</p>
-                                    <a href='/Primary'><span>Learn more</span> <img src={arrow}/></a>
+                                    <a href='/primary-curriculum'><span>Learn more</span> <img src={arrow}/></a>
                                     </ScrollAnimation> 
                                 </div>
                             </div>

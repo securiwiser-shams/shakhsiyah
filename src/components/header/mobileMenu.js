@@ -158,8 +158,7 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                                 <li><Link to="/early-curriculum">Curriculum</Link></li>
                                     <li><Link to="/early-assessment">Assessment</Link></li>
                                     <li><Link to="/school-life-early">School Life</Link></li>
-                                    <li><Link to="#">Term Dates</Link></li>
-                                    <li><Link to="#">Calendar</Link></li>
+                                    <li><Link to="/term-dates">Term Dates</Link></li>
                                 </ul>
                             </li>
                             <li className={instructor ? "has-droupdown active" : "has-droupdown"}>
@@ -168,8 +167,7 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                                 <li><Link to="/primary-curriculum">Curriculum</Link></li>
                                     <li><Link to="/primary-assessment">Assessment</Link></li>
                                     <li><Link to="/school-life-primary">School Life</Link></li>
-                                    <li><Link to="#">Term Dates</Link></li>
-                                    <li><Link to="#">Calendar</Link></li>
+                                    <li><Link to="/term-dates">Term Dates</Link></li>
                                 </ul>
                             </li>
                             <li className={blog ? "has-droupdown active" : "has-droupdown"}>
@@ -178,8 +176,7 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                                 <li><Link to="/secondary-curriculum">Curriculum</Link></li>
                                     <li><Link to="#">Assessment</Link></li>
                                     <li><Link to="/school-life-secondary">School Life</Link></li>
-                                    <li><Link to="#">Term Dates</Link></li>
-                                    <li><Link to="#">Calendar</Link></li>
+                                    <li><Link to="/term-dates">Term Dates</Link></li>
                                 </ul>
                             </li>
                             <li className={zoom ? "has-droupdown active" : "has-droupdown"}>
@@ -195,10 +192,6 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                     </div>
                     <div className="offset-widget offset_searchbar mb-30">
                         <div className="menu-search position-relative ">
-                            <form action="#" className="filter-search-input">
-                                <input type="text" placeholder="Search keyword" />
-                                <button aria-label="Search"><i className="fal fa-search"></i></button>
-                            </form>
                         </div>
                     </div>
                     <div className="offset-widget offset_menu-top mb-20">
