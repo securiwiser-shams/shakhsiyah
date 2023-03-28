@@ -49,7 +49,7 @@ const Footer = () => {
                                         <li><Link to="/early-curriculum/">Curriculum</Link></li>
                                         <li><Link to="/early-assessment/">Assessment</Link></li>
                                         <li><Link to="/school-life-early/">School Life</Link></li>
-                                        <li><Link to="/early-curriculum">Term Dates</Link></li>
+                                        <li><Link to="/term-dates">Term Dates</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                                     <li><Link to="/primary-curriculum/">Curriculum</Link></li>
                                         <li><Link to="/primary-assessment/">Assessment</Link></li>
                                         <li><Link to="/school-life-primary/">School Life</Link></li>
-                                        <li><Link to="/primary-curriculum/">Term Dates</Link></li>
+                                        <li><Link to="/term-dates">Term Dates</Link></li>
                                         </ul>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                                     <li><Link to="/secondary-curriculum/">Curriculum</Link></li>
                                         <li><Link to="#">Assessment</Link></li>
                                         <li><Link to="/school-life-primary/">School Life</Link></li>
-                                        <li><Link to="/secondary-curriculum">Term Dates</Link></li>
+                                        <li><Link to="/term-dates">Term Dates</Link></li>
                                     </ul>
                                 </div>
                             </div>

@@ -267,7 +267,7 @@ const UniversityCardSection = () => {
                                   >
                                     <h3>Secondary School</h3>
                                     <p>Higher education is designed forcareer professionals seeking</p>
-                                    <a href='/Secondary '><span>Learn more</span> <img src={arrow}/></a>
+                                    <a href='/secondary-curriculum'><span>Learn more</span> <img src={arrow}/></a>
                                     </ScrollAnimation> 
                                 </div>
                             </div>
