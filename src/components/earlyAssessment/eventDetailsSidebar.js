@@ -20,6 +20,7 @@ const EventDetailsSidebar = () => {
                     <a href="#"><img src="/assets/img/logo/ams.png" alt="sponsor-logo" /></a>
                     <a href="#"><img src="/assets/img/logo/nida.png" alt="sponsor-logo" /></a>
                     <a href="#"><img src="/assets/img/logo/cpd.png" alt="sponsor-logo" /></a>
+                    <a href="#"><img src="/assets/img/logo/securiwiser.png" alt="sponsor-logo" /></a>
                 </div>
                 
             </div>

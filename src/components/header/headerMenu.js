@@ -27,8 +27,7 @@ const HeaderMenu = () => {
                     <li><Link to="/early-curriculum">Curriculum</Link></li>
                     <li><Link to="/early-assessment">Assessment</Link></li>
                     <li><Link to="/school-life-early">School Life</Link></li>
-                    <li><Link to="#">Term Dates</Link></li>
-                    <li><Link to="#">Calendar</Link></li>
+                    <li><Link to="/term-dates">Term Dates</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="#">Primary School</Link>
@@ -36,8 +35,7 @@ const HeaderMenu = () => {
                 <li><Link to="/primary-curriculum">Curriculum</Link></li>
                     <li><Link to="/primary-assessment">Assessment</Link></li>
                     <li><Link to="/school-life-primary">School Life</Link></li>
-                    <li><Link to="#">Term Dates</Link></li>
-                    <li><Link to="#">Calendar</Link></li>
+                    <li><Link to="/term-dates">Term Dates</Link></li>
                 </ul>
             </li>
             <li className="menu-item-has-children"><Link to="#">Secondary School</Link>
@@ -45,8 +43,7 @@ const HeaderMenu = () => {
                 <li><Link to="/secondary-curriculum">Curriculum</Link></li>
                 <li><Link to="#">Assessment</Link></li>
                 <li><Link to="/school-life-secondary">School Life</Link></li>
-                <li><Link to="#">Term Dates</Link></li>
-                <li><Link to="#">Calendar</Link></li> 
+                <li><Link to="/term-dates">Term Dates</Link></li>
             </ul>
             </li>
             <li className="menu-item-has-children"><Link to="#">Community</Link>
