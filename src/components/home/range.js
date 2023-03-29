@@ -34,7 +34,7 @@ function RangoNumerico(props) {
     return (
       <div>
         <div onClick={generarDivs} className={`date_title ${isOpen ? 'best_border' : ''}`}>
-          <label >{selectedValue || props.date} <img src={arror_dowm}/></label>
+          <label>{selectedValue || props.date} <img src={arror_dowm}/></label>
         </div>
         <div className={isOpen ? 'open' : 'date_Seleccion'}>{divs}</div>
       </div>
