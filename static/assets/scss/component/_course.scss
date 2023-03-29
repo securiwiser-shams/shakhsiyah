@@ -1722,16 +1722,11 @@
 	.browser-course-wrapper{
 		height: auto !important;
 		min-height: 260px;
-		.col-xl-7{
+		.col-xl-7, .col-xl-6 .browser-course-wrapper{
 			display: flex;
 			align-items: center;
 			margin-top: 5px;
-			.browser-course-tittle a{
-				font-size: 20px;
-			}
-			.browser-number a{
-				font-size: 22px;
-			}
+			
 		}
 		.browser-course-content{
 			height: 90%;
@@ -1752,6 +1747,12 @@
 		}
 		.gatsby-image-wrappe{
 			height: 100%;
+		}
+		.browser-course-tittle a{
+			font-size: 20px;
+		}
+		.browser-number a{
+			font-size: 22px;
 		}
 	}
 }
@@ -1802,7 +1803,7 @@
 		line-height: 19.5px;
 	}
 	.browser-course-wrapper{
-		.col-xl-7{
+		.col-xl-7, .col-xl-6{
 			div, span{
 				margin-bottom: 3px !important;
 			}

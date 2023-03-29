@@ -28,6 +28,8 @@ const BrowserCourseSection = () => {
                                     <StaticImage src="./feature1.png" alt="img not found" width={630} height={270} quality={100} />
                                 </ScrollAnimation>
                             </div>
+                            <div className="row">
+                                <div className="col-xl-7 col-lg-7"></div>
                             <div className="browser-course-content">
                                 <span>North London Branch</span>
                                 <div className="browser-course-tittle">
@@ -40,6 +42,8 @@ const BrowserCourseSection = () => {
                                     <Link to="/parents" className="course-btn">Visit School</Link>
                                 </div>
                             </div>
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12 mb-30">
