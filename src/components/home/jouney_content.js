@@ -49,15 +49,12 @@ function Jouney_content(props) {
                         <div className="adm-step-title">Assessment</div>
                         <div className="adm-step-text">
                             <div className="secondLvlCss">
-                                <p>Once prospective parents and pupils have visited Shakhsiyah and submitted a registration form, the applicant will need to sit entrance papers in Maths and English. We will make arrangements regarding the time and date of the assessments on an individual basis.</p>
+                                <p>Once prospective parents and pupils have visited Shakhsiyah and submitted a registration form, the applicant will need to sit entrance papers in Maths and English. We will make arrangements regarding the time and date of the assessments on an individual basis.</p>
                             </div>
                         </div>
                     </li>
                 </ol>
                 <div className="adm-results-btns clearfix">
-                    <a href="/" className="adm-print-btn">
-                        <span>Print Steps</span>
-                    </a>
                     <a className="adm-email-btn">
                         <span>Email Steps</span>
                     </a>
