@@ -20,7 +20,7 @@ function RangoNumerico(props) {
           className="adm-select"
           data-val={numero.toString().padStart(2, "0")}
           onClick={() => {
-            document.querySelector(".date_title").style.color = 'black';
+            document.querySelector(".date_title p").style.color = 'black';
             setSelectedValue(numero);
             setIsOpen(false);
           }}
