@@ -20,6 +20,7 @@ function RangoNumerico(props) {
           className="adm-select"
           data-val={numero.toString().padStart(2, "0")}
           onClick={() => {
+            document.querySelector(".date_title").style.color = 'black';
             setSelectedValue(numero);
             setIsOpen(false);
           }}
@@ -34,7 +35,7 @@ function RangoNumerico(props) {
     return (
       <div>
         <div onClick={generarDivs} className={`date_title ${isOpen ? 'best_border' : ''}`}>
-          <label>{selectedValue || props.date} <img src={arror_dowm}/></label>
+          <label><p className={props.selector}>{selectedValue || props.date} </p><img src={arror_dowm}/></label>
         </div>
         <div className={isOpen ? 'open' : 'date_Seleccion'}>{divs}</div>
       </div>
