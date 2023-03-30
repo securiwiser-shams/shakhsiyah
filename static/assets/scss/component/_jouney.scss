@@ -376,8 +376,8 @@
 }
 
 .jouney_container{
-    position: relative;
-    z-index: 10;
+    position: relative !important;
+    z-index: 10 !important;
 }
 .jouney_container .jouney_content p {
     margin: 0 !important;
