@@ -20,7 +20,11 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         url: `https://isf.firn.co/sports/graphql`,
-      },
+        // other options ...
+        production: {
+          allow404Images: true
+        }
+      }
     },
 
     {
