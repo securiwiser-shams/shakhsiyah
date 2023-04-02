@@ -26,8 +26,6 @@
 .header-area-2 {
 	overflow-x: clip;
 }
-
-
 .header-note-area {
 	padding: 12px 0;
 	background: $theme-color-2;
@@ -67,7 +65,7 @@
 	p {
 		color: $heading-color;
 		margin-bottom: 0;
-		strong {
+		span {
 			font-weight: 700;
 		}
 	}
@@ -1055,7 +1053,6 @@ div.mean-container {
 	align-items: center;
 	display: inline-flex;
 }
-
 
 // header-note-style
 .eduman-header-notice-action-close {
