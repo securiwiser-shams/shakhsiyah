@@ -19,34 +19,34 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   };
 
 
-  exports.createPages = async ({ actions, graphql }) => {
-    const { createPage } = actions;
-    const result = await graphql(`
-      {
-        allWpPost {
-          nodes {
-            id
-            slug
-          }
-        }
-      }
-    `);
+  // exports.createPages = async ({ actions, graphql }) => {
+  //   const { createPage } = actions;
+  //   const result = await graphql(`
+  //     {
+  //       allWpPost {
+  //         nodes {
+  //           id
+  //           slug
+  //         }
+  //       }
+  //     }
+  //   `);
   
-    if (result.errors) {
-      console.error(result.errors);
-      return;
-    }
+  //   if (result.errors) {
+  //     console.error(result.errors);
+  //     return;
+  //   }
   
-    const posts = result.data.allWpPost.nodes;
+  //   const posts = result.data.allWpPost.nodes;
   
-    posts.forEach((post) => {
-      createPage({
-        path: `/post/${post.slug}`,
-        component: require.resolve("./src/templates/posts.js"),
-        context: {
-          id: post.id,
-        },
-      });
-    });
-  };
+  //   posts.forEach((post) => {
+  //     createPage({
+  //       path: `/post/${post.slug}`,
+  //       component: require.resolve("./src/templates/posts.js"),
+  //       context: {
+  //         id: post.id,
+  //       },
+  //     });
+  //   });
+  // };
   
