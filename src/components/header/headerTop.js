@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { parse } from 'node-html-parser';
 
 const HeaderTop = () => {
   const data = useStaticQuery(graphql`
@@ -19,16 +20,15 @@ const HeaderTop = () => {
 
   useEffect(() => {
     const parseHtmlString = (htmlString) => {
-      const parser = new DOMParser();
-      const htmlDoc = parser.parseFromString(htmlString, 'text/html');
-      const content = htmlDoc.body.childNodes;
+      const htmlDoc = parse(htmlString);
+      const content = htmlDoc.childNodes;
       const parsedContent = Array.from(content);
 
       const renderElement = (element, index) => {
-        if (element.nodeType === Node.TEXT_NODE) {
-          return element.textContent;
+        if (element.nodeType === 3) { // check if it's a text node
+          return element.rawText;
         }
-        if (element.nodeType === Node.ELEMENT_NODE) {
+        if (element.nodeType === 1) { // check if it's an element node
           const tagName = element.tagName.toLowerCase();
           const children = Array.from(element.childNodes);
           if (tagName === 'strong') {
@@ -62,7 +62,7 @@ const HeaderTop = () => {
     setParsedContent(parseHtmlString(headerContent));
   }, [headerContent]);
 
-  const [isActiveF, setActiveF] = useState(false);
+  const [isActiveF, setActiveF] = useState(true);
 
   const handleToggleF = () => {
     setActiveF(!isActiveF);
@@ -72,7 +72,7 @@ const HeaderTop = () => {
     <div className={`header-note-area p-relative d-none d-md-block ${isActiveF ? "eduman-header-notice-visible" : "eduman-header-notice-hide"}`}>
       <div className="container-fluid">
         <div className="note-text text-center">
-          {parsedContent}
+          {parsedContent} 
         </div>
       </div>
       <div className="eduman-header-notice-action-close">

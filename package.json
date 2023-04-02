@@ -36,6 +36,7 @@
     "gatsby-source-wordpress": "^7.8.0",
     "gatsby-transformer-sharp": "^5.7.0",
     "http-proxy-middleware": "^2.0.6",
+    "node-html-parser": "^6.1.5",
     "path-browserify": "^1.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
