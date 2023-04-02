@@ -4,45 +4,47 @@ import { parse } from 'node-html-parser';
 
 const HeaderTop = () => {
   const data = useStaticQuery(graphql`
-    query {
-      allWpPost(filter: { title: { eq: "Header" } }) {
-        nodes {
-          id
-          title
-          content
-        }
+  query {
+    allWpPage(filter: { title: { eq: "Header" } }) {
+      nodes {
+        id
+        title
+        content
       }
     }
+  }
   `);
 
-  const headerContent = data.allWpPost.nodes[0]?.content || '';
+  const headerContent = data.allWpPage.nodes[0].content || '';
   const [parsedContent, setParsedContent] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+
     const parseHtmlString = (htmlString) => {
-      const root = parse(htmlString);
-      const parsedContent = root.childNodes.map(node => {
-        if (node.nodeType === 1) { // Node.ELEMENT_NODE
-          const tagName = node.tagName.toLowerCase();
-          if (tagName === 'strong') {
-            return <strong key={node.id}>{node.text}</strong>;
+        const root = parse(htmlString);
+        const parsedContent = root.childNodes.map(node => {
+          if (node.nodeType === 1) { // Node.ELEMENT_NODE
+            const tagName = node.tagName.toLowerCase();
+            const children = node.childNodes.map(childNode => parseHtmlString(childNode));
+            if (tagName === 'strong') {
+              return <strong key={node.id}>{children}</strong>;
+            }
+            if (tagName === 'code') {
+              return <span key={node.id}>{children}</span>;
+            }
+            if (tagName === 'p') {
+              return <p key={node.id}>{children}</p>;
+            }
+          } else if (node.nodeType === 3) { // Node.TEXT_NODE
+            return node.text;
           }
-          if (tagName === 'code') {
-            return <span key={node.id}>{node.text}</span>;
-          }
-          if (tagName === 'p') {
-            return <p key={node.id}>{node.text}</p>;
-          }
-        } else if (node.nodeType === 3) { // Node.TEXT_NODE
-          return node.text;
-        }
-        return null;
-      }).filter(node => node !== null);
-
-      return parsedContent;
-    };
-
+          return null;
+        }).filter(node => node !== null);
+      
+        return parsedContent;
+      };
+      
     const parsed = parseHtmlString(headerContent);
     setParsedContent(parsed);
     setLoading(false);
