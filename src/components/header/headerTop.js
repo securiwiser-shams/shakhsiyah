@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const HeaderTop = () => {
@@ -15,64 +15,64 @@ const HeaderTop = () => {
   `);
 
   const headerContent = data.allWpPost.nodes[0]?.content || '';
+  const [parsedContent, setParsedContent] = useState([]);
 
-  const parseHtmlString = (htmlString) => {
-    const parser = new DOMParser();
-    const htmlDoc = parser.parseFromString(htmlString, 'text/html');
-    const content = htmlDoc.body.childNodes;
-    const parsedContent = Array.from(content);
-  
-    const renderElement = (element, index) => {
-      if (element.nodeType === Node.TEXT_NODE) {
-        return element.textContent;
-      }
-      if (element.nodeType === Node.ELEMENT_NODE) {
-        const tagName = element.tagName.toLowerCase();
-        const children = Array.from(element.childNodes);
-        if (tagName === 'strong') {
-          return (
-            <strong key={index}>
-              {children.map((child, childIndex) => renderElement(child, childIndex))}
-            </strong>
-          );
+  useEffect(() => {
+    const parseHtmlString = (htmlString) => {
+      const parser = new DOMParser();
+      const htmlDoc = parser.parseFromString(htmlString, 'text/html');
+      const content = htmlDoc.body.childNodes;
+      const parsedContent = Array.from(content);
+
+      const renderElement = (element, index) => {
+        if (element.nodeType === Node.TEXT_NODE) {
+          return element.textContent;
         }
-        if (tagName === 'code') {
-          return (
-            <span key={index} >
-              {children.map((child, childIndex) => renderElement(child, childIndex))}
-            </span>
-          );
+        if (element.nodeType === Node.ELEMENT_NODE) {
+          const tagName = element.tagName.toLowerCase();
+          const children = Array.from(element.childNodes);
+          if (tagName === 'strong') {
+            return (
+              <strong key={index}>
+                {children.map((child, childIndex) => renderElement(child, childIndex))}
+              </strong>
+            );
+          }
+          if (tagName === 'code') {
+            return (
+              <span key={index} >
+                {children.map((child, childIndex) => renderElement(child, childIndex))}
+              </span>
+            );
+          }
+          if (tagName === 'p') {
+            return (
+              <p key={index}>
+                {children.map((child, childIndex) => renderElement(child, childIndex))}
+              </p>
+            );
+          }
         }
-        if (tagName === 'p') {
-          return (
-            <p key={index}>
-              {children.map((child, childIndex) => renderElement(child, childIndex))}
-            </p>
-          );
-        }
-      }
-      return null;
+        return null;
+      };
+
+      return parsedContent.map((node, index) => renderElement(node, index));
     };
-  
-    return parsedContent.map((node, index) => renderElement(node, index));
-  };
-  
-  
 
-  const parsedContent = parseHtmlString(headerContent);
+    setParsedContent(parseHtmlString(headerContent));
+  }, [headerContent]);
 
-  const [isActiveF, setActiveF] = useState("false");
+  const [isActiveF, setActiveF] = useState(false);
 
   const handleToggleF = () => {
     setActiveF(!isActiveF);
   };
-  console.log(parsedContent);
 
   return (
     <div className={`header-note-area p-relative d-none d-md-block ${isActiveF ? "eduman-header-notice-visible" : "eduman-header-notice-hide"}`}>
       <div className="container-fluid">
         <div className="note-text text-center">
-          {parsedContent} 
+          {parsedContent}
         </div>
       </div>
       <div className="eduman-header-notice-action-close">
