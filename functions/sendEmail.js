@@ -6,7 +6,7 @@ exports.handler = async (event) => {
     const { name, phone, email, subject, message } = JSON.parse(event.body);
 
     const msg = {
-      to: 'info@securiwiser.com',
+      to: 'shams@securiwiser.com',
       from: process.env.SENDGRID_AUTHORIZED_EMAIL,
       subject: 'You received a message from Contact us',
       html: `
