@@ -2,7 +2,11 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+
+
 module.exports = {
+
+  // rest of the config
   siteMetadata: {
     title: `Shakhsiyah Schools`,
     titleTemplate: `%s | Shakhsiyah Schools`,
@@ -20,6 +24,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         url: `https://isf.firn.co/sports/graphql`,
+        maxCacheDurationSeconds: 0
       },
     },
 
