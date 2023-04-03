@@ -107,5 +107,26 @@ module.exports = {
         },
       },
     },
+    
+    `gatsby-plugin-netlify`,
+{
+  resolve: `gatsby-plugin-netlify-headers`,
+  options: {
+    headers: {
+      '/wp-json/*': [
+        'Cache-Control: no-cache',
+        'Pragma: no-cache',
+        'Expires: 0',
+      ],
+      '/___graphql': [
+        'Cache-Control: no-cache',
+        'Pragma: no-cache',
+        'Expires: 0',
+      ],
+    },
+  },
+  
+},
   ],
+  
 };
