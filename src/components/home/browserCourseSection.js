@@ -64,7 +64,7 @@ const BrowserCourseSection = () => {
                                             <Link to="/parents">Cippenham Lodge, Cippenham Ln, Slough, SL1 5AN</Link>
                                         </div>
                                         <div className="browser-number">
-                                            <Link to="/parents">0208 802 8651</Link>
+                                            <Link to="/parents">0175 351 8000</Link>
                                         </div>
                                         <div className="browser-btn">
                                             <Link to="/parents" className="course-btn">Visit School</Link>
