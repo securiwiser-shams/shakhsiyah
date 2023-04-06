@@ -124,11 +124,13 @@ const MobileMenu = ({setMenuOpen, menuOpen}) => {
                     <div className="offset-widget offset-logo mb-40">
                         <div className="row align-items-center">
                             <div className="col-9">
-                                <Link to="/"><img src="/assets/img/logo/logo.svg" alt="Logo" /></Link> 
+                            <Link to="/">
+                            <img src="/assets/img/logo/logo.svg" alt="Logo" width="211" height="71" />
+                            </Link>                            
                             </div>
                             <div className="col-3 text-end"><button className="side-info-close" onClick={() => setMenuOpen(false)} aria-label="Close side menu">
-    <i className="fal fa-times"></i>
-  </button>
+                            <i className="fal fa-times"></i>
+                        </button>
                             </div>
                         </div>
                     </div>
