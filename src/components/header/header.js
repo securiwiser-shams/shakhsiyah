@@ -38,13 +38,14 @@ const Header = () => {
             <div className="row align-items-center">
               <div className="col-xl-12 col-lg-7 col-md-5 col-sm-9 col-9">
                 <div className="header-left d-flex align-items-center">
-                  <Link to="/">
-                    <img
-                      src="/assets/img/logo/logo.svg"
-                      alt="logo"
-                      style={{ width: "211px", height: "71px" }}
-                    />
-                  </Link>
+                <Link to="/">
+                <img
+                 src="/assets/img/logo/logo.svg"
+                 alt="logo"
+                 width="211"
+                 height="71"
+                />
+                </Link>
                   <div className="main-menu d-none d-xl-block">
                     <nav id="mobile-menu">
                       <HeaderMenu />
