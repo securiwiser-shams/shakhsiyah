@@ -61,10 +61,13 @@ function Jouney_content(props) {
                 </div>
                 <div className="sendAdmEmailToDivider">
                 </div>
-                <div className="sendAdmEmailTo">
-                    <input tabIndex="2" className="admEmailTo" defaultValue="Enter your email" />
-                    <div className="aef-sendButton">GO</div>
-                </div>
+                <form>
+                 <label htmlFor="admEmailTo">Email Address:</label>
+                 <div className="sendAdmEmailTo">
+                 <input tabIndex="2" className="admEmailTo" defaultValue="Enter your email" id="admEmailTo" />
+                 <div className="aef-sendButton">GO</div>
+                 </div>
+                 </form>
             </div>
         </div>
         </>
