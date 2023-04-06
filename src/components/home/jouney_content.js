@@ -55,16 +55,13 @@ function Jouney_content(props) {
                     </li>
                 </ol>
                 <div className="adm-results-btns clearfix">
-                    <a className="adm-email-btn">
-                        <span>Email Steps</span>
-                    </a>
                 </div>
                 <div className="sendAdmEmailToDivider">
                 </div>
                 <form>
                  <label htmlFor="admEmailTo">Email Address:</label>
                  <div className="sendAdmEmailTo">
-                 <input tabIndex="2" className="admEmailTo" defaultValue="Enter your email" id="admEmailTo" />
+                 <input className="admEmailTo" defaultValue="Enter your email" id="admEmailTo" />
                  <div className="aef-sendButton">GO</div>
                  </div>
                  </form>

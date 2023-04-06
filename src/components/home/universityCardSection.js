@@ -88,7 +88,7 @@ const UniversityCardSection = () => {
   <ul>
   <li>
     <Link to="/early-curriculum/">
-      <span>Learn more</span>
+      <span>About early years</span>
       <img src={arrow} alt="Arrow icon"/>
     </Link>
   </li>
@@ -206,7 +206,7 @@ const UniversityCardSection = () => {
   <ul>
   <li>
     <Link to="/primary-curriculum/">
-      <span>Learn more</span> 
+      <span>About primary school</span> 
       <img src={arrow} alt="Arrow icon"/>
     </Link>
   </li>
@@ -284,7 +284,7 @@ const UniversityCardSection = () => {
   <ul>
   <li>
     <Link to="/secondary-curriculum/">
-      <span>Learn more</span>
+      <span>About secondary school</span>
       <img src={arrow} alt="Arrow icon"/>
     </Link>
   </li>
