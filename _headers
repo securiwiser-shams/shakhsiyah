@@ -1,7 +1,2 @@
 /*
   Access-Control-Allow-Origin: *
-  Cache-Control: no-cache
-/wp-json/*:
-  - Cache-Control: no-cache
-  - Pragma: no-cache
-  - Expires: 0

@@ -80,20 +80,13 @@ const UniversityCardSection = () => {
                                 </div>
                                 <div className="university-card-content">
                                 <ScrollAnimation
-  animateIn="animate__fadeIn"
-  animateOut="animate__fadeOut"
->
-  <h3>Early Years</h3>
-  <p>Full time early years education for children ages 4 to 7.</p>
-  <ul>
-  <li>
-    <Link to="/early-curriculum/">
-      <span>About early years</span>
-      <img src={arrow} alt="Arrow icon"/>
-    </Link>
-  </li>
-</ul>
-</ScrollAnimation>
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
+                                    <h3>Early Years</h3>
+                                    <p>Full time early years education for children ages 4 to 7.</p>
+                                    <li><Link to="/early-curriculum/"><span>Learn more</span></Link> <img src={arrow}/></li>
+                                    </ScrollAnimation>
                                 </div>
                             </div>
                             <div className="university-card-wrapper">
@@ -198,20 +191,13 @@ const UniversityCardSection = () => {
                                 </div>
                                 <div className="university-card-content">
                                 <ScrollAnimation
-  animateIn="animate__fadeIn"
-  animateOut="animate__fadeOut"
->
-  <h3>Primary School</h3>
-  <p>Higher education is designed for career professionals seeking</p>
-  <ul>
-  <li>
-    <Link to="/primary-curriculum/">
-      <span>About primary school</span> 
-      <img src={arrow} alt="Arrow icon"/>
-    </Link>
-  </li>
-</ul>
-</ScrollAnimation>
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
+                                    <h3>Primary School</h3>
+                                    <p>Higher education is designed for career professionals seeking</p>
+                                    <li><Link to="/primary-curriculum/"><span>Learn more</span></Link> <img src={arrow}/></li>
+                                    </ScrollAnimation> 
                                 </div>
                             </div>
                             <div className="university-card-wrapper">
@@ -276,20 +262,13 @@ const UniversityCardSection = () => {
                                 </div>
                                 <div className="university-card-content">
                                 <ScrollAnimation
-  animateIn="animate__fadeIn"
-  animateOut="animate__fadeOut"
->
-  <h3>Secondary School</h3>
-  <p>Higher education is designed for career professionals seeking</p>
-  <ul>
-  <li>
-    <Link to="/secondary-curriculum/">
-      <span>About secondary school</span>
-      <img src={arrow} alt="Arrow icon"/>
-    </Link>
-  </li>
-</ul>
-</ScrollAnimation>
+                                 animateIn="animate__fadeIn"
+                                 animateOut="animate__fadeOut"
+                                  >
+                                    <h3>Secondary School</h3>
+                                    <p>Higher education is designed forcareer professionals seeking</p>
+                                    <li><Link to="/secondary-curriculum/"><span>Learn more</span></Link> <img src={arrow}/></li>
+                                    </ScrollAnimation> 
                                 </div>
                             </div>
                         </div>

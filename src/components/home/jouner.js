@@ -46,7 +46,7 @@ const JounerSection = () => {
                         <RangoNumerico rango={[1, 12]} date="MM" selector="month"/>
                         <RangoNumerico rango={[yearActual, yearMenos7]} date="YY" selector="year"/>
                         <div className='button_arrow' onClick={handleDisableClick}>
-                        <img src={arrow_gold} alt="Arrow icon" />
+                            <img src={arrow_gold} />
                         </div>
                     </div>
                 </div>

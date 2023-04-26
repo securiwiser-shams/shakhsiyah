@@ -25,19 +25,12 @@ const AboutFeatureVideo = () => {
                                     <StaticImage className="features-shape-2" src="./features-shape-2.png" alt="features-shape-2" quality={100} />
                                 </div>
                                 <div className="reatures-video-thumb">
-                                <ScrollAnimation
-                                 animateIn="animate__fadeIn"
-                                 animateOut="animate__fadeOut"
-                                >
-                                <StaticImage
-                                    src="./features.png"
-                                    alt="features-img"
-                                    quality={100}
-                                    width={825}
-                                    height={430}
-                                />
-                                </ScrollAnimation>
-
+                                    <ScrollAnimation
+                                        animateIn="animate__fadeIn"
+                                        animateOut="animate__fadeOut"
+                                    >
+                                        <StaticImage src="./features.png" alt="features-img" quality={100} />
+                                    </ScrollAnimation>
                                 </div>
                                 <div className="features-video-content">
                                     <div className="features-btn">

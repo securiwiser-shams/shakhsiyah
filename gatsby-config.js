@@ -2,18 +2,13 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-
-
 module.exports = {
-
-  // rest of the config
   siteMetadata: {
     title: `Shakhsiyah Schools`,
     titleTemplate: `%s | Shakhsiyah Schools`,
     description: `Shakhsiyah Schools are governed by the Principles of Shakhsiyah Education, which have been developed through extensive research in order to generate a 21st century Islamic educational model that is true to the Qur’an and sunnah.`,
     author: `@r-ichard`,
     siteUrl: 'https://shakhsiyah.netlify.app/',
-    
     url: `https://shakhsiyah.netlify.app/`,
     image: `static/favicon.png`,
   },
@@ -21,19 +16,10 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
-      resolve: `gatsby-source-wordpress`,
-      options: {
-        url: `https://isf.firn.co/sports/graphql`,
-        maxCacheDurationSeconds: 0
-      },
-    },
-
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-
       },
     },
     `gatsby-transformer-sharp`,
@@ -107,26 +93,5 @@ module.exports = {
         },
       },
     },
-    
-    `gatsby-plugin-netlify`,
-{
-  resolve: `gatsby-plugin-netlify-headers`,
-  options: {
-    headers: {
-      '/wp-json/*': [
-        'Cache-Control: no-cache',
-        'Pragma: no-cache',
-        'Expires: 0',
-      ],
-      '/___graphql': [
-        'Cache-Control: no-cache',
-        'Pragma: no-cache',
-        'Expires: 0',
-      ],
-    },
-  },
-  
-},
   ],
-  
 };

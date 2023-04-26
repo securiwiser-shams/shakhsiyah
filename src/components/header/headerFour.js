@@ -36,9 +36,7 @@ const HeaderFour = () => {
                             <div className="col-xl-12 col-lg-7 col-md-5 col-sm-9 col-9">
                                 <div className="header-left d-flex align-items-center">
                                     <div className="header-logo">
-                                    <Link to="/">
-                                     <img src="/assets/img/logo/logo.svg" alt="logo" width="211" height="71" />
-                                     </Link>                                   
+                                        <Link to="/"><img src="/assets/img/logo/logo.svg" alt="logo" /></Link>
                                     </div>
                                     <div className="main-menu d-none d-xl-block">
                                         <nav id="mobile-menu">
